@@ -2,11 +2,13 @@
 
 ### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325)
 
-[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/),
-[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/),
-[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en),
-[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en),
-[Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en)
+## Authors and Affiliations
+
+- [Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/), Massachusetts Institute of Technology  
+- [Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/), University of California, Los Angeles  
+- [Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en), Harvard University  
+- [Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en), University of California, Los Angeles
+- [Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en), Massachusetts Institute of Technology  
 
 ## Updates:
 - 2025/02/17: Github repo set up
