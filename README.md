@@ -5,18 +5,16 @@
 ## Authors and Affiliations
 
 ## Authors and Affiliations
-
+<br>
 [Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,  
 [Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>,  
 [Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3*</sup>,  
 [Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>,  
 [Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>  
 <br>
-
-<sup>*</sup> Equal Contribution  
-<br>
-<sup>1</sup> Massachusetts Institute of Technology (MIT),  
-<sup>2</sup> University of California, Los Angeles (UCLA),  
+<sup>*</sup> denotes equal contribution  
+<sup>1</sup> Massachusetts Institute of Technology,  
+<sup>2</sup> University of California, Los Angeles,  
 <sup>3</sup> Harvard University  
 
 
