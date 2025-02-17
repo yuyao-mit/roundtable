@@ -193,10 +193,6 @@ python calculate_metrics.py \
 - `eval_logs`: log files (in JSONL) that store the evaluation results, e.g. `claude_self_debug_eval.jsonl`.
 
 
-## Contact
-
-[yu yao](yu_yao@mit.edu), Massachusetts Institute of Technology 
-[Jiayi Dong](jiayidong@ucla.edu), University of California, Los Angeles
 
 ## Licensing Information
 
@@ -220,9 +216,10 @@ We welcome requests from the original authors to modify or remove relevant tasks
 If you find our code and data useful, please cite our paper:
 
 ```
-@misc{roundtable1.0,
+@misc{yao2025roundtable1.0,
       title={ROUNDTABLE POLICY: COMPOSITIONAL LARGE LANGUAGE AGENTS AIDED SCIENTIFIC DISCOVERY AND PROPOSAL}, 
       author={Yu Yao and Jiayi Dong and Yilun Du and Yang Yang and Ju Li},
-      year={2024},
+      journal={arXiv preprint arXiv:2305.14325},
+      year={2025}
 }
 ```
