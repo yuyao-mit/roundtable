@@ -1,6 +1,8 @@
 # ROUNDTABLE POLICY: COMPOSITIONAL LARGE LANGUAGE AGENTS AIDED SCIENTIFIC DISCOVERY AND PROPOSAL
 
-### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325)
+### [Project Page](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/) | [Paper](https://arxiv.org/pdf/2206.01714.pdf) | [Google Colab][composable-demo] | [Huggingface][huggingface-demo]
+[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]
+
 
 ## Authors and Affiliations
 [Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,  
