@@ -23,12 +23,7 @@
 
 ## Overview of ROUNDTABLE POLICY
 
-The advancements of language language models (LLMs) have piqued growing interest in developing LLM-based language agents to automate scientific discovery end-to-end, which has sparked both excitement and skepticism about their true capabilities.
-In this work, we call for rigorous assessment of agents on individual tasks in a scientific workflow before making bold claims on end-to-end automation.
-To this end, we present ScienceAgentBench, a new benchmark for evaluating language agents for data-driven scientific discovery: 
-- To ensure the scientific authenticity and real-world relevance of our benchmark, we extract 102 tasks from 44 peer-reviewed publications in four disciplines and engage nine subject matter experts to validate them.
-- We unify the target output for every task to a self-contained Python program file and employ an array of evaluation metrics to examine the generated programs, execution results, and costs.
-- Each task goes through multiple rounds of manual validation by annotators and subject matter experts to ensure its annotation quality and scientific plausibility. 
+Recent advances in large language models (LLMs) have demonstrated their remarkable potential in a wide range of scientific tasks, including prediction and generative analyses. However, it remains challenging for a single model to excel at all tasks simultaneously—some LLMs specialize in prediction accuracy while others are more adept at generating coherent, context-rich text. To address this limitation, we propose a multi-LLM agent framework for perovskite solar cell property prediction and decision-making. In our approach, multiple LLMs—each treated as an independent “expert”—are trained on the same multimodal dataset but leverage their unique strengths to produce diverse outputs. These outputs are then integrated through a “roundtable discussion,” where an aggregator or “judge” model (or a human operator) compiles, compares, and merges each expert’s input. By employing techniques such as majority voting and weighted consensus, the final decision is informed by the collective wisdom of all experts. We demonstrate that this ensemble strategy outperforms single-model baselines on both predictive and generative tasks, with a particular focus on key perovskite solar cell parameters. This framework is not only simple and efficient to implement—requiring primarily CSV-based data preprocessing and straightforward aggregator logic—but also highly adaptable to broader materials discovery and design challenges, thereby paving the way for future integration into more complex automated research systems.
 
 ## Benchmark
 
@@ -62,8 +57,8 @@ After downloading and unzipping the full benchmark under this repository, the di
 
 To start, please create a conda environment and install the necessary packages as follows:
 ```
-conda create -n sci-agent python=3.10 pip setuptools wheel
-conda activate sci-agent
+conda create -n roundtable python=3.10 pip setuptools wheel
+conda activate roundtable
 pip install -r requirements.txt
 ```
 
@@ -74,8 +69,8 @@ export PYTHONPATH=.
 
 Additionally, to run the self-debug agent and evaluate generated code, we also need to create another environment `sci-agent-eval`. This environment leverages `pip-tools` to update its package installations automatically for different tasks.
 ```
-conda create -n sci-agent-eval python=3.10 pip setuptools wheel
-conda activate sci-agent-eval
+conda create -n roundtable-eval python=3.10 pip setuptools wheel
+conda activate roundtable-eval
 pip install pip-tools
 conda deactivate
 ```
@@ -112,14 +107,10 @@ python -u run_infer.py \
 - `use_knowledge`: whether to use expert-provided knowledge or not.
 - `use_self_debug`: whether to use self-debug or not (direct prompting by default).
 
-### OpenHands CodeAct
-
-We have integrated our benchmark into the official [OpenHands](https://github.com/All-Hands-AI/OpenHands/tree/main/evaluation/scienceagentbench) repository. Please refer to the instruction their to set the agent up and run inference on ScienceAgentBench.
-
 ## Evaluation of Generated Code
 
 ### Extract Code Files from Agent Logs
-To evaluate OpenHands agents or re-run evaluation of other agents, you can extract the code files automatically from their logs:
+To evaluate the agents or re-run evaluation of other agents, you can extract the code files automatically from their logs:
 ```
 python -u recover_pred_from_log.py \
     --log_fname {LOG_FNAME}
@@ -172,7 +163,7 @@ python -u run_eval.py \
 - `log_fname`: your customized log file (in JSONL) to store the evaluation results, e.g. `claude_self_debug_eval.jsonl`.
 A valid OpenAI API key is required since our evaluation leverages GPT-4o to judge output visualizations.
 
-### Metrics Evaluation
+### Metrics Calculation
 To report the metric numbers, you can run:
 ```
 python calculate_metrics.py \
