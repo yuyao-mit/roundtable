@@ -6,9 +6,6 @@ __pycache__/
 #### ALL THE DATA SHOULD BE IGNORED ###
 *.csv
 *.tiff
-*.jpg
-*.png
-*.pdf
 
 
 # C extensions
