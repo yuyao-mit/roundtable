@@ -1,6 +1,7 @@
-# ScienceAgentBench
+# ROUNDTABLE POLICY: COMPOSITIONAL LARGE LANGUAGE AGENTS AIDED SCIENTIFIC DISCOVERY AND PROPOSAL
 
-Code and data for the paper "[ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/abs/2410.05080)".
+### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325)
+
 
 <p align="center">
 [<a href="https://osu-nlp-group.github.io/ScienceAgentBench/">Website</a>] •
