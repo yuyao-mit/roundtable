@@ -12,8 +12,8 @@
 - 2025/02/17: Github repo set up
 
 ## Table of Contents
-- [Summary](#scienceagentbench-summary)
-- [Benchmark Access](#benchmark-access)
+- [Overview](#Overview-of-ROUNDTABLE-POLICY)
+- [Benchmark](#benchmark)
 - [Setup](#setup)
 - [Code Generation with Agents](#code-generation-with-agents)
 - [Evaluation of Generated Code](#evaluation-of-generated-code)
@@ -30,7 +30,7 @@ To this end, we present ScienceAgentBench, a new benchmark for evaluating langua
 - We unify the target output for every task to a self-contained Python program file and employ an array of evaluation metrics to examine the generated programs, execution results, and costs.
 - Each task goes through multiple rounds of manual validation by annotators and subject matter experts to ensure its annotation quality and scientific plausibility. 
 
-## Benchmark Access
+## Benchmark
 
 To prevent benchmark data contamination, we only provide the annotation sheet on [Huggingface](https://huggingface.co/datasets/osunlp/ScienceAgentBench), which includes all necessary *inputs* to run an agent.
 
