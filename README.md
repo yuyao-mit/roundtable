@@ -1,11 +1,17 @@
 # ROUNDTABLE POLICY: COMPOSITIONAL LARGE LANGUAGE AGENTS AIDED SCIENTIFIC DISCOVERY AND PROPOSAL
 
-### [Project Page](https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/) | [Paper](https://arxiv.org/pdf/2206.01714.pdf) | [![][colab]][composable-demo] | [![][Huggingface]][huggingface-demo] |
+### [![][project-icon]][project-page] | [![][arxiv-icon]][arxiv-paper] | [![][colab]][composable-demo] | [![][huggingface]][huggingface-demo]
 
-[colab]: <https://colab.research.google.com/assets/colab-badge.svg>
-[huggingface]: <https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue>
-[composable-demo]: <https://colab.research.google.com/github/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch/blob/main/notebooks/demo.ipynb>
-[huggingface-demo]: <https://huggingface.co/spaces/Shuang59/Composable-Diffusion>
+[project-icon]: https://img.shields.io/badge/🌍-Project%20Page-green
+[arxiv-icon]: https://img.shields.io/badge/arXiv-2206.01714-b31b1b
+[colab]: https://colab.research.google.com/assets/colab-badge.svg
+[huggingface]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue
+
+[project-page]: https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/
+[arxiv-paper]: https://arxiv.org/pdf/2206.01714.pdf
+[composable-demo]: https://colab.research.google.com/github/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch/blob/main/notebooks/demo.ipynb
+[huggingface-demo]: https://huggingface.co/spaces/Shuang59/Composable-Diffusion
+
 
 
 ## Authors and Affiliations
