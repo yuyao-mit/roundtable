@@ -4,11 +4,21 @@
 
 ## Authors and Affiliations
 
-- [Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/), Massachusetts Institute of Technology  
-- [Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/), University of California, Los Angeles  
-- [Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en), Harvard University  
-- [Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en), University of California, Los Angeles
-- [Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en), Massachusetts Institute of Technology  
+## Authors and Affiliations
+
+[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,  
+[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>,  
+[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3*</sup>,  
+[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>,  
+[Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>  
+<br>
+
+<sup>*</sup> Equal Contribution  
+<br>
+<sup>1</sup> Massachusetts Institute of Technology (MIT),  
+<sup>2</sup> University of California, Los Angeles (UCLA),  
+<sup>3</sup> Harvard University  
+
 
 ## Updates:
 - 2025/02/17: Github repo set up
