@@ -21,8 +21,8 @@
 [Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>
 
 <sup>*</sup> Equal Contribution  
-<sup>1</sup> Massachusetts Institute of Technology,  
-<sup>2</sup> University of California, Los Angeles,  
+<sup>1</sup> Massachusetts Institute of Technology    
+<sup>2</sup> University of California, Los Angeles  
 <sup>3</sup> Harvard University  
 
 
