@@ -2,29 +2,26 @@
 
 ### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325)
 
-
-<p align="center">
-[<a href="https://osu-nlp-group.github.io/ScienceAgentBench/">Website</a>] •
-[<a href="http://arxiv.org/abs/2410.05080">Paper</a>] •
-[<a href="https://huggingface.co/datasets/osunlp/ScienceAgentBench">Benchmark</a>] •
-[<a href="https://x.com/RonZiruChen/status/1843472037894926378">Twitter</a>]
-</p>
+[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/),
+[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/),
+[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en),
+[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en),
+[Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en)
 
 ## Updates:
 - 2025/02/17: Github repo set up
 
 ## Table of Contents
-- [ScienceAgentBench Summary](#scienceagentbench-summary)
+- [Summary](#scienceagentbench-summary)
 - [Benchmark Access](#benchmark-access)
 - [Setup](#setup)
 - [Code Generation with Agents](#code-generation-with-agents)
 - [Evaluation of Generated Code](#evaluation-of-generated-code)
-- [Contact](#contact)
 - [Licensing Information](#licensing-information)
 - [Disclaimer](#disclaimer)
 - [Citation](#citation) 
 
-## ScienceAgentBench Summary
+## Overview of ROUNDTABLE POLICY
 
 The advancements of language language models (LLMs) have piqued growing interest in developing LLM-based language agents to automate scientific discovery end-to-end, which has sparked both excitement and skepticism about their true capabilities.
 In this work, we call for rigorous assessment of agents on individual tasks in a scientific workflow before making bold claims on end-to-end automation.
