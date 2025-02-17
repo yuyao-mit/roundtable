@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#### ALL THE DATA SHOULD BE IGNORED ###
+*.csv
+*.tiff
+*.jpg
+*.png
+*.pdf
+
+
 # C extensions
 *.so
 
