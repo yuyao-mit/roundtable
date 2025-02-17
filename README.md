@@ -42,7 +42,7 @@
 ## Overview of ROUNDTABLE POLICY
 
 
-![Framework for ROUNDTABLE POLICY](figures/roundtable.jpg)
+![Framework for ROUNDTABLE POLICY](figures/roundtable.png) ![Internal pipeline](figures/chatmof.png)
 
 Recent advances in large language models (LLMs) have demonstrated their remarkable potential in a wide range of scientific tasks, including prediction and generative analyses. However, it remains challenging for a single model to excel at all tasks simultaneously—some LLMs specialize in prediction accuracy while others are more adept at generating coherent, context-rich text. To address this limitation, we propose a multi-LLM agent framework for perovskite solar cell property prediction and decision-making. In our approach, multiple LLMs—each treated as an independent “expert”—are trained on the same multimodal dataset but leverage their unique strengths to produce diverse outputs. These outputs are then integrated through a “roundtable discussion,” where an aggregator or “judge” model (or a human operator) compiles, compares, and merges each expert’s input. By employing techniques such as majority voting and weighted consensus, the final decision is informed by the collective wisdom of all experts. We demonstrate that this ensemble strategy outperforms single-model baselines on both predictive and generative tasks, with a particular focus on key perovskite solar cell parameters. This framework is not only simple and efficient to implement—requiring primarily CSV-based data preprocessing and straightforward aggregator logic—but also highly adaptable to broader materials discovery and design challenges, thereby paving the way for future integration into more complex automated research systems.
 
