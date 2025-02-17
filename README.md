@@ -201,9 +201,9 @@ Code under this repo is licensed under a MIT License.
 Our benchmark is constructed by adapting open-source code and data, to which we respect their creators' ownership and intellectual property. In the Appendix of our paper, we have made our best effort to cite the original papers, list the repositories, and provide their licenses.<\br>
 We give sincere acknowledgement to the following copyrighted repositories:
 
-[rasterio/rasterio](https://github.com/rasterio/rasterio)<\br>
-[hackingmaterials/matminer](https://github.com/hackingmaterials/matminer)<\br>
-[ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench)<\br>
+[rasterio/rasterio](https://github.com/rasterio/rasterio)<br>
+[hackingmaterials/matminer](https://github.com/hackingmaterials/matminer)<br>
+[ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench)<br>
 
 We welcome requests from the original authors to modify or remove relevant tasks related to those two repositories if needed.
 
