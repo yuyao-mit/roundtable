@@ -32,16 +32,13 @@
 - 2025/02/17: Github repo set up
 
 ## Table of Contents
-- [Overview](#Overview-of-ROUNDTABLE-POLICY)
+- [Overview](#Overview-of-Roundtable-Policy)
 - [Benchmark](#benchmark)
-- [Setup](#setup)
-- [Code Generation with Agents](#code-generation-with-agents)
-- [Evaluation of Generated Code](#evaluation-of-generated-code)
 - [Licensing Information](#licensing-information)
 - [Disclaimer](#disclaimer)
 - [Citation](#citation) 
 
-## Overview of ROUNDTABLE POLICY
+## Overview of Roundtable Policy
 
 <p align="center">
   <img src="figures/roundtable.png" alt="Framework for ROUNDTABLE POLICY" width="45%">
