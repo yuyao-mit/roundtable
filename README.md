@@ -1,4 +1,4 @@
-# ROUNDTABLE POLICY: COMPOSITIONAL LARGE LANGUAGE AGENTS AIDED SCIENTIFIC DISCOVERY AND PROPOSAL
+# Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal
 
 ### [![][project-icon]][project-page] | [![][arxiv-icon]][arxiv-paper] | [![][colab]][composable-demo] | [![][huggingface]][huggingface-demo]
 
