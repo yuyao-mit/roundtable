@@ -226,9 +226,9 @@ If you find our code and data useful, please cite our paper:
 
 ```
 @article{yao2025roundtable1.0,
-      title={ROUNDTABLE POLICY: COMPOSITIONAL LARGE LANGUAGE AGENTS AIDED SCIENTIFIC DISCOVERY AND PROPOSAL}, 
+      title={Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal}, 
       author={Yu Yao and Jiayi Dong and Yilun Du and Yang Yang and Ju Li},
-      journal={arXiv preprint arXiv:2305.14325},
+      journal={arXiv preprint arXiv:2502.xxxxx},
       year={2025}
 }
 ```
