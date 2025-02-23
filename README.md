@@ -43,7 +43,7 @@
 
 <p align="center">
   <img src="figures/cover_roundtable.png" alt="Framework for ROUNDTABLE POLICY" width="45%">
-  <img src="figures/train_singlemodel.png" alt="Internal pipeline" width="45%">
+  <img src="figures/roundtablechat.png" alt="Internal pipeline" width="45%">
 </p>
 
 
