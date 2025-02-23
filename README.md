@@ -3,7 +3,7 @@
 ### [![][project-icon]][project-page] | [![][arxiv-icon]][arxiv-paper]
 
 [project-icon]: https://img.shields.io/badge/🌍-Project%20Page-green
-[arxiv-icon]: https://img.shields.io/badge/arXiv-2502.xxxxx
+[arxiv-icon]: https://img.shields.io/badge/arXiv-2502.11111
 
 <!-- [![][colab]][composable-demo][colab]: https://colab.research.google.com/assets/colab-badge.svg -->
 <!-- [![][huggingface]][huggingface-demo][huggingface]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue -->
