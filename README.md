@@ -46,8 +46,23 @@
   <img src="figures/roundtablechat.png" alt="Internal pipeline" width="55%">
 </p>
 
+Recent advancements in large language models (LLMs) have showcased their remarkable potential across various scientific domains, including predictive modeling and generative analysis. However, no single LLM excels across all tasks—some are optimized for high-precision numerical predictions, while others specialize in generating coherent, context-rich text.  
 
-Recent advancements in large language models (LLMs) have demonstrated their exceptional potential across a wide range of scientific applications, including predictive modeling and generative analysis. However, no single LLM excels at all tasks simultaneously—some models are optimized for high-precision numerical predictions, while others specialize in generating coherent, context-rich text. To address this limitation, we introduce \textsc{Roundtable Policy}, guided by which a multi-LLM agent framework is designed for scientific discovery and proposal generation. Central to our approach are two key concepts: the \textit{Arbitrator}, which serves as an intelligent aggregator, and the \textit{confidence weight table}, a dynamic mechanism that optimally weights the contributions of different expert models. To evaluate the efficacy of our framework, we benchmarked it against single-model baselines on the task of perovskite solar cell property prediction and decision-making. In this framework, multiple LLMs—each acting as an independent “expert”—are trained on the same multimodal dataset and leverage their specialized capabilities to generate diverse outputs. These outputs are then fused through a “roundtable discussion,” where the Arbitrator agent systematically compiles, compares, and integrates each expert’s response. The final answer is refined based on the collective intelligence of all models weighted by confidence weight table. Unlike conventional LLM pipelines that rely on extensive parameter tuning, our \textit{confidence weight table} is trainable yet computationally lightweight, enabling rapid adaptation to new tasks while maintaining high performance. Experimental results demonstrate that our ensemble strategy consistently outperforms single-model baselines across both predictive and generative tasks. Furthermore, our approach achieves state-of-the-art performance across multiple input modalities, highlighting its robustness and adaptability in scientific applications.
+To overcome this limitation, we introduce **Roundtable Policy**, a multi-LLM agent framework designed for scientific discovery and proposal generation. Our approach is centered around two key components:  
+
+- **Arbitrator** – An intelligent aggregator that systematically integrates model outputs.  
+- **Confidence Weight Table** – A dynamic, trainable mechanism that optimally weights contributions from different expert models.  
+
+### Framework & Implementation  
+
+In our framework, multiple LLMs function as independent “experts,” each trained on the same multimodal dataset while leveraging their specialized capabilities to generate diverse outputs. These responses undergo a **roundtable discussion**, where the **Arbitrator** compiles, compares, and integrates each expert’s insights. The final decision is refined using the **Confidence Weight Table**, ensuring optimal fusion of expertise.  
+
+Unlike traditional LLM pipelines that rely heavily on extensive parameter tuning, our **Confidence Weight Table** is computationally lightweight yet trainable, allowing for rapid adaptation to new tasks while maintaining high performance.  
+
+### Benchmarking & Results  
+
+To evaluate our framework, we benchmarked it against single-model baselines on perovskite solar cell property prediction and decision-making tasks. Our ensemble approach consistently outperforms single-model baselines across both predictive and generative tasks. Additionally, it achieves state-of-the-art performance across multiple input modalities, demonstrating superior robustness and adaptability in scientific applications.  
+
 
 ## Benchmark
 
