@@ -9,8 +9,8 @@
 <!-- [![][huggingface]][huggingface-demo][huggingface]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue -->
 
 
-[project-page]: https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/
-[arxiv-paper]: https://arxiv.org/pdf/2206.01714.pdf
+[project-page]: https://github.com/yuyao-mit/roundtable
+[arxiv-paper]: https://arxiv.org/abs/2311.10889
 [composable-demo]: https://colab.research.google.com/github/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch/blob/main/notebooks/demo.ipynb
 [huggingface-demo]: https://huggingface.co/spaces/Shuang59/Composable-Diffusion
 
