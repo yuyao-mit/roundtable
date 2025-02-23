@@ -1,31 +1,26 @@
-# Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal
+# **Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal Generation**
 
 ### [![][project-icon]][project-page] | [![][arxiv-icon]][arxiv-paper]
 
-[project-icon]: https://img.shields.io/badge/🌍-Project%20Page-green
-[arxiv-icon]: https://img.shields.io/badge/arXiv-2311.10889
+[project-icon]: https://img.shields.io/badge/🌍-Project%20Page-green  
+[arxiv-icon]: https://img.shields.io/badge/arXiv-Paper-red  
 
-<!-- [![][colab]][composable-demo][colab]: https://colab.research.google.com/assets/colab-badge.svg -->
-<!-- [![][huggingface]][huggingface-demo][huggingface]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue -->
+[project-page]: https://github.com/yuyao-mit/roundtable  
+[arxiv-paper]: https://arxiv.org/abs/2311.10889  
 
+## **Contributors**  
 
-[project-page]: https://github.com/yuyao-mit/roundtable
-[arxiv-paper]: https://arxiv.org/abs/2311.10889
-[composable-demo]: https://colab.research.google.com/github/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch/blob/main/notebooks/demo.ipynb
-[huggingface-demo]: https://huggingface.co/spaces/Shuang59/Composable-Diffusion
-
-
-## Contributors
-[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,
-[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>,
-[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3</sup>,
-[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>,
-[Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>
+[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,  
+[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>,  
+[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3</sup>,  
+[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>,  
+[Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>  
 
 <sup>*</sup> Equal Contribution  
-<sup>1</sup> Massachusetts Institute of Technology    
+<sup>1</sup> Massachusetts Institute of Technology  
 <sup>2</sup> University of California, Los Angeles  
 <sup>3</sup> Harvard University  
+
 
 
 ## Updates:
