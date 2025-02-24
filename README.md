@@ -110,11 +110,11 @@ Our dataset is available at the [![][cloud-storage-icon]][google-drive]
 [cloud-storage-icon]: https://img.shields.io/badge/☁️-Google%20Drive-blue  
 [google-drive]: https://drive.google.com/drive/folders/1zvTSRTo6i2vO5Z3eR-A7CKsp0sIJlPM0?usp=drive_link
 
-We also acknowledge the following copyrighted repositories that influenced or supported our dataset collection process:
+We also acknowledge the following copyrighted repositories that supported our dataset collection process:
 
-- [rasterio/rasterio](https://github.com/rasterio/rasterio)  
-- [hackingmaterials/matminer](https://github.com/hackingmaterials/matminer)  
-- [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench)
+- [grade-school-math](https://github.com/openai/grade-school-math)  
+- [k2](https://github.com/davendw49/k2)  
+- [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions)
 
 We welcome requests from the original authors to modify or remove relevant tasks related to these repositories if needed.
 
