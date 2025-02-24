@@ -141,7 +141,7 @@ This software is intended for research and educational purposes. While we strive
 ```bibtex
 @article{yao2025roundtable1.0,
   title={Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal},
-  author={Yu Yao and Jiayi Dong and Yilun Du and Yang Yang and Ju Li},
+  author={Yu Yao and Jiayi Dong and Ju Li and Yang Yang and Yilun Du},
   journal={arXiv preprint arXiv:2502.xxxxx},
   year={2025}
 }
