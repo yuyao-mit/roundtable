@@ -9,6 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
 </head>
@@ -44,16 +45,33 @@
             <span class="author-block"><sup>3</sup> Harvard University</span>
           </div>
           <div class="publication-links">
-            <a href="https://arxiv.org/pdf/2502.xxxxx" class="button is-dark">Paper</a>
-            <a href="https://github.com/yuyao-mit/roundtable" class="button is-dark">Code</a>
-            <a href="https://drive.google.com/drive/folders/1zvTSRTo6i2vO5Z3eR-A7CKsp0sIJlPM0?usp=drive_link" class="button is-dark">Data</a>
+            <!-- Paper Link -->
+            <a href="https://arxiv.org/pdf/2502.xxxxx" class="button is-dark is-rounded">
+              <span class="icon">
+                <i class="fas fa-file-pdf"></i>
+              </span>
+              <span>Paper</span>
+            </a>
+            <!-- Code Link -->
+            <a href="https://github.com/yuyao-mit/roundtable" class="button is-dark is-rounded">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+            <!-- Data Link -->
+            <a href="https://drive.google.com/drive/folders/1zvTSRTo6i2vO5Z3eR-A7CKsp0sIJlPM0?usp=drive_link" class="button is-dark is-rounded">
+              <span class="icon">
+                <i class="fas fa-database"></i>
+              </span>
+              <span>Data</span>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -66,6 +84,7 @@
 }</code></pre>
   </div>
 </section>
+
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
@@ -76,7 +95,9 @@
         </a>. 
         <br> <!-- 这里添加换行 -->
         This website's source code is based on the 
-        <a href="https://nerfies.github.io/">Nerfies</a> project page. If you want to reuse their 
+        <a href="https://nerfies.github.io/">Nerfies</a> project page.
+        <br> <!-- 这里添加换行 -->
+        If you want to reuse their 
         <a href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them appropriately.
       </p>
     </div>
@@ -85,4 +106,3 @@
 
 </body>
 </html>
-
