@@ -9,16 +9,17 @@
 [project-page]: https://github.com/yuyao-mit/roundtable  
 [arxiv-paper]: https://arxiv.org/abs/2311.10889  
 
-## **Contributors**  
-[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>  
-[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>  
-[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3</sup>  
-[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>  
+## Contributors
+
+[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup> |  
+[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup> |  
+[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3</sup> |  
+[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup> |  
 [Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>  
 
 <sup>*</sup> Equal Contribution  
-<sup>1</sup> Massachusetts Institute of Technology  
-<sup>2</sup> University of California, Los Angeles  
+<sup>1</sup> Massachusetts Institute of Technology |  
+<sup>2</sup> University of California, Los Angeles |  
 <sup>3</sup> Harvard University  
 
 ---
@@ -39,7 +40,7 @@
 
 ---
 
-## Overview of Roundtable Policy
+## Overview of ```Roundtable Policy```
 
 <p align="center">
   <img src="figures/cover_roundtable.png" alt="Framework for ROUNDTABLE POLICY" width="45%">
