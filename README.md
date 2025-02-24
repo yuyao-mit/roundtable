@@ -26,7 +26,7 @@
 ---
 
 ## Updates
-- **2025/02/17**: Initial GitHub repository setup  
+- **2025/02/17**: Initial repository setup  
 - **2025/02/22**: Project release  
 
 ---
