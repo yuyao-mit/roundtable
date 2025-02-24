@@ -31,7 +31,7 @@
 
 ## Table of Contents
 1. [Overview](#overview-of-roundtable-policy)  
-2. [Installation & Usage](#installation--usage)  
+2. [Quick Setup](#quick-setup)  
 3. [Data Availability](#data-availability)  
 4. [Licensing Information](#licensing-information)  
 5. [Disclaimer](#disclaimer)  
@@ -65,7 +65,7 @@ To evaluate our framework, we benchmarked it against single-model baselines on p
 
 ---
 
-## Installation & Usage
+## Quick Setup
 
 Below are the general steps to get started with Roundtable Policy on your local machine:
 
