@@ -113,9 +113,9 @@ Our dataset is available at the [![][cloud-storage-icon]][google-drive]
 
 We also acknowledge the following copyrighted repositories that supported our dataset collection process:
 
-- [grade-school-math](https://github.com/openai/grade-school-math)  
 - [k2](https://github.com/davendw49/k2)  
 - [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions)
+- [grade-school-math](https://github.com/openai/grade-school-math)
 
 We welcome requests from the original authors to modify or remove relevant tasks related to these repositories if needed.
 
