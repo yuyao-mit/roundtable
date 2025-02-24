@@ -86,7 +86,7 @@ Below are the general steps to get started with Roundtable Policy on your local 
    - Some external dependencies, like `rasterio` or `matminer`, may require platform-specific installation steps. Please consult their official documentation for further guidance.
 
 3. **Download or link the dataset**  
-   - The primary dataset is provided on the [Project Page][project-page].  
+   - The primary dataset is provided on the [![][cloud-storage-icon]][google-drive].  
    - Place or symlink the dataset in the `data/` directory (or update the path in `config.yaml` if you prefer a custom location).
 
 4. **Run a simple demo**  
