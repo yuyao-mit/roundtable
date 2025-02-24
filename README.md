@@ -6,7 +6,7 @@
 [project-icon]: https://img.shields.io/badge/🌍-Project%20Page-green  
 [arxiv-icon]: https://img.shields.io/badge/arXiv-2502.xxxxx-b31b1b
 
-[project-page]: https://github.com/yuyao-mit/roundtable  
+[project-page]: https://yuyao-mit.github.io/roundtable/
 [arxiv-paper]: https://arxiv.org/abs/2311.10889  
 
 ## Contributors
