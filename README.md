@@ -1,3 +1,4 @@
+
 # **Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal Generation**
 
 ### [![][project-icon]][project-page] | [![][arxiv-icon]][arxiv-paper]
@@ -9,11 +10,10 @@
 [arxiv-paper]: https://arxiv.org/abs/2311.10889  
 
 ## **Contributors**  
-
-[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>,  
-[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>,  
-[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3</sup>,  
-[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>,  
+[Yu Yao](https://www.linkedin.com/in/yu-yao-8599b5265/) <sup>1*</sup>  
+[Jiayi Dong](https://www.linkedin.com/in/jiayi-dong-6a2a6b26b/) <sup>2*</sup>  
+[Yilun Du](https://scholar.google.com/citations?user=GRMMc_MAAAAJ&hl=en) <sup>3</sup>  
+[Yang Yang](https://scholar.google.com/citations?user=ceCfTvcAAAAJ&hl=en) <sup>2</sup>  
 [Ju Li](https://scholar.google.com/citations?user=SHVhdhoAAAAJ&hl=en) <sup>1</sup>  
 
 <sup>*</sup> Equal Contribution  
@@ -21,18 +21,23 @@
 <sup>2</sup> University of California, Los Angeles  
 <sup>3</sup> Harvard University  
 
+---
 
+## Updates
+- **2025/02/17**: Initial GitHub repository setup  
+- **2025/02/22**: Project release  
 
-## Updates:
-- 2025/02/17: Github repo set up
-- 2925/02/22: Project release
+---
 
 ## Table of Contents
-- [Overview](#Overview-of-Roundtable-Policy)
-- [Benchmark](#benchmark)
-- [Licensing Information](#licensing-information)
-- [Disclaimer](#disclaimer)
-- [Citation](#citation) 
+1. [Overview](#overview-of-roundtable-policy)  
+2. [Installation & Usage](#installation--usage)  
+3. [Data Availability](#data-availability)  
+4. [Licensing Information](#licensing-information)  
+5. [Disclaimer](#disclaimer)  
+6. [Citation](#citation)  
+
+---
 
 ## Overview of Roundtable Policy
 
@@ -41,57 +46,101 @@
   <img src="figures/roundtablechat.png" alt="Internal pipeline" width="55%">
 </p>
 
-Recent advancements in large language models (LLMs) have showcased their remarkable potential across various scientific domains, including predictive modeling and generative analysis. However, no single LLM excels across all tasks—some are optimized for high-precision numerical predictions, while others specialize in generating coherent, context-rich text.  
+Recent advancements in large language models (LLMs) have showcased their remarkable potential across various scientific domains, including predictive modeling and generative analysis. However, no single LLM excels across all tasks—some are optimized for high-precision numerical predictions, while others specialize in generating coherent, context-rich text.
 
-To overcome this limitation, we introduce **Roundtable Policy**, a multi-LLM agent framework designed for scientific discovery and proposal generation. Our approach is centered around two key components:  
+To overcome this limitation, we introduce **Roundtable Policy**, a multi-LLM agent framework designed for scientific discovery and proposal generation. Our approach is centered around two key components:
 
-- **Arbitrator** – An intelligent aggregator that systematically integrates model outputs.  
-- **Confidence Weight Table** – A dynamic, trainable mechanism that optimally weights contributions from different expert models.  
+- **Arbitrator** – An intelligent aggregator that systematically integrates model outputs.
+- **Confidence Weight Table** – A dynamic, trainable mechanism that optimally weights contributions from different expert models.
 
-### Framework & Implementation  
+### Framework & Implementation
 
-In our framework, multiple LLMs function as independent “experts,” each trained on the same multimodal dataset while leveraging their specialized capabilities to generate diverse outputs. These responses undergo a **roundtable discussion**, where the **Arbitrator** compiles, compares, and integrates each expert’s insights. The final decision is refined using the **Confidence Weight Table**, ensuring optimal fusion of expertise.  
+In our framework, multiple LLMs function as independent “experts,” each trained on the same multimodal dataset while leveraging their specialized capabilities to generate diverse outputs. These responses undergo a **roundtable discussion**, where the **Arbitrator** compiles, compares, and integrates each expert’s insights. The final decision is then refined using the **Confidence Weight Table**, ensuring optimal fusion of expertise.
 
-Unlike traditional LLM pipelines that rely heavily on extensive parameter tuning, our **Confidence Weight Table** is computationally lightweight yet trainable, allowing for rapid adaptation to new tasks while maintaining high performance.  
+Unlike traditional LLM pipelines that rely heavily on extensive parameter tuning, our **Confidence Weight Table** is computationally lightweight yet trainable, allowing for rapid adaptation to new tasks while maintaining high performance.
 
-### Benchmarking & Results  
+### Benchmarking & Results
 
-To evaluate our framework, we benchmarked it against single-model baselines on perovskite solar cell property prediction and decision-making tasks. Our ensemble approach consistently outperforms single-model baselines across both predictive and generative tasks. Additionally, it achieves state-of-the-art performance across multiple input modalities, demonstrating superior robustness and adaptability in scientific applications.  
+To evaluate our framework, we benchmarked it against single-model baselines on perovskite solar cell property prediction and decision-making tasks. Our ensemble approach consistently outperforms single-model baselines across both predictive and generative tasks. Additionally, it achieves state-of-the-art performance across multiple input modalities, demonstrating superior robustness and adaptability in scientific applications.
 
+---
 
-## Benchmark
+## Installation & Usage
 
-To prevent benchmark data contamination, we only provide the annotation sheet on [Huggingface](https://huggingface.co/datasets/osunlp/ScienceAgentBench), which includes all necessary *inputs* to run an agent.
+Below are the general steps to get started with Roundtable Policy on your local machine:
 
-To evaluate the agent outcomes, i.e. generated code, please download the full benchmark [here](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/chen_8336_buckeyemail_osu_edu/EQuA6uJ3CtRHvRfZ2GiN1tYBRVJE4DSUD10MW61fr7HuSQ?e=sCBegG) and unzip it with password `scienceagentbench`.
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yuyao-mit/roundtable.git
+   cd roundtable
+   ```
 
+2. **Set up the environment**  
+   - Ensure you have Python 3.8+ installed.  
+   - Install required Python packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Some external dependencies, like `rasterio` or `matminer`, may require platform-specific installation steps. Please consult their official documentation for further guidance.
+
+3. **Download or link the dataset**  
+   - The primary dataset is provided on the [Project Page][project-page].  
+   - Place or symlink the dataset in the `data/` directory (or update the path in `config.yaml` if you prefer a custom location).
+
+4. **Run a simple demo**  
+   - Modify the config file (`config.yaml` or a Python-based config script) to point to your data location and desired parameters.  
+   - Execute:
+     ```bash
+     python main.py --config config.yaml
+     ```
+   - The demo will showcase how multiple LLM “experts” generate and compare their predictions, with the **Arbitrator** and **Confidence Weight Table** finalizing results.
+
+5. **Evaluate model performance**  
+   - Use the evaluation script to compare single-model baselines vs. the Roundtable Policy pipeline:
+     ```bash
+     python evaluate.py --config config.yaml
+     ```
+   - Results will be saved in `results/` by default, summarizing both predictive and generative benchmarks.
+
+---
+
+## Data Availability
+
+Our dataset is available at the [Roundtable Policy Project Page][project-page].  
+
+We also acknowledge the following copyrighted repositories that influenced or supported our dataset collection process:
+
+- [rasterio/rasterio](https://github.com/rasterio/rasterio)  
+- [hackingmaterials/matminer](https://github.com/hackingmaterials/matminer)  
+- [ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench)
+
+We welcome requests from the original authors to modify or remove relevant tasks related to these repositories if needed.
+
+---
 
 ## Licensing Information
 
-Most tasks in '''Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal''' is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+Most tasks in **Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal** are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-Code under this repo is licensed under a MIT License.
+The code in this repository is licensed under the [MIT License](LICENSE).
+
+---
 
 ## Disclaimer
 
-Our benchmark is constructed by adapting open-source code and data, to which we respect their creators' ownership and intellectual property. In the Appendix of our paper, we have made our best effort to cite the original papers, list the repositories, and provide their licenses.<\br>
-We give sincere acknowledgement to the following copyrighted repositories:
+This software is intended for research and educational purposes. While we strive for accuracy and reliability, **Roundtable Policy** is provided “as is,” without warranty of any kind. Users are responsible for assessing its suitability for their specific use cases and complying with all applicable regulations.
 
-[rasterio/rasterio](https://github.com/rasterio/rasterio)<br>
-[hackingmaterials/matminer](https://github.com/hackingmaterials/matminer)<br>
-[ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench)<br>
-
-We welcome requests from the original authors to modify or remove relevant tasks related to those two repositories if needed.
+---
 
 ## Citation
 
-If you find our code and data useful, please cite our paper:
+If you find our work helpful for your research or applications, please cite our paper:
 
-```
+```bibtex
 @article{yao2025roundtable1.0,
-      title={Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal}, 
-      author={Yu Yao and Jiayi Dong and Yilun Du and Yang Yang and Ju Li},
-      journal={arXiv preprint arXiv:2502.xxxxx},
-      year={2025}
+  title={Roundtable Policy: Compositional Large Language Model Agents Aided Scientific Discovery and Proposal},
+  author={Yu Yao and Jiayi Dong and Yilun Du and Yang Yang and Ju Li},
+  journal={arXiv preprint arXiv:2502.xxxxx},
+  year={2025}
 }
 ```
