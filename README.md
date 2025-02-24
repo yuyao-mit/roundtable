@@ -103,10 +103,12 @@ Below are the general steps to get started with Roundtable Policy on your local 
    - Results will be saved in `results/` by default, summarizing both predictive and generative benchmarks.
 
 ---
-
 ## Data Availability
 
-Our dataset is available at the [Roundtable Policy Project Page][project-page].  
+Our dataset is available at the [![][cloud-storage-icon]][google-drive]
+
+[cloud-storage-icon]: https://img.shields.io/badge/☁️-Google%20Drive-blue  
+[google-drive]: https://drive.google.com/drive/folders/1zvTSRTo6i2vO5Z3eR-A7CKsp0sIJlPM0?usp=drive_link
 
 We also acknowledge the following copyrighted repositories that influenced or supported our dataset collection process:
 
@@ -133,8 +135,6 @@ This software is intended for research and educational purposes. While we strive
 ---
 
 ## Citation
-
-If you find our work helpful for your research or applications, please cite our paper:
 
 ```bibtex
 @article{yao2025roundtable1.0,
