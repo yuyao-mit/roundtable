@@ -92,31 +92,33 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+           Recent advancements in large language models (LLMs) have demonstrated their
+           exceptional potential across a wide range of scientific applications, including predictive modeling and generative analysis. However, no single LLM excels at all
+           tasks simultaneously—some models are optimized for high-precision numerical
+           predictions, while others specialize in generating coherent, context-rich text. To
+           address this limitation, we introduce ROUNDTABLE POLICY, guided by which
+           a multi-LLM agent framework is designed for scientific discovery and proposal
+           generation. 
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+           Central to our approach are two key concepts: the Arbitrator, which
+           serves as an intelligent aggregator, and the confidence weight table, a dynamic
+           mechanism that optimally weights the contributions of different expert models. To
+           evaluate the efficacy of our framework, we benchmarked it against single-model
+           baselines on the task of perovskite solar cell property prediction and decision-
+           making. In this framework, multiple LLMs—each acting as an independent “expert”are trained on the same multimodal dataset and leverage their specialized
+           capabilities to generate diverse outputs. These outputs are then fused through
+           a “roundtable discussion,” where the Arbitrator agent systematically compiles,
+           compares, and integrates each expert’s response. The final answer is refined based
+           on the collective intelligence of all models weighted by confidence weight table. 
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+           Unlike conventional LLM pipelines that rely on extensive parameter tuning, our confidence weight table is trainable yet computationally lightweight, enabling
+           rapid adaptation to new tasks while maintaining high performance. Experimental
+           results demonstrate that our ensemble strategy consistently outperforms single-
+           model baselines across both predictive and generative tasks. Furthermore, our
+           approach achieves state-of-the-art performance across multiple input modalities,
+           highlighting its robustness and adaptability in scientific applications. 
           </p>
         </div>
       </div>
