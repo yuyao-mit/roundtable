@@ -116,7 +116,7 @@ Below are the general steps to get started with Roundtable Policy on your local 
 ---
 ## Data Availability
 
-Our dataset is available at the [![][cloud-storage-icon]][google-drive]
+The entire dataset is available at the [![][cloud-storage-icon]][google-drive]
 
 [cloud-storage-icon]: https://img.shields.io/badge/☁️-Google%20Drive-blue  
 [google-drive]: https://drive.google.com/drive/folders/1cTvyyiuc1ZjqXCFztqtj3ByqxuPZTQi4
