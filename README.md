@@ -89,14 +89,14 @@ Below are the general steps to get started with Roundtable Policy on your local 
 3. **Configure the dataset**  
    - The primary dataset is provided on the [![][cloud-storage-icon]][google-drive].  
    - However, we also provide an alternative to generate your own data.
-   - For multitask `qk_pair`, you can follow the following:
+   - For multitask `qk_pair`, you can follow the following, e.g. create 1000 rounds of `qk_pair`:
      ```bash
      cd src/dataset/
      python data_multitask_gen.py --rounds 1000
      ```
    - For single task, you can follow the following:
      ```bash
-     python data_singletask_gen.py --rounds 100
+     python data_singletask_gen.py --rounds 1000
      ```
 
 4. **Update the confidence weight table**     
