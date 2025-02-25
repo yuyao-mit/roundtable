@@ -119,7 +119,7 @@ Below are the general steps to get started with Roundtable Policy on your local 
 Our dataset is available at the [![][cloud-storage-icon]][google-drive]
 
 [cloud-storage-icon]: https://img.shields.io/badge/☁️-Google%20Drive-blue  
-[google-drive]: https://drive.google.com/drive/folders/1zvTSRTo6i2vO5Z3eR-A7CKsp0sIJlPM0?usp=drive_link
+[google-drive]: https://drive.google.com/drive/folders/1cTvyyiuc1ZjqXCFztqtj3ByqxuPZTQi4
 
 We also acknowledge the following copyrighted repositories that supported our dataset collection process:
 
