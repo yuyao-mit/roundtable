@@ -1,0 +1,510 @@
+{
+    "total": 101,
+    "data": [
+        {
+            "number": "00001",
+            "question": "Difference between homogeneous and heterogeneous nucleation.",
+            "key": "Homogeneous nucleation occurs uniformly within the bulk, requiring a larger energy barrier because no preexisting surface is available. Heterogeneous nucleation happens on surfaces or interfaces (e.g. container walls, impurities), lowering the barrier and making it more common in practice."
+        },
+        {
+            "number": "00002",
+            "question": "Why is diamond an electrical insulator yet a good thermal conductor?",
+            "key": "Diamond’s large band gap (~5.5 eV) prevents free electrons, making it an electrical insulator. Its strong covalent bonding and stiff lattice enable high phonon conductivity, giving it excellent thermal conduction."
+        },
+        {
+            "number": "00003",
+            "question": "Types of materials and their bonding (metal/metallic, ceramic/covalent, polymer/covalent and secondary).",
+            "key": "Metals exhibit metallic bonding (delocalized electrons). Ceramics often have ionic/covalent bonds (e.g. oxides, carbides). Polymers primarily have covalent bonds along chains with secondary (van der Waals/H-bonding) between chains."
+        },
+        {
+            "number": "00004",
+            "question": "Eutectoid and hypereutectoid microstructure for iron-iron carbide.",
+            "key": "Eutectoid steel (0.76 wt% C) transforms to pearlite (layers of ferrite + cementite). Hypereutectoid (>0.76%C) forms proeutectoid cementite along grain boundaries before pearlite forms in the remaining austenite."
+        },
+        {
+            "number": "00005",
+            "question": "Conductivity versus temperature of doped semiconductors.",
+            "key": "Doped semiconductors have increased carrier concentration. Conductivity generally rises with temperature as more carriers are excited, until intrinsic behavior dominates at higher temperatures."
+        },
+        {
+            "number": "00006",
+            "question": "Polymer above/below glass transition temperature and above/below melting point.",
+            "key": "Below Tg, a polymer is glassy and brittle; above Tg, it becomes rubbery/viscoelastic. Above Tm (if crystalline), it becomes a viscous melt; below Tm, it’s solid/semi-crystalline."
+        },
+        {
+            "number": "00007",
+            "question": "Brittle versus ductile fracture difference in microstructure and causes.",
+            "key": "Brittle fracture shows little plastic deformation (cleavage, transgranular cracks). Ductile fracture involves significant plastic flow, void coalescence, and necking before failure. Microstructure (grain boundaries, second phases) influences fracture mode."
+        },
+        {
+            "number": "00008",
+            "question": "Generally classify materials in terms of their bondings. Rank them in terms of bond strength.",
+            "key": "In general, bond strength order is: covalent/ionic > metallic > hydrogen bonding > van der Waals. Ceramics (ionic/covalent) have highest bond strength, metals intermediate (metallic), polymers lower (covalent in-chain but weaker secondary between chains)."
+        },
+        {
+            "number": "00009",
+            "question": "What are microstructural properties of elastomers? What would happen if they didn't have crosslinks? How does their yield strength compare with other materials?",
+            "key": "Elastomers have lightly crosslinked, amorphous chains allowing large elastic deformations. Without crosslinks, they’d flow irreversibly. Their yield strength is typically much lower than metals or ceramics due to flexible chain structures."
+        },
+        {
+            "number": "00010",
+            "question": "Would you consider elastomers to be thermosets or thermoplastics?",
+            "key": "Most elastomers are thermosets due to crosslinking (vulcanization) which is permanent, not re-meltable. Thermoplastics do not have permanent crosslinks and can be melted and reformed."
+        },
+        {
+            "number": "00011",
+            "question": "How does being above or below Tg affect a polymer's stress-strain behavior?",
+            "key": "Below Tg, a polymer is stiff and brittle. Above Tg, it’s more ductile or rubbery; the stress–strain curve shows higher elongation, lower modulus, and potential plastic flow."
+        },
+        {
+            "number": "00012",
+            "question": "What would the eutectic phase look like? Why does it grow like that?",
+            "key": "A eutectic microstructure typically has fine alternating lamellae (two-phase mixture) growing simultaneously from the melt. It forms this way to minimize diffusion lengths and interfacial energy at the eutectic composition."
+        },
+        {
+            "number": "00013",
+            "question": "What is soda-lime glass? What are the additives? Why do we have these additives and what do they do?",
+            "key": "Soda-lime glass is ~70–75% SiO2, plus Na2O and CaO. Sodium oxide lowers the melting temperature, and lime (CaO) improves chemical durability. These additives modify the glass network and processing properties."
+        },
+        {
+            "number": "00014",
+            "question": "Metal, polymer, ceramic bonding, and how it relates to mechanical properties.",
+            "key": "Metals have metallic bonds → ductile, moderate/high strength. Polymers have covalent in-chain but weaker secondary bonds → lower strength, more flexibility. Ceramics have ionic/covalent → high stiffness and hardness but brittleness."
+        },
+        {
+            "number": "00015",
+            "question": "Explain what pearlite is.",
+            "key": "Pearlite is a lamellar (layered) mixture of ferrite (α-Fe) and cementite (Fe3C) formed in steel during slow cooling below the eutectoid temperature (~727°C). It has alternating ferrite and carbide plates."
+        },
+        {
+            "number": "00016",
+            "question": "What's the industrial process for doping semiconductors?",
+            "key": "Industrial semiconductor doping often uses ion implantation or diffusion of dopant atoms (e.g. B, P for Si). Ion implantation shoots dopant ions into the wafer, followed by thermal annealing to activate them."
+        },
+        {
+            "number": "00017",
+            "question": "For BCC, which slip system do you see active at high temperatures?",
+            "key": "In BCC metals (like α-Fe) at high temperatures, {110}⟨111⟩ slip systems become more active along with {112}⟨111⟩ and possibly {123}⟨111⟩, promoting easier slip compared to low temperature."
+        },
+        {
+            "number": "00018",
+            "question": "How many slip systems do you see in each structure (FCC and BCC)?",
+            "key": "FCC metals have 12 slip systems (4 slip planes × 3 directions). BCC also effectively has 12 slip systems, but the planes are not closely packed, hence a higher CRSS (critical resolved shear stress)."
+        },
+        {
+            "number": "00019",
+            "question": "What's the crystal structure of aluminum? What's the crystal structure of diamond?",
+            "key": "Aluminum is FCC. Diamond is a covalent network with a diamond cubic structure (each C tetrahedrally bonded to 4 neighbors)."
+        },
+        {
+            "number": "00020",
+            "question": "Which planes have the highest planar density in each (FCC and BCC)?",
+            "key": "FCC highest planar density is typically on {111} planes. BCC highest planar density is on {110} planes."
+        },
+        {
+            "number": "00021",
+            "question": "Draw a viscosity versus temperature graph for fused silica, quartz, and soda-lime glass.",
+            "key": "Viscosity vs. temperature curves: fused silica (high Tg, remains viscous at higher T), quartz (crystalline, sharply transitions), soda-lime glass (lower Tg, less viscous at lower T). Graph typically shows a steeper drop for soda-lime vs. silica."
+        },
+        {
+            "number": "00022",
+            "question": "How would we change the viscosity of glass?",
+            "key": "Viscosity of glass can be changed by altering composition (e.g. more Na2O lowers viscosity), or changing temperature. Higher temperature reduces melt viscosity for easier processing."
+        },
+        {
+            "number": "00023",
+            "question": "What's the difference between vitreous silica and quartz? What does this tell you about the order of the system?",
+            "key": "Vitreous silica is amorphous SiO2 with no long-range order, while quartz is crystalline SiO2 with a repeating lattice. Amorphous means random network; crystalline means periodic arrangement."
+        },
+        {
+            "number": "00024",
+            "question": "How would we change the glass transition temperature? Give some examples.",
+            "key": "Glass transition temperature Tg can be lowered or raised by changing composition (adding network modifiers like Na2O) or by altering chain stiffness in polymers (adding flexible side groups lowers Tg)."
+        },
+        {
+            "number": "00025",
+            "question": "How does a laser work, and how does amplification happen?",
+            "key": "A laser uses a gain medium and resonant optical cavity. Pumping electrons into higher energy states and then stimulated emission leads to coherent light amplification. Mirrors in the cavity provide feedback to sustain stimulated emission."
+        },
+        {
+            "number": "00026",
+            "question": "How does a semiconductor laser work? How do we keep everything in phase?",
+            "key": "A semiconductor laser has a p–n junction as the gain region; carrier injection leads to population inversion. An optical cavity (cleaved facets or distributed feedback) ensures coherent phase alignment of the emitted light."
+        },
+        {
+            "number": "00027",
+            "question": "How does a semiconductor LED work?",
+            "key": "In an LED, electrons recombine radiatively with holes in a direct-bandgap semiconductor, releasing photons. The junction is forward-biased, injecting carriers across the band gap, creating spontaneous emission of light."
+        },
+        {
+            "number": "00028",
+            "question": "What's the difference between an LED and a laser in terms of how they operate?",
+            "key": "An LED emits light by spontaneous recombination (broad spectrum, less coherence). A laser diode achieves stimulated emission with an optical cavity, giving narrow spectral width, coherence, and threshold current for lasing."
+        },
+        {
+            "number": "00029",
+            "question": "What's the difference in behavior between an elastic solid and a viscoelastic polymer?",
+            "key": "An elastic solid deforms instantly, storing strain energy and returning to its shape upon unloading. A viscoelastic polymer shows time-dependent response (creep, stress relaxation), with partial energy dissipation (hysteresis)."
+        },
+        {
+            "number": "00030",
+            "question": "Show me how you would precipitation harden some alloy.",
+            "key": "Precipitation hardening typically involves solution treating (dissolve solute), quenching to supersaturate, and aging at an intermediate temperature to form fine precipitates that impede dislocation motion, thus strengthening the alloy."
+        },
+        {
+            "number": "00031",
+            "question": "What are the bandgaps of Si, SiO2, and GaAs? What are the corresponding colors?",
+            "key": "Si ~1.1 eV (infrared), SiO2 ~8–9 eV (far UV), GaAs ~1.42 eV (near IR to red). Colors typically reference photon energies near or above these gaps."
+        },
+        {
+            "number": "00032",
+            "question": "What is the mechanism behind Young's modulus in an elastomer or polymer compared to that of metals?",
+            "key": "For metals, Young’s modulus arises from strong metallic bonding in a crystalline lattice. In polymers/elastomers, it’s from covalent backbone bonds plus chain entanglements/crosslinks. Polymers typically have lower moduli due to more molecular freedom."
+        },
+        {
+            "number": "00033",
+            "question": "What are optical fibers? How are they used? What type of structures are possible?",
+            "key": "Optical fibers are thin strands of glass or plastic with a high core refractive index and lower cladding index to guide light by total internal reflection. They’re used in telecommunications, sensors, and various waveguide applications."
+        },
+        {
+            "number": "00034",
+            "question": "Why is a graded fiber better than a step fiber?",
+            "key": "A graded-index fiber gradually changes the refractive index in the radial direction, reducing mode dispersion. It improves signal quality compared to step-index, where abrupt boundary can cause higher modal dispersion."
+        },
+        {
+            "number": "00035",
+            "question": "How does tempered glass shatter?",
+            "key": "Tempered glass has a high surface compressive stress layer. When shattered, it breaks into small, relatively harmless fragments, due to the release of stored internal stress."
+        },
+        {
+            "number": "00036",
+            "question": "How to strengthen glass?",
+            "key": "Glass strengthening methods include tempering (creating surface compressive layers), chemical strengthening (ion exchange to create compressive stress at the surface), or laminates (bonding with polymer layers)."
+        },
+        {
+            "number": "00037",
+            "question": "How do you make a laser?",
+            "key": "Making a laser requires: a gain medium, an energy pump source, and a resonant optical cavity for feedback. Stimulated emission amplifies photons, producing coherent light at the resonant frequency."
+        },
+        {
+            "number": "00038",
+            "question": "How are polymers made?",
+            "key": "Polymers can be formed by addition (chain-growth) polymerization (e.g. free radical) or condensation (step-growth) reactions. Monomers link together, forming long chains with possible branching or crosslinking."
+        },
+        {
+            "number": "00039",
+            "question": "Why is an elastomer elastic?",
+            "key": "Elastomers have coiled polymer chains that uncoil under tension but are constrained by crosslinks, allowing reversible stretch. Entropic elasticity drives the chains to recoil once stress is removed."
+        },
+        {
+            "number": "00040",
+            "question": "Why does p-type semiconductor have higher conductivity than intrinsic at room temperature?",
+            "key": "A p-type semiconductor has acceptor levels near the valence band, boosting hole concentrations above intrinsic level. At room temperature, many acceptors are ionized, so hole conductivity is higher than in undoped (intrinsic) material."
+        },
+        {
+            "number": "00041",
+            "question": "What is the conductivity of doped silica versus temperature?",
+            "key": "Doped silica (e.g. with impurities) has low conductivity at room temperature but might rise slightly with T due to activated carriers. Generally remains quite insulating unless doping is heavy, but conduction is still small compared to typical semiconductors."
+        },
+        {
+            "number": "00042",
+            "question": "Why do lamellae form in the eutectic composition? What happens to the lamellae when cooled quickly? What happens to the lamellae when cooled slowly?",
+            "key": "Eutectic lamellae form to minimize diffusion distance and interfacial energy. Rapid cooling can produce finer lamellae or even metastable structures; slow cooling yields coarser lamellae with well-defined alternating phases."
+        },
+        {
+            "number": "00043",
+            "question": "Explain the bonding and mechanical properties of metals, ceramics, and polymers. Explain their stiffness based on their Young's moduli.",
+            "key": "Metals: metallic bonding → ductile, moderate hardness, high conductivity. Ceramics: ionic/covalent → high stiffness, brittleness, high melting points. Polymers: covalent chains + weak secondary bonds → lower stiffness, can be flexible or tough. Their Young’s moduli reflect bond strength and molecular structure."
+        },
+        {
+            "number": "00044",
+            "question": "Explain the microstructural changes in rubber as it stretches.",
+            "key": "As rubber stretches, chains align along the stress direction. Crosslinks prevent permanent flow, so it’s mostly entropic elasticity rather than bond stretching. Above a certain strain, oriented chains can carry more load."
+        },
+        {
+            "number": "00045",
+            "question": "Why is there a restoring force in rubber (as it stretches)?",
+            "key": "The restoring force is entropic; random-coil configurations are favored. Stretching reduces chain conformational entropy, so when released, chains spontaneously recoil to maximize entropy."
+        },
+        {
+            "number": "00046",
+            "question": "If you have 1% Al in Ge, what's the carrier concentration?",
+            "key": "1% Al in Ge doping suggests an acceptor concentration near 1% of atomic sites if fully activated. This is ~10^20 cm^-3 doping if 1% is relative to Ge atomic density (~10^22 cm^-3)."
+        },
+        {
+            "number": "00047",
+            "question": "What's the crystal structure of carbon? What is that material?",
+            "key": "Carbon can adopt diamond cubic (sp3 bonding, e.g. diamond) or layered hexagonal (sp2, graphite). Diamond is a 3D covalent network (hard insulator). Graphite is layered with van der Waals between sheets."
+        },
+        {
+            "number": "00048",
+            "question": "What are the components and phases in the brass phase diagram?",
+            "key": "Brass is a Cu–Zn alloy. Phases include α (rich in Cu), β (higher Zn), etc. The phase diagram shows regions for α, β, (α+β), etc., depending on Zn content and temperature."
+        },
+        {
+            "number": "00049",
+            "question": "(Al-Ge eutectic phase diagram:) If you are at a point in the alpha + liquid region, and you used XRD to determine composition of the alpha phase, what would it be? Then, if you cooled to a temperature below that previous point, how would you find the compositions of alpha in the primary alpha phase and the eutectic alpha phase?",
+            "key": "XRD on α in α+liquid region gives the α-phase composition at that temperature (tie line to α boundary). Upon further cooling into a two-phase field (α + eutectic), you use the new tie line to find the compositions of primary α and eutectic α separately."
+        },
+        {
+            "number": "00050",
+            "question": "Where is the peritectic reaction? What is the reaction?",
+            "key": "A peritectic reaction is typically Liquid + α → β at some composition. It’s found at a point where the liquid, one solid phase, and another solid phase coexist, forming a new solid phase upon cooling."
+        },
+        {
+            "number": "00051",
+            "question": "Describe the orbitals of different atoms in the second period of the periodic table.",
+            "key": "Second period atoms (Li to Ne) fill 2s and 2p orbitals. E.g. Li has 2s1, Be 2s2, B 2s2 2p1, up to Ne 2s2 2p6. The p orbitals can hold up to 6 electrons with shapes oriented along x,y,z."
+        },
+        {
+            "number": "00052",
+            "question": "What are the different types of primary bonds in materials?",
+            "key": "Primary bonds: ionic (electron transfer), covalent (shared electrons), metallic (delocalized electron cloud). They strongly influence mechanical, thermal, and electrical properties in solids."
+        },
+        {
+            "number": "00053",
+            "question": "Why do some atoms form ionic bonds?",
+            "key": "Ionic bonds form when the electronegativity difference is large, causing one atom (metal) to lose electrons and another (nonmetal) to gain them, creating cations and anions attracted by electrostatic forces."
+        },
+        {
+            "number": "00054",
+            "question": "Explain the DBTT in FCC metals.",
+            "key": "FCC metals typically don’t exhibit a pronounced DBTT (they stay ductile at low T). BCC or HCP metals show DBTT. In FCC, easy slip systems maintain ductility, so DBTT is negligible."
+        },
+        {
+            "number": "00055",
+            "question": "What are the categories we use for electronic materials?",
+            "key": "Electronic materials are often classified as conductors, semiconductors, and insulators, or subdivided into groups like elemental semiconductors (Si, Ge), compound semiconductors (GaAs), dielectrics, etc."
+        },
+        {
+            "number": "00056",
+            "question": "Explain tetrahedral sites.",
+            "key": "Tetrahedral sites are voids in close-packed structures (FCC, HCP) surrounded by four atoms forming a tetrahedron. In FCC, there are 8 tetrahedral sites per unit cell, used by small interstitials (e.g. C in Fe)."
+        },
+        {
+            "number": "00057",
+            "question": "What does the unit cell of silicon look like?",
+            "key": "Silicon’s unit cell is diamond cubic with each atom covalently bonded to 4 neighbors in a tetrahedral arrangement. It’s essentially two interpenetrating FCC lattices offset by ¼ of a diagonal."
+        },
+        {
+            "number": "00058",
+            "question": "What are the bandgap and color of silicon?",
+            "key": "Silicon’s bandgap is ~1.1 eV (indirect). It’s transparent in the IR range and absorbs in the near IR/visible (though poorly). Its “color” is grayish due to reflection from conduction-band transitions and surface oxide films."
+        },
+        {
+            "number": "00059",
+            "question": "What's copper's color and why?",
+            "key": "Copper is reddish-orange due to interband transitions (d-electron to conduction band) in visible light range. Reflection and partial absorption of certain wavelengths produce its characteristic color."
+        },
+        {
+            "number": "00060",
+            "question": "What's the wavelength of light regarding a silicon solar cell?",
+            "key": "Silicon solar cells absorb near 1.1 eV (λ ~ 1100 nm) and shorter wavelengths (visible, near IR). The maximum absorption efficiency is for photons with energy ≥ bandgap (roughly up to near IR region)."
+        },
+        {
+            "number": "00061",
+            "question": "What do the microstructures look like for eutectic cooling?",
+            "key": "Eutectic microstructures show alternate lamellae or rod-like colonies of two phases. Under the microscope, it appears as fine, interleaved phases. The exact morphology depends on growth rates and relative phase fractions."
+        },
+        {
+            "number": "00062",
+            "question": "What do the intensity vs. wavelength profiles look like for both a step-index and a graded-index fiber? Why are these profiles different?",
+            "key": "Step-index fiber has a sharp refractive index change at core–cladding boundary, causing higher modal dispersion. Graded-index fiber’s index gradually decreases from center to edge, reducing dispersion and smoothing out the intensity vs. wavelength distribution."
+        },
+        {
+            "number": "00063",
+            "question": "How do you define the molecular weight of a polymer?",
+            "key": "Polymer molecular weight is typically defined by average measures (Mn, Mw). Mn = total mass of polymer / total number of molecules; Mw weights larger chains more. Polydispersity (Mw/Mn) indicates distribution breadth."
+        },
+        {
+            "number": "00064",
+            "question": "How does doping affect conductivity?",
+            "key": "Doping introduces free carriers (electrons/holes) in a semiconductor, dramatically increasing conductivity (σ = nqμ). More dopant atoms mean more carriers, raising conductivity, up to doping solubility limits."
+        },
+        {
+            "number": "00065",
+            "question": "What are two examples of semiconductors? What are their band gaps?",
+            "key": "Examples: Silicon (~1.1 eV) and Germanium (~0.66 eV), or GaAs (~1.42 eV). Each band gap dictates electronic/optical properties (e.g. IR vs. near IR emission)."
+        },
+        {
+            "number": "00066",
+            "question": "Which extrinsic semiconductor type does GaAs become if B is added?",
+            "key": "Boron (group III) in GaAs acts as an acceptor, creating p-type doping if it substitutes for Ga sites. This leaves holes as the majority carriers."
+        },
+        {
+            "number": "00067",
+            "question": "What are two ways to make a polymer?",
+            "key": "Polymers can be made via chain-growth (free radical, cationic, anionic) or step-growth (condensation) polymerization. Another way is ring-opening polymerization for cyclic monomers."
+        },
+        {
+            "number": "00068",
+            "question": "How does diffusivity change with temperature?",
+            "key": "Diffusivity generally follows an Arrhenius relation D = D₀ exp(-Q/RT). As temperature increases, atomic mobility goes up, so diffusivity rises exponentially."
+        },
+        {
+            "number": "00069",
+            "question": "What's the DBTT?",
+            "key": "DBTT (Ductile-to-Brittle Transition Temperature) is the temperature below which a normally ductile material (usually BCC steels) fractures in a brittle manner due to limited dislocation mobility."
+        },
+        {
+            "number": "00070",
+            "question": "Why do BCC materials exhibit DBTT?",
+            "key": "BCC metals have fewer close-packed slip systems at low T, raising the stress needed for plastic flow. This leads to sudden brittleness below a critical temperature (DBTT)."
+        },
+        {
+            "number": "00071",
+            "question": "How can you dope GaAs to be p-type?",
+            "key": "To dope GaAs p-type, introduce acceptor impurities like Zn, Be, or Mg which substitute for Ga and create holes in the valence band."
+        },
+        {
+            "number": "00072",
+            "question": "In an extrinsic semiconductor, how does carrier concentration change with temperature?",
+            "key": "At lower T, few impurities ionize fully, so carrier concentration is lower. As T rises, dopant ionization and intrinsic excitation can increase carriers. Eventually, the material becomes intrinsic-like at high T."
+        },
+        {
+            "number": "00073",
+            "question": "What are the bandgaps for Si and GaAs?",
+            "key": "Si ~1.1 eV (indirect), GaAs ~1.42 eV (direct). The difference affects optical emission/absorption properties (GaAs is better for LEDs/lasers)."
+        },
+        {
+            "number": "00074",
+            "question": "How is tempered glass made?",
+            "key": "Tempered glass is made by heating glass to above its strain point then rapidly cooling the surfaces, inducing compressive stress on the outside and tensile stress inside, increasing its strength."
+        },
+        {
+            "number": "00075",
+            "question": "What's the difference between a semiconductor laser and an LED?",
+            "key": "A semiconductor laser has stimulated emission and resonant feedback, producing coherent narrow-line light. An LED emits incoherent light via spontaneous recombination with broader spectrum and no resonant cavity."
+        },
+        {
+            "number": "00076",
+            "question": "How can you prevent signal loss through dispersion?",
+            "key": "Signal loss through dispersion can be minimized using graded-index fibers or single-mode fibers. Pulse shaping, lower numerical aperture, or dispersion compensation techniques also reduce broadening of signals."
+        },
+        {
+            "number": "00077",
+            "question": "How does an optical fiber's structure relate to refractive indices?",
+            "key": "In a fiber, the core has a higher refractive index than the cladding, ensuring total internal reflection. Graded-index adjusts n radially, reducing modal dispersion for more efficient light transmission."
+        },
+        {
+            "number": "00078",
+            "question": "What are optical fibers made out of?",
+            "key": "Optical fibers are usually made from silica-based glass, sometimes doped with germanium or boron for index control. Plastic fibers exist but with higher losses, used mainly for short distances."
+        },
+        {
+            "number": "00079",
+            "question": "What does the cross-section of an optical fiber look like?",
+            "key": "A standard fiber cross-section has a central core region (higher n) surrounded by cladding (lower n). A buffer/coating adds mechanical protection. Graded or step index profile is within the core/cladding."
+        },
+        {
+            "number": "00080",
+            "question": "What are three kinds of polymers? How do they differ structurally? What do their stress vs. strain curves look like?",
+            "key": "Thermoplastics (linear or branched chains), thermosets (heavily crosslinked), and elastomers (lightly crosslinked). Thermoplastics can be ductile or semi-crystalline, thermosets are rigid/brittle, elastomers stretch extensively. Stress–strain: thermoplastics show plastic flow, thermosets fracture at low strain, elastomers show large elastic region."
+        },
+        {
+            "number": "00081",
+            "question": "How would rubber's stress vs. strain curve change with vulcanization?",
+            "key": "Vulcanization adds crosslinks, raising stiffness and reducing permanent set. The stress–strain curve gets steeper (higher modulus) and can show more resilience, limiting irreversible deformation."
+        },
+        {
+            "number": "00082",
+            "question": "How can you strengthen a material?",
+            "key": "Strengthening methods: grain refinement, solid solution hardening, precipitation hardening, work hardening, dispersion strengthening, fiber reinforcement in composites, or surface treatments (shot peening, carburizing)."
+        },
+        {
+            "number": "00083",
+            "question": "How would you get beta-precipitate particle hardening in the alpha phase?",
+            "key": "Beta precipitates in an alpha matrix are formed by aging after solution treatment. Solute atoms cluster to form beta-phase particles, hindering dislocation motion and strengthening the alpha phase."
+        },
+        {
+            "number": "00084",
+            "question": "What's specific volume?",
+            "key": "Specific volume is volume per unit mass (1/ρ). For solids, changes in specific volume relate to expansions/contractions (thermal expansion, phase changes, etc.)."
+        },
+        {
+            "number": "00085",
+            "question": "Why are ceramics brittle and metals ductile?",
+            "key": "Ceramics have strong directional ionic/covalent bonds with limited slip systems → brittle. Metals have metallic bonds with abundant slip systems → ductile. This difference in plasticity is key to fracture behavior."
+        },
+        {
+            "number": "00086",
+            "question": "What does the microstructure look like when cooling from a liquid to a terminal solid solution?",
+            "key": "Cooling from liquid to a terminal solid solution yields primary solid grains plus possible secondary phases if the solubility limit is exceeded. You see dendritic or equiaxed grains, then any remaining liquid forms second-phase or eutectic structures."
+        },
+        {
+            "number": "00087",
+            "question": "How do the electronic and mechanical properties for an alloy and a metal differ?",
+            "key": "Alloys may have altered electron scattering (due to solute atoms) and mechanical strengthening (solid solution or precipitates) compared to pure metals. So conductivity usually drops, while strength can rise."
+        },
+        {
+            "number": "00088",
+            "question": "What's the frequency dependence of a dielectric?",
+            "key": "A dielectric’s polarization response depends on frequency. At low freq, dipoles orient; at high freq (IR/optical), only electronic polarization remains. So the permittivity decreases with rising frequency."
+        },
+        {
+            "number": "00089",
+            "question": "How do the different bonds in metals, polymers, and ceramics lead to their mechanical properties?",
+            "key": "Metals (metallic bonding) are ductile and tough. Polymers (covalent chains + secondary bonds) can be flexible or brittle depending on crosslinks. Ceramics (ionic/covalent) are stiff and hard but brittle. Bond nature sets slip availability and toughness."
+        },
+        {
+            "number": "00090",
+            "question": "Explain how an optical fiber works.",
+            "key": "Optical fibers confine light in a high-index core, surrounded by lower-index cladding. Light repeatedly undergoes total internal reflection. Minimal attenuation and dispersion enable long-distance signal transmission."
+        },
+        {
+            "number": "00091",
+            "question": "What does the isotactic configuration of polystyrene look like?",
+            "key": "Isotactic polystyrene has all phenyl side groups on the same side of the polymer backbone. This arrangement can enhance crystallinity compared to atactic or syndiotactic forms."
+        },
+        {
+            "number": "00092",
+            "question": "What happens at a molecular level during polymer stretching?",
+            "key": "During stretching, polymer chains uncoil/orient along the stress. If the polymer is above Tg or has low crosslinking, segments can slide past each other. On unloading, chains may recoil if permanent damage hasn’t occurred."
+        },
+        {
+            "number": "00093",
+            "question": "What's the structure of polystyrene?",
+            "key": "Polystyrene has a hydrocarbon backbone with every other carbon bearing a phenyl (C6H5) group. It can be amorphous with Tg around 100°C. Stereoregularity affects crystallinity."
+        },
+        {
+            "number": "00094",
+            "question": "Why do brittle polymers behave the way they do?",
+            "key": "Brittle polymers may have high Tg, strong intermolecular forces, or chain stiffness, allowing minimal chain mobility. Once stress exceeds a certain point, cracks form with little plastic deformation."
+        },
+        {
+            "number": "00095",
+            "question": "Why do elastomers behave the way they do?",
+            "key": "Elastomers have coiled polymer chains lightly crosslinked, allowing large elastic extension and entropic retraction. Low glass transition temperatures keep them rubbery at ambient conditions."
+        },
+        {
+            "number": "00096",
+            "question": "How is vulcanization different from making a rigid plastic?",
+            "key": "Vulcanization adds sulfur crosslinks to rubber, increasing elasticity but not to the extent of rigid plastics (which are heavily crosslinked or have high Tg). Vulcanized rubber remains flexible, not rigid."
+        },
+        {
+            "number": "00097",
+            "question": "If you vulcanize rubber, what happens?",
+            "key": "Vulcanized rubber gains crosslinks, improving elasticity, thermal stability, and mechanical strength. It becomes more resilient and less sticky or prone to flow at elevated temperature."
+        },
+        {
+            "number": "00098",
+            "question": "Describe the differences between metals, semiconductors, and insulators.",
+            "key": "Metals have partially filled bands, good conductivity, ductility. Semiconductors have moderate band gaps, conduction via thermally or dopant-excited carriers. Insulators have large band gaps, negligible free carriers, poor conductivity."
+        },
+        {
+            "number": "00099",
+            "question": "How are p-type and n-type semiconductors made?",
+            "key": "p-type is made by acceptors (e.g. B in Si). n-type by donors (e.g. P in Si). Doping shifts the Fermi level closer to valence or conduction band, boosting holes or electrons."
+        },
+        {
+            "number": "00100",
+            "question": "How is glass made?",
+            "key": "Glass is typically made by melting silica with modifiers (soda, lime) at high temperature, then shaping (blowing, rolling, floating) and cooling. The melt cools into an amorphous, non-crystalline solid."
+        },
+        {
+            "number": "00101",
+            "question": "How do polymers deform?",
+            "key": "Polymers deform by chain rotation, sliding, or unfolding. Above Tg, segments can move, leading to ductile/viscoelastic behavior. Below Tg, movement is restricted, causing brittle or glassy behavior."
+        }
+    ]
+}

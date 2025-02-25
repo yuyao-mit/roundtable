@@ -1,0 +1,450 @@
+{
+  "total": 89,
+  "data": [
+    {
+      "number": "00001",
+      "question": "What are the Interstitial and substitutional diffusion? What is the difference with self-diffusion? What is the driving force?",
+      "key": "Interstitial diffusion involves small atoms moving through interstitial sites in a lattice (e.g. carbon in iron). Substitutional diffusion requires atoms exchanging places with vacancies in the host lattice (e.g. copper in nickel). Self-diffusion is the movement of atoms in a pure element within its own lattice. The driving force for all diffusion is the gradient in chemical potential (or concentration)."
+    },
+    {
+      "number": "00002",
+      "question": "What is the Kirkendall effect?",
+      "key": "The Kirkendall effect describes the shift of a marker plane in a diffusion couple due to unequal diffusivities of the two species. More mobile atoms diffuse faster, leaving behind vacancies that coalesce on the slower-diffusing side, causing the interface (and markers) to move."
+    },
+    {
+      "number": "00003",
+      "question": "What is the definition of a phase and how it relates to diffusion?",
+      "key": "A phase is a region of material with uniform chemical composition and physical properties, separated by boundaries from other such regions. Diffusion can occur within a single phase or across phase boundaries, influencing how composition or structure evolves over time."
+    },
+    {
+      "number": "00004",
+      "question": "For Gold/silver and water/oil, what are the differences in Gibbs free energy and enthalpy, and how is it affected by temperature and entropy?",
+      "key": "Gold and silver are fully miscible with nearly ideal solution behavior (low enthalpy of mixing). Water and oil are immiscible with a large positive enthalpy (or unfavorable interactions) dominating over entropy, leading to phase separation. Temperature changes can tip the balance by affecting entropy, but water/oil typically stay phase-separated."
+    },
+    {
+      "number": "00005",
+      "question": "If we raise the temperature of a lattice with vacancies, will the vacancy concentration increase? If we have a perfect crystal, where would the vacancies come from and how would they diffuse into the lattice?",
+      "key": "Vacancy concentration increases exponentially with temperature (Cv ~ exp(–Qv/RT)). Even in a nominally perfect crystal, thermal agitation creates some equilibrium vacancies. They can diffuse from the surface or dislocation sources into the lattice. As T increases, more vacancies form and move throughout the material."
+    },
+    {
+      "number": "00006",
+      "question": "What is the difference between interstitial and substitutional diffusion? How would substitutional diffusion work?",
+      "key": "Interstitial diffusion is when a smaller solute atom moves through interstitial sites. Substitutional diffusion occurs when a solute atom exchanges places with a vacancy in the host lattice. Substitutional diffusion generally has higher activation energy because it requires vacancies and coordination of atomic jumps."
+    },
+    {
+      "number": "00007",
+      "question": "What is self-diffusion and what is the driving force?",
+      "key": "Self-diffusion is atomic motion in a pure element (e.g. copper atoms diffusing in pure copper). The driving force is any gradient in chemical potential or concentration (for instance, a non-uniform distribution of isotopes). In equilibrium, random jumps still occur but net flux can be zero."
+    },
+    {
+      "number": "00008",
+      "question": "What is the critical radius for a solid-liquid nucleation system and derive it.",
+      "key": "For solid–liquid nucleation, a nucleus forms if r ≥ r* (the critical radius). r* = –2γ / ΔGv, where γ is the solid–liquid interfacial energy and ΔGv is the volumetric free energy change. At r*, the nucleus can spontaneously grow instead of dissolve."
+    },
+    {
+      "number": "00009",
+      "question": "What is spinodal decomposition? What is the driving force?",
+      "key": "Spinodal decomposition is a phase separation process occurring inside the spinodal region where small composition fluctuations spontaneously grow. The driving force is the negative curvature of the free energy vs. composition (∂²G/∂c² < 0), making the system unstable and prone to decompose into two coexisting phases."
+    },
+    {
+      "number": "00010",
+      "question": "Derive the grain growth equation with respect to time. What is the grain diameter to time relationship? Why is it logarithmic? Why does it slow down eventually?",
+      "key": "Grain growth can be described by Dⁿ – D₀ⁿ = k·t (often n=2). Typically, D² ∝ t. Early on, grains grow quickly (logarithmic rise in size), but the driving force (grain boundary curvature) diminishes as grains get larger, slowing further growth."
+    },
+    {
+      "number": "00011",
+      "question": "What are the diffusion coefficients of interstitial and substitutional diffusion and why are they different?",
+      "key": "Interstitial diffusion coefficients are generally higher than substitutional ones because interstitial atoms move through less constrained paths. Substitutional diffusion requires vacancy migration and higher activation energies, giving a lower diffusion coefficient."
+    },
+    {
+      "number": "00012",
+      "question": "What are semi-coherent and incoherent interface definitions?",
+      "key": "A semicoherent interface has partial lattice matching with a periodic network of misfit dislocations that relieve strain. An incoherent interface has negligible atomic matching: the lattices do not align, and continuity of structure is lost at the interface."
+    },
+    {
+      "number": "00013",
+      "question": "What is the Avrami equation? How to derive this?",
+      "key": "The Avrami equation (Johnson–Mehl–Avrami–Kolmogorov) describes the fraction transformed (X) in a phase transformation: X = 1 – exp(–k tⁿ). It’s derived by combining nucleation and growth rates under the assumption of random nucleation and isotropic growth."
+    },
+    {
+      "number": "00014",
+      "question": "What are the effects of particles on grain growth?",
+      "key": "Particles (e.g. second-phase particles) can pin grain boundaries (Zener pinning), reducing grain boundary mobility and slowing or halting grain growth. The particle–boundary interactions limit boundary motion, resulting in smaller grain sizes."
+    },
+    {
+      "number": "00015",
+      "question": "Can interstitial diffusion only be small atoms?",
+      "key": "Yes, interstitial diffusion typically involves atoms smaller than the host lattice interstices, such as hydrogen, carbon, or nitrogen in metals. Larger atoms generally cannot occupy interstitial sites without significant lattice distortion."
+    },
+    {
+      "number": "00016",
+      "question": "What is steady and non-steady diffusion?",
+      "key": "Steady-state diffusion means the flux does not change with time (dC/dt=0 at each position), often described by Fick’s First Law. Non-steady (transient) diffusion means concentrations and fluxes vary with time, governed by Fick’s Second Law."
+    },
+    {
+      "number": "00017",
+      "question": "If heated for a while, how will the concentration profile change?",
+      "key": "Over time, a concentration profile becomes flatter as diffusion proceeds. High-concentration regions diffuse into low-concentration areas. The longer the heating time, the more uniform the composition, approaching eventual equilibrium or a steady gradient."
+    },
+    {
+      "number": "00018",
+      "question": "What is the meaning of x=√(Dt)?",
+      "key": "x = √(Dt) is the characteristic diffusion distance after time t with diffusivity D. It indicates the scale over which atoms move or concentration gradients relax within that timeframe."
+    },
+    {
+      "number": "00019",
+      "question": "Give me the ratio between atomic fluxes in an interdiffusion couple.",
+      "key": "In an interdiffusion couple, flux ratio depends on the intrinsic diffusivities (D*A, D*B) and concentrations. For example, JA : JB = –(D*A / D*B), if local composition is uniform. Exact ratio can follow Darken’s equations, capturing how each species moves."
+    },
+    {
+      "number": "00020",
+      "question": "Explain the forces on a grain boundary. What's the torque term? How do you derive it?",
+      "key": "A grain boundary has boundary tension (γ), and curvature exerts a capillary driving force. The torque term arises from anisotropy of boundary energy with orientation. Mathematically, dγ/dθ can produce a restoring torque to minimize overall energy."
+    },
+    {
+      "number": "00021",
+      "question": "Using Darken's equations, can you describe the Kirkendall effect?",
+      "key": "Darken’s equations relate fluxes of species to the interdiffusion coefficient and chemical potentials. The Kirkendall effect is explained by differences in intrinsic diffusivities, causing net vacancy flow and marker movement despite overall material continuity."
+    },
+    {
+      "number": "00022",
+      "question": "Distinguish between nucleation in a liquid and nucleation in a solid. Derive the free energy, critical radius, and critical free energy. Derive the nucleation rate for each.",
+      "key": "In liquids, nucleation typically has lower shear strength for interface rearrangements, so the free-energy barrier often differs from solid nucleation, which requires more lattice distortion. The critical radius r* = –2γ / ΔGv is similar, but heterogeneous sites in solids can reduce the barrier. Nucleation rate follows an Arrhenius term e^(–ΔG* / kT) multiplied by attempt frequencies and site densities."
+    },
+    {
+      "number": "00023",
+      "question": "Based on Fick's first law, show me the diffusion length for substitutional and interstitial diffusion in an FCC crystal.",
+      "key": "From Fick’s First Law, the diffusion length ~ √(Dt). For interstitial in FCC (e.g. C in Fe), D is higher, so deeper penetration for given t. For substitutional in FCC, D is lower, so the √(Dt) distance is smaller."
+    },
+    {
+      "number": "00024",
+      "question": "Why do you see nucleation rates at greater undercooling and growth at less undercooling?",
+      "key": "Nucleation rate is highest at greater undercooling (larger driving force), but growth is diffusion-limited and slows if temperature is too low. At smaller undercooling, growth is faster, yet nucleation is lower, leading to competition between the two rates."
+    },
+    {
+      "number": "00025",
+      "question": "Compare the nucleation rates for solidification from a melt and precipitation in a solid. Can you bring in undercooling, either as a concept or a mathematical formula?",
+      "key": "Solidification from melt can show significant undercooling, spurring high nucleation rates. Precipitation in solids often sees a smaller chemical driving force and slower atomic mobility, leading to lower nucleation rates. Undercooling concept applies similarly, but in a solid, the diffusion is slower, affecting how quickly nuclei form and grow."
+    },
+    {
+      "number": "00026",
+      "question": "What are the forces on grain boundaries? Explain each.",
+      "key": "Grain boundaries experience: 1) Capillary force due to boundary curvature (γ), 2) Torque from anisotropic boundary energy, 3) Impingement by particles or second phases (pinning). Each force can drive or resist boundary migration, influencing grain evolution."
+    },
+    {
+      "number": "00027",
+      "question": "Derive an expression showing the time dependency of grain growth.",
+      "key": "Grain growth often follows D² – D₀² = k t. The derivation uses boundary mobility M and boundary curvature 1/D, so dD/dt ∝ Mγ/D, integrating yields D² ∝ t."
+    },
+    {
+      "number": "00028",
+      "question": "Derive the JMA equation.",
+      "key": "The Johnson–Mehl–Avrami (JMA) equation X(t) = 1 – exp(–k tⁿ) is derived by considering random nucleation and radially growing new-phase regions with possible overlap. Integrating over time and space leads to the Avrami form."
+    },
+    {
+      "number": "00029",
+      "question": "What is spinodal decomposition?",
+      "key": "Spinodal decomposition is a phase separation mechanism in the unstable region of a free energy curve (∂²G/∂c² < 0) where small composition fluctuations grow spontaneously without a nucleation barrier."
+    },
+    {
+      "number": "00030",
+      "question": "Johnson-Mehl-Avrami equation derivation.",
+      "key": "The Johnson–Mehl–Avrami (JMA) equation is derived by integrating nucleation and growth events over time, accounting for overlap of growing regions. It yields X = 1 – exp(–k tⁿ), describing transformation fraction versus time."
+    },
+    {
+      "number": "00031",
+      "question": "Tell me about a coherent vs. semicoherent interface. How would you determine the spacing between dislocations of a semicoherent interface?",
+      "key": "A coherent interface has perfect lattice continuity (no misfit dislocations) across the boundary, leading to elastic strain if lattices differ slightly. Semicoherent interfaces form arrays of misfit dislocations at intervals determined by the mismatch; spacing is roughly given by b divided by the misfit strain."
+    },
+    {
+      "number": "00032",
+      "question": "Explain eutectic solidification and the critical lamellar spacing.",
+      "key": "Eutectic solidification involves simultaneous growth of two phases from the melt at the eutectic composition. The lamellar spacing is the interphase spacing that minimizes the total free energy from the interface and diffusion fields, derived by balancing interface energy with diffusion constraints."
+    },
+    {
+      "number": "00033",
+      "question": "How would you measure the surface energy of a material?",
+      "key": "Surface energy can be measured by techniques such as the sessile drop method (using contact angle measurements), the drop weight method, or fracture methods that relate crack propagation to surface energy."
+    },
+    {
+      "number": "00034",
+      "question": "What would happen to a grain with 6 sides?",
+      "key": "A grain with exactly 6 sides (in 2D) is topologically stable with zero net curvature driving force from a purely topological standpoint, though local conditions may still cause slight changes."
+    },
+    {
+      "number": "00035",
+      "question": "What happens to a grain if it has fewer than 6 sides?",
+      "key": "In a 2D microstructure, a grain with fewer than 6 sides typically shrinks over time due to a net positive curvature driving the boundary inward."
+    },
+    {
+      "number": "00036",
+      "question": "What happens to a grain if it has more than 6 sides?",
+      "key": "In a 2D microstructure, a grain with more than 6 sides tends to grow because it has a net negative curvature driving the boundary outward, increasing its area."
+    },
+    {
+      "number": "00037",
+      "question": "Talk about tilt and twist boundaries.",
+      "key": "Tilt boundaries are formed by arrays of edge dislocations with axes parallel to the boundary line, whereas twist boundaries consist of networks of screw dislocations. Both types accommodate misorientation between grains but differ in dislocation character and geometry."
+    },
+    {
+      "number": "00038",
+      "question": "Why does uphill diffusion happen?",
+      "key": "Uphill diffusion occurs when the flux is driven by a gradient in chemical potential that overrides the concentration gradient, such as in spinodal decomposition where negative curvature of free energy leads to diffusion from low to high concentration regions."
+    },
+    {
+      "number": "00039",
+      "question": "If we want to carburize something and we know the depth of carburization is 0.5 mm, the concentration source is given, and the processing time is 24 hours, what's the minimum processing temperature?",
+      "key": "Given the relation x ≈ √(Dt) with x = 0.5 mm and t = 24 hours, one can solve for the required diffusion coefficient D. Then, using the Arrhenius relationship D = D₀ exp(–Q/RT), the minimum temperature is determined such that D is high enough to achieve the desired penetration."
+    },
+    {
+      "number": "00040",
+      "question": "If you have one atomic layer of Ni on a Si wafer that's 1 mm thick, what does the concentration profile look like after 30 minutes at 1000°C? What does the numerical solution look like? What happens after an hour?",
+      "key": "Given the extreme thinness of one atomic layer compared to 1 mm, diffusion will create a very shallow gradient. After 30 minutes at 1000°C, a Gaussian-like profile with most Ni concentrated near the surface is expected; after an hour, the diffusion layer becomes slightly thicker but remains a small fraction of 1 mm."
+    },
+    {
+      "number": "00041",
+      "question": "What's the physical meaning of the correlation factor? Why would it want to jump back to its previous position?",
+      "key": "The correlation factor accounts for the fact that after an atom jumps, there is a finite probability it will jump back to its original site due to the geometry of diffusion paths. This factor reduces the net diffusion flux compared to completely random, uncorrelated jumps."
+    },
+    {
+      "number": "00042",
+      "question": "On a Si-O phase diagram, where is the melting point of silicon?",
+      "key": "On a Si–O phase diagram, the melting point of elemental silicon is about 1414°C."
+    },
+    {
+      "number": "00043",
+      "question": "What happens if we heat a brick of pure silicon and one brick of silicon with oxygen interstitials to 1350°C? What's the difference if they're heated to 1200°C instead?",
+      "key": "At 1350°C, pure silicon remains solid near its melting point, whereas silicon with oxygen interstitials may exhibit slight changes in properties due to oxygen-induced defects or oxide formation. At 1200°C, both remain solid, but the oxygen-containing silicon may show differences in diffusion or electrical behavior."
+    },
+    {
+      "number": "00044",
+      "question": "Talk about interstitial diffusion versus substitutional diffusion in a metal (like Cu or Ni) and in a nonmetal (like Si or P).",
+      "key": "In metals (e.g. Cu, Ni), interstitial diffusion is typically for small atoms like C or H, while substitutional diffusion involves atoms exchanging with vacancies. In nonmetals such as Si, interstitial diffusion can occur for small dopants, whereas substitutional diffusion is important for elements like P replacing Si in the lattice."
+    },
+    {
+      "number": "00045",
+      "question": "What do the graphs of ln(D) versus 1/T look like for interstitial and substitutional diffusion? Why are they different?",
+      "key": "Plots of ln(D) vs. 1/T are linear according to the Arrhenius relation. Interstitial diffusion typically has a lower activation energy (less steep slope) and higher D values, while substitutional diffusion has a higher activation energy, resulting in a steeper slope and lower D at the same temperature."
+    },
+    {
+      "number": "00046",
+      "question": "What's the relation between interstitial diffusion, atomic packing density, atomic size, interstitial size, and solute size?",
+      "key": "Interstitial diffusion is favored when the solute atom is significantly smaller than the interstitial sites in a densely packed lattice. A high atomic packing density means smaller interstitial spaces, so only very small atoms can diffuse interstitially efficiently."
+    },
+    {
+      "number": "00047",
+      "question": "Explain substitutional diffusion in Si and P.",
+      "key": "In silicon, substitutional diffusion of phosphorus involves P atoms replacing Si atoms in the lattice. This process requires vacancies and an energy input to overcome the activation barrier for the atom to jump from one lattice site to another."
+    },
+    {
+      "number": "00048",
+      "question": "Why does substitutional diffusion happen more easily in P than it does in Si?",
+      "key": "Phosphorus is smaller than silicon and may more easily form the necessary defects (such as vacancies or interstitialcy complexes), lowering the effective activation energy for substitutional diffusion compared to larger atoms in the Si lattice."
+    },
+    {
+      "number": "00049",
+      "question": "Define coherent, semicoherent, and incoherent interfaces.",
+      "key": "Coherent interfaces have perfect lattice matching across the boundary, resulting in elastic strain. Semicoherent interfaces have partial matching with periodic misfit dislocations relieving the strain. Incoherent interfaces lack significant lattice matching and exhibit an abrupt change in structure."
+    },
+    {
+      "number": "00050",
+      "question": "How can you form a coherent interface in real production?",
+      "key": "A coherent interface can be formed by epitaxial growth, where a thin film is deposited on a substrate with a similar lattice structure and minimal misfit, allowing the film to adopt the substrate's crystal orientation."
+    },
+    {
+      "number": "00051",
+      "question": "What's the interdiffusion coefficient?",
+      "key": "The interdiffusion coefficient (or mutual diffusion coefficient) describes the effective diffusivity governing the net intermixing of species in a binary system, accounting for the intrinsic diffusivities and interactions between species."
+    },
+    {
+      "number": "00052",
+      "question": "If you have a minimum lamellar spacing equation, where does the enthalpic term come from?",
+      "key": "In models for minimum lamellar spacing during eutectic solidification, the enthalpic term arises from the interfacial energy between the two phases and the latent heat of fusion, both contributing to the total free energy change."
+    },
+    {
+      "number": "00053",
+      "question": "How can we measure grain boundary energy?",
+      "key": "Grain boundary energy can be measured indirectly through techniques such as dihedral angle measurements at triple junctions, grain boundary grooving experiments, or by analyzing the kinetics of grain growth."
+    },
+    {
+      "number": "00054",
+      "question": "In metals, why is Q/kT_M constant?",
+      "key": "The observation that Q/kT_M is roughly constant suggests that the activation energy for diffusion scales with the melting temperature of the metal, reflecting a fundamental link between atomic bonding strength and diffusion barriers."
+    },
+    {
+      "number": "00055",
+      "question": "What's an example of an isomorphic alloy?",
+      "key": "An example of an isomorphic alloy is the Cu–Ni system, in which copper and nickel are completely soluble in each other in the solid state, forming a continuous series of solid solutions."
+    },
+    {
+      "number": "00056",
+      "question": "What happens when X_Cu in a Cu-Ni alloy is low?",
+      "key": "When the copper concentration is low in a Cu–Ni alloy, the alloy is mostly nickel with a small amount of copper dissolved substitutionally. The lattice remains FCC, and the minor Cu solute slightly alters properties."
+    },
+    {
+      "number": "00057",
+      "question": "How does a grain boundary move? How would you describe its kinetics? Why is r² proportional to t?",
+      "key": "Grain boundary movement occurs via atomic rearrangements at the boundary, driven by curvature and reducing total boundary energy. The kinetics are often described by a relation where the grain size squared (r²) grows linearly with time, as predicted by boundary migration theories (r² ∝ t)."
+    },
+    {
+      "number": "00058",
+      "question": "What are recovery, recrystallization, and grain growth?",
+      "key": "Recovery is the process by which a deformed material reduces internal stresses through rearrangement of dislocations without changing the grain structure. Recrystallization involves the formation of new, strain-free grains. Grain growth is the subsequent increase in grain size as the system reduces its total grain boundary area."
+    },
+    {
+      "number": "00059",
+      "question": "Given a concentration profile, what's the characteristic time for homogenization and decomposition?",
+      "key": "The characteristic time for diffusion-driven homogenization is on the order of L²/D, where L is the characteristic length scale and D is the diffusion coefficient. Decomposition times depend on the instability of the free energy curve (e.g. in spinodal decomposition) and can be estimated using similar diffusion kinetics."
+    },
+    {
+      "number": "00060",
+      "question": "What does a eutectic structure look like?",
+      "key": "A eutectic structure typically consists of alternating lamellae or rod-like morphologies of two different phases that have grown simultaneously from the melt at the eutectic composition, resulting in a fine-scale, interpenetrating microstructure."
+    },
+    {
+      "number": "00061",
+      "question": "Derive the critical lamellar spacing of a eutectic structure.",
+      "key": "The critical lamellar spacing is derived by balancing the interfacial energy penalty (which favors coarser spacing) against the diffusion limitations (which favor finer spacing). Minimization of the total free energy with respect to lamellar spacing yields an expression of the form λ* ∝ √(σ/(ΔT · D)), where σ is the interfacial energy, ΔT is the undercooling, and D is the diffusivity."
+    },
+    {
+      "number": "00062",
+      "question": "What's the difference between coherent and semicoherent interfaces?",
+      "key": "Coherent interfaces have perfect lattice continuity across the boundary, resulting in elastic strain if there is a lattice mismatch. Semicoherent interfaces relieve part of the mismatch through a periodic array of misfit dislocations."
+    },
+    {
+      "number": "00063",
+      "question": "For a solidifying alloy, what does its concentration profile look like with perfect mixing in the liquid?",
+      "key": "With perfect mixing in the liquid, the concentration in the liquid remains uniform during solidification, while the solid may partition solute according to the partition coefficient. This can result in a relatively sharp interface if partitioning is strong."
+    },
+    {
+      "number": "00064",
+      "question": "What's the relationship between d, dislocation spacing, and atomic plane spacing?",
+      "key": "For a semicoherent interface, the dislocation spacing d is related to the lattice mismatch and the Burgers vector b, typically given by d ≈ b/δ, where δ is the misfit strain. The atomic plane spacing remains that of the bulk crystal."
+    },
+    {
+      "number": "00065",
+      "question": "Describe eutectic solidification using the Gibbs free energy curve for critical spacing.",
+      "key": "Eutectic solidification involves a concurrent transformation of the melt into two solid phases at the eutectic composition, where the free energy curves for the two solids and the liquid meet at a common tangent. The critical spacing is determined by minimizing the total free energy, balancing the interfacial energy against the diffusion energy needed for solute redistribution."
+    },
+    {
+      "number": "00066",
+      "question": "Calculate the minimum spacing for eutectic solidification.",
+      "key": "The minimum lamellar spacing can be estimated by equating the diffusion time across the spacing to the growth time, yielding an expression of the form λ_min ∝ √(σ/(ΔT · D)), where σ is the interfacial energy, ΔT is the undercooling, and D is the diffusion coefficient."
+    },
+    {
+      "number": "00067",
+      "question": "What are the different mechanisms for phase transformations? Describe them both.",
+      "key": "Phase transformations can occur via nucleation and growth, where a new phase forms at discrete sites and grows over time, or by spinodal decomposition, where spontaneous composition fluctuations occur uniformly in an unstable system without a nucleation barrier."
+    },
+    {
+      "number": "00068",
+      "question": "What are k and n in the JMA equation?",
+      "key": "In the JMA equation X = 1 – exp(–k tⁿ), k is a rate constant that encapsulates nucleation and growth rates, and n (the Avrami exponent) reflects the dimensionality of growth and the nucleation mechanism (typically ranging from 1 to 4)."
+    },
+    {
+      "number": "00069",
+      "question": "How would you measure the nucleation rate (N) and growth rate (v) in the JMA equation?",
+      "key": "Nucleation rate can be measured by counting the number of new nuclei per unit volume per unit time (via microscopy or indirect methods). Growth rate can be determined by tracking the increase in size of transformed regions over time, for example, by image analysis."
+    },
+    {
+      "number": "00070",
+      "question": "How do you differentiate spinodal decomposition and phase separation?",
+      "key": "Spinodal decomposition occurs in the unstable region of the free energy curve (where ∂²G/∂c² < 0) and happens spontaneously without a nucleation barrier, whereas phase separation by nucleation and growth requires overcoming an energy barrier to form stable nuclei."
+    },
+    {
+      "number": "00071",
+      "question": "Explain the TTT curves and the JMA equation.",
+      "key": "Time–Temperature–Transformation (TTT) curves show the onset and completion of phase transformations at various temperatures under isothermal conditions. The JMA equation quantifies the fraction transformed as a function of time at a fixed temperature, and both are used to understand transformation kinetics."
+    },
+    {
+      "number": "00072",
+      "question": "What structure forms upon cooling through the eutectic point? What's the minimum spacing between each one?",
+      "key": "Upon cooling through the eutectic point, a lamellar (or rod-like) two-phase microstructure forms. The minimum spacing between lamellae is derived by balancing the interfacial energy and diffusion constraints, typically yielding a spacing on the order of micrometers or less."
+    },
+    {
+      "number": "00073",
+      "question": "If the precipitate is a 1D rod, how would the JMA equation simplify?",
+      "key": "For a 1D rod-like precipitate, the Avrami exponent n in the JMA equation may reduce (e.g. n ≈ 1), reflecting one-dimensional growth kinetics, compared to higher n values for 2D or 3D growth."
+    },
+    {
+      "number": "00074",
+      "question": "What are intrinsic diffusion, interdiffusion, and tracer diffusion?",
+      "key": "Intrinsic diffusion refers to the motion of atoms in a material measured in the absence of a concentration gradient. Interdiffusion (or chemical diffusion) is the net diffusion in a multicomponent system driven by concentration gradients. Tracer diffusion measures the movement of isotopically labeled atoms, tracking diffusion without altering overall composition."
+    },
+    {
+      "number": "00075",
+      "question": "What's the physical meaning of chemical potential?",
+      "key": "Chemical potential is the partial molar free energy of a species in a system, representing the energy change when one mole of that species is added. It drives diffusion and phase transformations as species move from regions of high to low chemical potential."
+    },
+    {
+      "number": "00076",
+      "question": "How does the chemical potential play a role in interdiffusion?",
+      "key": "In interdiffusion, gradients in chemical potential drive atomic fluxes. Atoms diffuse from regions of high chemical potential to low chemical potential, leading to homogenization of composition over time."
+    },
+    {
+      "number": "00077",
+      "question": "Derive Darken's equations.",
+      "key": "Darken’s equations are derived by combining Fick’s laws with the Gibbs–Duhem relation to express the interdiffusion coefficient in a binary alloy in terms of the intrinsic diffusivities and the derivative of the chemical potential with respect to composition."
+    },
+    {
+      "number": "00078",
+      "question": "What is Fick's first law? How do you derive it?",
+      "key": "Fick’s First Law states that the flux J of atoms is proportional to the concentration gradient, J = –D (∂C/∂x). It is derived by analogy with heat conduction and by considering mass conservation in a diffusing system."
+    },
+    {
+      "number": "00079",
+      "question": "For homogeneous and heterogeneous nucleation, how are their energy barriers and critical radii affected by temperature?",
+      "key": "Both homogeneous and heterogeneous nucleation have a critical radius r* ∝ γ/ΔGv, where ΔGv increases with undercooling. Heterogeneous nucleation usually has a lower energy barrier due to the presence of surfaces that reduce the interfacial energy term."
+    },
+    {
+      "number": "00080",
+      "question": "What's the main difference between diffusion-controlled and interface-controlled processes?",
+      "key": "In diffusion-controlled processes, the rate is limited by the transport of atoms through the bulk, whereas in interface-controlled processes, the rate is determined by the kinetics of atomic attachment or detachment at the interface."
+    },
+    {
+      "number": "00081",
+      "question": "What's an example of a system that uses a TTT diagram?",
+      "key": "A common example is the transformation of austenite in steel to pearlite, bainite, or martensite. TTT diagrams for steel show the time required for each transformation at various temperatures."
+    },
+    {
+      "number": "00082",
+      "question": "Explain the movement of dislocations, vacancies, and the marker plane.",
+      "key": "Dislocations move under applied stress via slip. Vacancies migrate via diffusion, allowing atoms to jump into empty lattice sites. In a diffusion couple, the marker plane shifts if there is unequal intrinsic diffusivity of the species (Kirkendall effect)."
+    },
+    {
+      "number": "00083",
+      "question": "How would you get a single crystal from a metallic melt?",
+      "key": "Methods such as the Czochralski process or Bridgman technique are used to pull a single crystal from a melt by controlled solidification and seeding."
+    },
+    {
+      "number": "00084",
+      "question": "If you have a large, smooth glass substrate, how can you make a single crystal on it?",
+      "key": "One method is to deposit a thin film via epitaxial growth using a seed crystal or a substrate with a matching lattice, allowing the deposited material to adopt a single-crystal orientation."
+    },
+    {
+      "number": "00085",
+      "question": "What is constitutional supercooling? What is its effect?",
+      "key": "Constitutional supercooling occurs when solute accumulation at a solid–liquid interface lowers the local liquidus temperature, resulting in a supercooled liquid ahead of the interface. This can destabilize the interface and lead to dendritic growth."
+    },
+    {
+      "number": "00086",
+      "question": "Tell me about the Gibbs-Thomson potential and derive it.",
+      "key": "The Gibbs–Thomson effect relates the curvature of an interface to the change in chemical potential: μ = μ₀ + 2γV_m/r, where γ is interfacial energy, V_m is molar volume, and r is the radius of curvature. It shows that smaller particles have higher chemical potential, affecting melting and solubility."
+    },
+    {
+      "number": "00087",
+      "question": "What is mean-field theory?",
+      "key": "Mean-field theory approximates that each particle in a system experiences an average effect from all other particles, ignoring fluctuations. It simplifies the analysis of phase transitions and other phenomena by replacing complex interactions with an average field."
+    },
+    {
+      "number": "00088",
+      "question": "Derive the strain rate of creep.",
+      "key": "Creep strain rate is often expressed as ε̇ = A σⁿ exp(–Q/RT), where A is a material constant, σ is stress, n is the stress exponent, Q is activation energy, R is the gas constant, and T is absolute temperature. This relation is derived from dislocation climb or diffusion-controlled mechanisms."
+    },
+    {
+      "number": "00089",
+      "question": "If there is a bump on a material with a flux going towards it, what's the growth rate?",
+      "key": "The growth rate of a bump is determined by the net flux of atoms arriving at the protrusion. It depends on the local curvature and the diffusion flux; typically, regions of higher curvature attract more flux, leading to growth if the chemical potential is lower."
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "total": 79,
+  "data": [
+    {
+      "number": "00001",
+      "question": "Laws of thermodynamics (explain mathematically and conceptually)",
+      "key": "The four laws of thermodynamics are as follows:\n• Zeroth law: If two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other. This law defines temperature.\n• First law: ΔU = Q – W. It states that the change in internal energy equals the heat added to the system minus the work done by the system.\n• Second law: In an isolated system, the total entropy never decreases (ΔS ≥ 0). No process can completely convert heat into work without other effects.\n• Third law: As T → 0 K, the entropy of a perfect crystal approaches zero. This sets an absolute reference for entropy."
+    },
+    {
+      "number": "00002",
+      "question": "What are the regular and ideal solutions for Gibbs free energy, enthalpy and interaction parameter?",
+      "key": "For an ideal solution: ΔG_mix = RT (x_A ln x_A + x_B ln x_B), with ΔH_mix = 0 and an interaction parameter Ω = 0. For a regular solution: ΔG_mix = RT (x_A ln x_A + x_B ln x_B) + Ω x_A x_B, where Ω is a nonzero constant that accounts for the enthalpy of mixing."
+    },
+    {
+      "number": "00003",
+      "question": "What are the differences between heat engines and refrigerators and how to make them more efficient?",
+      "key": "A heat engine converts heat into work by absorbing heat from a hot reservoir and rejecting some heat to a cold reservoir, while a refrigerator uses work to move heat from a cold reservoir to a hot one. To improve efficiency, one should increase the temperature difference in the desired direction and reduce irreversibilities (e.g., by reducing friction and optimizing cycle design)."
+    },
+    {
+      "number": "00004",
+      "question": "What is the difference between an alloy and a compound?",
+      "key": "An alloy is a mixture of elements (often metals) that may form a continuous or partial solid solution, whereas a compound has a fixed chemical composition and a distinct crystal structure (often an intermetallic)."
+    },
+    {
+      "number": "00005",
+      "question": "What is a heat reservoir? What makes a good heat reservoir? If you were in the lab, how would you control the temperature of an experiment?",
+      "key": "A heat reservoir is a large system that can supply or absorb heat without undergoing a significant change in temperature. A good heat reservoir has a high heat capacity and excellent thermal conduction. In the lab, temperature control is often achieved using circulating thermostats, water/ice baths, or temperature-controlled chambers with feedback control."
+    },
+    {
+      "number": "00006",
+      "question": "If you have a reaction in an ice bath and its temperature became lower than the ice bath, what would happen? Where would the heat be coming from?",
+      "key": "If the reaction temperature falls below that of the ice bath, heat will flow from the surroundings (including the ice bath) into the reaction mixture until thermal equilibrium is re-established."
+    },
+    {
+      "number": "00007",
+      "question": "Efficiency of Carnot cycle.",
+      "key": "The efficiency of a Carnot cycle is given by η = 1 − (T_c/T_h), where T_c is the absolute temperature of the cold reservoir and T_h is that of the hot reservoir. This is the theoretical maximum efficiency any heat engine can achieve between two temperatures."
+    },
+    {
+      "number": "00008",
+      "question": "Difference between non-ideal and ideal solution (ΔH=0).",
+      "key": "An ideal solution has no enthalpy change upon mixing (ΔH_mix = 0) and obeys Raoult's law exactly, so ΔG_mix arises solely from the entropy of mixing. In a non-ideal (regular) solution, ΔH_mix ≠ 0 and an interaction parameter (Ω) is included, causing deviations from ideal behavior."
+    },
+    {
+      "number": "00009",
+      "question": "Where would we see an example of the eutectic point in our daily lives?",
+      "key": "A common example is the use of salt on icy roads. When salt is added to ice, a eutectic mixture forms at a temperature below 0°C, lowering the freezing point and melting the ice."
+    },
+    {
+      "number": "00010",
+      "question": "Name two ways to measure entropy.",
+      "key": "Two ways to measure entropy are: 1) By integrating a reversible heat transfer over temperature, using dS = δQ_rev/T; 2) By a statistical method, using S = k_B lnΩ, where Ω is the number of microstates."
+    },
+    {
+      "number": "00011",
+      "question": "Derive the free energy of mixing.",
+      "key": "For an ideal solution, the free energy of mixing is derived as ΔG_mix = RT (x_A ln x_A + x_B ln x_B) by combining the entropy of mixing (which increases due to random mixing) with the fact that there is no enthalpy change (ΔH_mix = 0)."
+    },
+    {
+      "number": "00012",
+      "question": "Describe the mechanical components of a Carnot fridge (turbine, throttle, evaporator, and condenser).",
+      "key": "A Carnot refrigerator typically consists of a compressor or turbine (which compresses the refrigerant), a throttle or expansion valve (which drops the pressure), an evaporator (where the refrigerant absorbs heat and evaporates), and a condenser (where the refrigerant releases heat and condenses)."
+    },
+    {
+      "number": "00013",
+      "question": "State the differences between Otto and diesel cycles.",
+      "key": "The Otto cycle, used in gasoline engines, involves constant-volume heat addition, while the Diesel cycle, used in diesel engines, involves heat addition at nearly constant pressure. Diesel cycles typically achieve higher efficiency due to higher compression ratios and more complete combustion."
+    },
+    {
+      "number": "00014",
+      "question": "Derive the theoretical efficiency of a fuel cell.",
+      "key": "The theoretical efficiency of a fuel cell is given by the ratio |ΔG|/|ΔH|, where ΔG is the Gibbs free energy change and ΔH is the enthalpy change of the reaction. This represents the fraction of chemical energy that can be converted into useful work."
+    },
+    {
+      "number": "00015",
+      "question": "Derive the work of a reverse osmosis system.",
+      "key": "The work required for reverse osmosis is approximately W = π × ΔV, where π is the osmotic pressure and ΔV is the volume of water purified. For non-constant conditions, W is obtained by integrating π over the change in volume."
+    },
+    {
+      "number": "00016",
+      "question": "What is Gibbs' Phase Rule?",
+      "key": "Gibbs' Phase Rule is given by F = C – P + 2, where F is the number of degrees of freedom, C is the number of components, and P is the number of phases present. It tells us how many intensive variables (such as temperature, pressure, and composition) can be changed independently without altering the number of phases in equilibrium."
+    },
+    {
+      "number": "00017",
+      "question": "Given a certain partial expression, find the corresponding Maxwell relation.",
+      "key": "Maxwell relations are derived from the equality of mixed second derivatives of thermodynamic potentials. For example, from U(S,V) we have (∂T/∂V)_S = –(∂P/∂S)_V. The exact relation depends on the chosen thermodynamic potential."
+    },
+    {
+      "number": "00018",
+      "question": "What is the zeroth law of Thermodynamics?",
+      "key": "The zeroth law states that if two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other. This law underpins the definition of temperature."
+    },
+    {
+      "number": "00019",
+      "question": "What is the first law of Thermodynamics? Is there a general expression?",
+      "key": "The first law is the law of energy conservation, expressed as ΔU = Q – W, where ΔU is the change in internal energy, Q is the heat added to the system, and W is the work done by the system."
+    },
+    {
+      "number": "00020",
+      "question": "What is the second law of Thermodynamics?",
+      "key": "The second law states that the total entropy of an isolated system can never decrease; it can only increase or remain constant. In other words, no process is possible that converts heat completely into work without other effects."
+    },
+    {
+      "number": "00021",
+      "question": "What are the entropic definitions of reversible and irreversible cycles?",
+      "key": "A reversible cycle is one in which the total entropy change of the system and surroundings is zero (ΔS_total = 0), while an irreversible cycle results in a net increase in total entropy (ΔS_total > 0)."
+    },
+    {
+      "number": "00022",
+      "question": "What is the third law of Thermodynamics?",
+      "key": "The third law states that the entropy of a perfect crystal approaches zero as the temperature approaches absolute zero (0 K). This provides an absolute reference point for the measurement of entropy."
+    },
+    {
+      "number": "00023",
+      "question": "What is the difference if you put a hot metal into dry ice and an ice-water mixture?",
+      "key": "Dry ice is around −78°C, while an ice-water mixture remains at 0°C. A hot metal will cool more rapidly in contact with dry ice than in an ice-water mixture."
+    },
+    {
+      "number": "00024",
+      "question": "If you have a piece of hot metal in contact with dry ice, what's happening?",
+      "key": "Heat flows from the hot metal to the dry ice. The dry ice absorbs heat and sublimates, thereby reducing the metal’s temperature."
+    },
+    {
+      "number": "00025",
+      "question": "If you have a piece of hot metal placed in an ice/water mixture, what happens?",
+      "key": "The hot metal transfers heat to the ice-water mixture. The mixture will remain at 0°C (assuming a large reservoir) as the ice melts, until thermal equilibrium is reached."
+    },
+    {
+      "number": "00026",
+      "question": "What are the requirements you'd need to satisfy to make a heat reservoir?",
+      "key": "A good heat reservoir must have a large heat capacity, high thermal conductivity, and maintain a nearly constant temperature despite heat exchange. Examples include large bodies of water or engineered thermal masses."
+    },
+    {
+      "number": "00027",
+      "question": "If you heated a crystal of NaCl to its melting point, what happens?",
+      "key": "When a NaCl crystal is heated to its melting point, it absorbs latent heat and transitions from a well-ordered ionic lattice to a liquid state where the ions move freely."
+    },
+    {
+      "number": "00028",
+      "question": "Why does a Carnot heat engine have the highest efficiency?",
+      "key": "A Carnot engine is an ideal, reversible engine that operates between two temperatures and has no irreversibilities. Its efficiency, η = 1 – (T_c/T_h), represents the maximum possible efficiency for any heat engine operating between those two temperatures."
+    },
+    {
+      "number": "00029",
+      "question": "Why does a diesel cycle have a higher efficiency than an Otto cycle?",
+      "key": "Diesel engines typically operate at higher compression ratios than gasoline engines (Otto cycle) and have a more efficient combustion process, which leads to higher thermal efficiency."
+    },
+    {
+      "number": "00030",
+      "question": "Derive the efficiency for both processes (Otto and diesel cycles).",
+      "key": "For an ideal Otto cycle, the efficiency is η = 1 − (1/r^(γ−1)), where r is the compression ratio and γ is the heat capacity ratio. For an ideal Diesel cycle, the efficiency is given by η = 1 − r^(1−γ) × ((r_c^γ − 1)/(γ(r_c − 1))), where r_c is the cutoff ratio."
+    },
+    {
+      "number": "00031",
+      "question": "Explain the chemical potentials of A and B at the eutectic temperature with the tangent rule.",
+      "key": "At the eutectic temperature, the chemical potentials of components A and B in each coexisting phase are equal. The tangent rule states that a common tangent drawn on the free-energy curves identifies the equilibrium compositions of the two phases."
+    },
+    {
+      "number": "00032",
+      "question": "How would you measure entropy if a phase change was not allowed?",
+      "key": "Entropy can be measured by integrating the heat capacity over temperature: S(T₂) − S(T₁) = ∫(C_p/T) dT, provided that no phase change occurs in the temperature range."
+    },
+    {
+      "number": "00033",
+      "question": "What's the mechanical component of a refrigerator?",
+      "key": "The mechanical components of a refrigerator include the compressor (or turbine), which compresses the refrigerant; the throttle or expansion valve, which reduces the pressure; the evaporator, where the refrigerant absorbs heat; and the condenser, where the refrigerant releases heat."
+    },
+    {
+      "number": "00034",
+      "question": "If you want to purify water, what process would you use: osmosis or evaporation?",
+      "key": "For water purification, reverse osmosis is often preferred because it can efficiently separate impurities from water using a semipermeable membrane under pressure, typically with lower energy consumption than evaporation."
+    },
+    {
+      "number": "00035",
+      "question": "How do you calculate osmotic pressure?",
+      "key": "Osmotic pressure (π) can be calculated using the equation π = iRTc, where i is the van't Hoff factor, R is the gas constant, T is the absolute temperature, and c is the molar concentration of the solute."
+    },
+    {
+      "number": "00036",
+      "question": "Why are diesel engines more efficient than gasoline engines?",
+      "key": "Diesel engines are generally more efficient because they operate at higher compression ratios and have a combustion process that extracts more energy from the fuel compared to gasoline engines."
+    },
+    {
+      "number": "00037",
+      "question": "If you have a water-permeable membrane separating pure water and saltwater, what's the osmotic pressure if you know the solute concentration?",
+      "key": "Using the formula π = iRTc, where c is the solute molar concentration in the saltwater, one can calculate the osmotic pressure exerted across the membrane."
+    },
+    {
+      "number": "00038",
+      "question": "With the reverse osmosis effect, if there's a piston on the saltwater side, how much work is done if all the saltwater is purified (assuming your volume is 1L, and you know the density of the salt)?",
+      "key": "The work done in reverse osmosis is approximately equal to the product of the osmotic pressure and the volume purified (W ≈ π × ΔV). For 1 liter (0.001 m³) of water, ensure that units are consistent (1 Pa·m³ = 1 J)."
+    },
+    {
+      "number": "00039",
+      "question": "Derive entropy as a function of internal energy and length for a rubber band. How would you develop a model to fit experimental results to this equation?",
+      "key": "One approach is to use a statistical mechanical model of polymer chains to determine the number of microstates Ω as a function of the rubber band's internal energy and extension. Then, entropy is given by S = k_B ln Ω. Experimental tension–extension data can be fitted by adjusting parameters in the model."
+    },
+    {
+      "number": "00040",
+      "question": "If we know free energy, how can we get activity?",
+      "key": "Activity (a) is related to the chemical potential by the equation μ = μ° + RT ln a. Knowing the free energy (or chemical potential) allows one to solve for the activity."
+    },
+    {
+      "number": "00041",
+      "question": "What's the difference between an alloy and a compound?",
+      "key": "An alloy is a mixture of elements with variable composition, often forming solid solutions, while a compound has a fixed stoichiometry and a distinct crystal structure (intermetallic compound)."
+    },
+    {
+      "number": "00042",
+      "question": "Calculate the efficiency of a combustion engine.",
+      "key": "For example, for an ideal Otto cycle, the efficiency is given by η = 1 − (1/r^(γ−1)), where r is the compression ratio and γ is the specific heat ratio. Diesel and Brayton cycles have different efficiency formulas."
+    },
+    {
+      "number": "00043",
+      "question": "Tell me three ways to cool a material.",
+      "key": "Three common cooling methods are: 1) Using a refrigerator or heat pump, 2) Evaporative cooling (or distillation), 3) Cryogenic cooling using liquid nitrogen or other cryogens."
+    },
+    {
+      "number": "00044",
+      "question": "What are definitions of U, H, G, and F?",
+      "key": "U is the internal energy; H = U + pV is the enthalpy; G = H − TS is the Gibbs free energy; F = U − TS is the Helmholtz free energy. They are thermodynamic potentials describing the energy available under different constraints."
+    },
+    {
+      "number": "00045",
+      "question": "Why are G and F referred to as free energies?",
+      "key": "Gibbs free energy (G) and Helmholtz free energy (F) are called free energies because they represent the portion of a system's energy that is available to do work at constant pressure and temperature (for G) or constant volume and temperature (for F)."
+    },
+    {
+      "number": "00046",
+      "question": "Derive the ideal gas law from the Boltzmann distribution.",
+      "key": "Starting from the Boltzmann distribution and statistical mechanics, one can derive that pV = Nk_BT. Converting N (the number of molecules) to moles (n = N/N_A) yields pV = nRT, which is the ideal gas law."
+    },
+    {
+      "number": "00047",
+      "question": "How do ideal solutions and real solutions differ?",
+      "key": "Ideal solutions have zero enthalpy of mixing (ΔH_mix = 0) and obey Raoult's law exactly, while real (non-ideal) solutions have nonzero ΔH_mix (positive or negative), leading to deviations from ideal behavior."
+    },
+    {
+      "number": "00048",
+      "question": "What is a heat engine?",
+      "key": "A heat engine is a device that converts heat into mechanical work by operating in a cycle, absorbing heat from a hot source and rejecting waste heat to a cold sink."
+    },
+    {
+      "number": "00049",
+      "question": "Assume you have a solution of A and B, and you know the partial pressure of A and B. Assume you also know the mixture's composition and that it behaves like a regular solution. What is its entropy of mixing?",
+      "key": "For a regular solution, the entropy of mixing is given by S_mix = –R (x_A ln x_A + x_B ln x_B). This expression is identical to that for an ideal solution since entropy is a combinatorial effect."
+    },
+    {
+      "number": "00050",
+      "question": "Why is it hard to make a 100% pure material considering entropy?",
+      "key": "Because entropy naturally favors disorder and mixing, any process that achieves 100% purity must overcome a significant increase in free energy due to the loss of entropy. In practice, impurities are nearly always present to some degree."
+    },
+    {
+      "number": "00051",
+      "question": "What are perpetual motion machines of the first and second kind? Can you give an example of each?",
+      "key": "A perpetual motion machine of the first kind violates the first law (energy conservation), and one of the second kind violates the second law (entropy increase). For example, a device that produces work with no energy input (first kind) or one that converts all absorbed heat into work with no waste (second kind) are impossible."
+    },
+    {
+      "number": "00052",
+      "question": "How does the free energy of mixing differ for regular and ideal solutions?",
+      "key": "For an ideal solution, ΔG_mix = RT (x_A ln x_A + x_B ln x_B). For a regular solution, an additional enthalpy term appears: ΔG_mix = RT (x_A ln x_A + x_B ln x_B) + Ω x_A x_B, where Ω represents the interaction energy between components."
+    },
+    {
+      "number": "00053",
+      "question": "How can you measure the entropy of a sample?",
+      "key": "Entropy can be measured indirectly by integrating the heat capacity over temperature (S = ∫(Cp/T) dT) or by employing calorimetric methods based on the third law of thermodynamics."
+    },
+    {
+      "number": "00054",
+      "question": "What is the critical point?",
+      "key": "The critical point is the end point of the phase equilibrium curve, beyond which distinct liquid and gas phases do not exist. Above the critical temperature and pressure, the substance becomes a supercritical fluid."
+    },
+    {
+      "number": "00055",
+      "question": "Why does water's solid-liquid line have a negative slope?",
+      "key": "Water’s solid–liquid line has a negative slope because ice is less dense than liquid water. Increasing pressure favors the denser phase (liquid), thereby lowering the melting point of ice."
+    },
+    {
+      "number": "00056",
+      "question": "How does internal energy change upon melting?",
+      "key": "When a material melts, its internal energy increases because latent heat is absorbed to overcome the intermolecular forces holding the solid together."
+    },
+    {
+      "number": "00057",
+      "question": "A chamber contains ice and water at 0°C, and they're separated from a second chamber with vacuum by a membrane. What happens when the membrane is removed?",
+      "key": "When the membrane is removed, water (or ice) will evaporate (or sublimate) into the vacuum until a new equilibrium is established, resulting in an increase in entropy."
+    },
+    {
+      "number": "00058",
+      "question": "Can the solid have a steeper slope than the liquid in a G-T curve?",
+      "key": "Yes, if the solid has a lower entropy than the liquid, its Gibbs free energy (G) will change more rapidly with temperature (since dG/dT = –S), potentially giving it a steeper slope."
+    },
+    {
+      "number": "00059",
+      "question": "What is Gibbs' Phase Rule? What does each term mean? What does it say about a system?",
+      "key": "Gibbs' Phase Rule is F = C – P + 2, where F is the number of degrees of freedom, C is the number of components, and P is the number of phases. It indicates how many independent variables (such as temperature, pressure, and composition) can be altered without changing the number of phases in equilibrium."
+    },
+    {
+      "number": "00060",
+      "question": "What's a miscibility gap?",
+      "key": "A miscibility gap is a region in a phase diagram where a homogeneous mixture becomes unstable and separates into two distinct phases."
+    },
+    {
+      "number": "00061",
+      "question": "How is a miscibility gap related to the enthalpy of mixing?",
+      "key": "A positive enthalpy of mixing can drive phase separation, leading to a miscibility gap where the solution splits into two distinct phases to minimize free energy."
+    },
+    {
+      "number": "00062",
+      "question": "What would a phase diagram for a binary system look like if the enthalpy of mixing was small or negative?",
+      "key": "If the enthalpy of mixing is small or negative, the system tends to form a single homogeneous phase over a wide range of compositions, and the phase diagram will show a large one-phase region."
+    },
+    {
+      "number": "00063",
+      "question": "Consider a reaction C(g) + O2 -> CO2(g) at constant temperature and pressure currently at equilibrium. How does equilibrium shift if the system is heated?",
+      "key": "For an exothermic reaction like C + O2 → CO2, heating shifts the equilibrium to favor the reactants (endothermic direction) according to Le Chatelier's principle."
+    },
+    {
+      "number": "00064",
+      "question": "If you have a rubber band in an atmosphere of N2 and O2, and the rubber band is absorbing these gases, how does the N2 concentration in it change if the partial pressure of N2 is increased at constant temperature?",
+      "key": "Increasing the partial pressure of N2 raises its chemical potential, which leads to an increased absorption of N2 into the rubber band until a new equilibrium is reached."
+    },
+    {
+      "number": "00065",
+      "question": "If you have a rubber band in an adiabatic system and pull it, the temperature increases. What is the constant condition for (dT/dL)?",
+      "key": "Under adiabatic conditions, no heat is exchanged with the surroundings. The temperature change with length (dT/dL) is determined by the conversion of work into internal energy, and can be derived from the first law of thermodynamics under constant entropy conditions."
+    },
+    {
+      "number": "00066",
+      "question": "Derive the function of the solidus line between the alpha and alpha + beta regions, considering regular dilute solution behavior.",
+      "key": "Using regular solution theory for dilute solutions and equating the chemical potentials in the α-phase and the α+β region, one can derive an expression for the solidus line that relates temperature to composition."
+    },
+    {
+      "number": "00067",
+      "question": "If two copper blocks exist at different temperatures in an adiabatic container, what would the final temperature of the blocks be at equilibrium?",
+      "key": "Under adiabatic conditions, the final equilibrium temperature is determined by energy conservation: m₁c₁T₁ + m₂c₂T₂ = (m₁c₁ + m₂c₂)T_f, from which T_f can be calculated."
+    },
+    {
+      "number": "00068",
+      "question": "How can you get water vapor without changing temperature?",
+      "key": "By lowering the ambient pressure (e.g., applying a vacuum) at constant temperature, water can evaporate without a temperature change, producing vapor."
+    },
+    {
+      "number": "00069",
+      "question": "Explain and define activity and fugacity.",
+      "key": "Activity is a measure of the effective concentration of a species in a non-ideal system (a = γx, where γ is the activity coefficient), while fugacity is the effective pressure of a real gas used to account for deviations from ideal gas behavior."
+    },
+    {
+      "number": "00070",
+      "question": "For an exothermic reaction of A(g) + B(g) -> C(g), what happens when the system is heated?",
+      "key": "When an exothermic reaction is heated, Le Chatelier's principle predicts that the equilibrium will shift toward the reactants, reducing the yield of product C."
+    },
+    {
+      "number": "00071",
+      "question": "Given an exothermic reaction of SO2(g) + 1/2 O2 (g) -> SO3 (g), what happens when the system is heated?",
+      "key": "For the exothermic reaction SO₂ + ½ O₂ → SO₃, heating shifts the equilibrium toward SO₂ and O₂, decreasing the concentration of SO₃."
+    },
+    {
+      "number": "00072",
+      "question": "If you have a container full of liquid at some temperature, how would you measure Gibbs free energy given a pressure gauge and a vacuum pump?",
+      "key": "One can change the pressure in the container using a vacuum pump and measure the resulting equilibrium pressure. Using the relation μ = μ° + RT ln(p/p°) for an ideal system, the Gibbs free energy per mole can be determined."
+    },
+    {
+      "number": "00073",
+      "question": "What's the difference between a gas and a vapor?",
+      "key": "A gas is typically a substance above its critical temperature that cannot be liquefied by pressure alone, whereas a vapor is the gaseous state of a substance that is below its critical temperature and can be condensed by applying pressure."
+    },
+    {
+      "number": "00074",
+      "question": "Besides water, what material decreases its volume when melting?",
+      "key": "Bismuth is a well-known material that expands upon freezing; hence, it decreases in volume when it melts."
+    },
+    {
+      "number": "00075",
+      "question": "You have two metal pieces at different temperatures in contact with each other. How do you calculate the heat exchange between the two?",
+      "key": "Using the heat balance equation Q = m c ΔT for each metal, and applying conservation of energy (heat lost by the hotter piece equals heat gained by the cooler piece), the final equilibrium temperature can be calculated."
+    },
+    {
+      "number": "00076",
+      "question": "What is a perpetual motion machine of the second kind?",
+      "key": "A perpetual motion machine of the second kind is a hypothetical device that spontaneously converts heat completely into work without any other effect, thereby violating the second law of thermodynamics (entropy principle)."
+    },
+    {
+      "number": "00077",
+      "question": "How is S related to Omega?",
+      "key": "Entropy S is related to the number of microstates Ω by the Boltzmann relation: S = k_B ln Ω."
+    },
+    {
+      "number": "00078",
+      "question": "In an adiabatic container, there's a partition that separates gas and a vacuum. If the partition is removed, what's the change in T, U, and S?",
+      "key": "For an ideal gas undergoing free (adiabatic) expansion into a vacuum, the temperature T and internal energy U remain constant, while the entropy S increases due to the increase in the available volume and disorder."
+    },
+    {
+      "number": "00079",
+      "question": "If you have a combustion reaction in an adiabatic container, and you increase temperature to 1000°C, what would happen?",
+      "key": "In an adiabatic combustion reaction, all the chemical energy is converted to internal energy, causing the temperature to rise. If the temperature reaches 1000°C, the reaction continues until equilibrium is reached at that high temperature, with no heat lost to the surroundings."
+    }
+  ]
+}

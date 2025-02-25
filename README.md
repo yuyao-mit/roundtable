@@ -84,21 +84,29 @@ Below are the general steps to get started with Roundtable Policy on your local 
      ```bash
      pip install -r requirements.txt
      ```
-   - Some external dependencies, like `rasterio` or `matminer`, may require platform-specific installation steps. Please consult their official documentation for further guidance.
+   - Some external dependencies, if you plan to test them with our code, may require platform-specific installation steps. Please consult their official documentation for further guidance.
 
-3. **Download or link the dataset**  
+3. **Configure the dataset**  
    - The primary dataset is provided on the [![][cloud-storage-icon]][google-drive].  
-   - Place or symlink the dataset in the `data/` directory (or update the path in `config.yaml` if you prefer a custom location).
+   - However, we also provide an alternative to generate your own data.
+   - For multitask `qk_pair`, you can follow the following:
+     ```bash
+     cd src/dataset/
+     python data_multitask_gen.py --rounds 1000
+     ```
+   - For single task, you can follow the following:
+     ```bash
+     python data_singletask_gen.py --rounds 100
+     ```
 
-4. **Run a simple demo**  
-   - Modify the config file (`config.yaml` or a Python-based config script) to point to your data location and desired parameters.  
+4. **Update the confidence weight table**     
    - Execute:
      ```bash
      python main.py --config config.yaml
      ```
    - The demo will showcase how multiple LLM “experts” generate and compare their predictions, with the **Arbitrator** and **Confidence Weight Table** finalizing results.
 
-5. **Evaluate model performance**  
+5. **Evaluate the performance among models**  
    - Use the evaluation script to compare single-model baselines vs. the Roundtable Policy pipeline:
      ```bash
      python evaluate.py --config config.yaml

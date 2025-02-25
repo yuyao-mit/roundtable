@@ -1,0 +1,405 @@
+{
+  "total": 80,
+  "data": [
+    {
+      "number": "00001",
+      "question": "What is Schrodinger's equation? Use this to solve 1D wavefunction.",
+      "key": "Schrödinger’s equation is the fundamental equation of quantum mechanics:\n\n\\(\\hat{H}\\psi = E\\psi\\),\n\nwhere \\(\\hat{H} = -\\frac{\\hbar^2}{2m}\\nabla^2 + V(x)\\) is the Hamiltonian operator. For a 1D wavefunction in a potential \\(V(x)\\), solving it requires inserting the potential form and finding the allowed wavefunctions \\(\\psi(x)\\) and energies \\(E\\). For example, in a 1D free particle or simple potential well, you solve the second-order differential equation to get quantized energy levels and corresponding sinusoidal or exponential wavefunctions."
+    },
+    {
+      "number": "00002",
+      "question": "What is the property of metal-semiconductor interface?",
+      "key": "A metal–semiconductor interface can form either a Schottky barrier (rectifying behavior) or an ohmic contact (non-rectifying), depending on the metal work function and semiconductor electron affinity. The interface’s band alignment and Fermi-level pinning determine the barrier height."
+    },
+    {
+      "number": "00003",
+      "question": "Write down Fermi equation. How does it explain thermionic emission?",
+      "key": "The Fermi–Dirac distribution is \\(f(E) = \\frac{1}{\\exp((E - E_F)/(k_B T)) + 1}\\). Thermionic emission is explained by electrons at energies above the potential barrier escaping over it. At sufficiently high temperature, a fraction of electrons in the metal have energies above the work function and can emit into vacuum or the semiconductor side."
+    },
+    {
+      "number": "00004",
+      "question": "What is field-assisted emission?",
+      "key": "Field-assisted emission (also called field emission) is when a strong electric field lowers the potential barrier, enabling electrons to tunnel through it more easily. This can occur in cold-cathode devices or high-field regions near sharp tips."
+    },
+    {
+      "number": "00005",
+      "question": "What's the difference between matter wave and electromagnetic wave?",
+      "key": "Matter waves (de Broglie waves) describe quantum particles (e.g. electrons) with wave-like behavior, having wavelength \\(\\lambda = h/p\\). Electromagnetic waves (light) are oscillations of electric and magnetic fields (photons). Matter waves require a particle’s mass and momentum; EM waves are massless but carry energy."
+    },
+    {
+      "number": "00006",
+      "question": "What's the definition of phonon and how does it interact with electrons?",
+      "key": "A phonon is a quantized lattice vibration mode in a solid. Phonons can scatter electrons (and vice versa), affecting conductivity and thermal properties. Electron–phonon interaction is key to resistivity, superconductivity, and heat conduction in solids."
+    },
+    {
+      "number": "00007",
+      "question": "How does electron velocity change with applied potential?",
+      "key": "Electron velocity in a semiconductor or vacuum can increase with applied voltage via acceleration from the electric field (\\(\\mathbf{F} = e\\mathbf{E}\\)). In conductors, drift velocity = \\(\\mu E\\). In quantum terms, the electron’s wavevector changes, altering its group velocity according to the band structure."
+    },
+    {
+      "number": "00008",
+      "question": "What is K-P model and its boundary conditions?",
+      "key": "The k·p model approximates the electronic band structure near a band extremum by perturbation theory around a known solution. Boundary conditions typically require wavefunctions to be continuous and match derivatives at interfaces, capturing how conduction-band or valence-band edges vary in space."
+    },
+    {
+      "number": "00009",
+      "question": "Solve the 1D Schrodinger's Equation for the infinite potential well.",
+      "key": "For an infinite potential well (particle in a box) of width \\(L\\), \\(V(x)=0\\) for \\(0 < x < L\\) and \\(\\infty\\) elsewhere. The solutions are:\n\\(\\psi_n(x) = \\sqrt{\\frac{2}{L}} \\sin\\left(\\frac{n \\pi x}{L}\\right)\\) and \\(E_n = \\frac{n^2 \\pi^2 \\hbar^2}{2mL^2}\\), where \\(n=1,2,3,\\dots\\)."
+    },
+    {
+      "number": "00010",
+      "question": "How do band gaps form?",
+      "key": "Band gaps form in crystalline solids when Bragg reflection of electron waves at certain k-vectors in the periodic potential causes forbidden energy ranges. The periodic potential (ions in a lattice) splits allowed energy levels into separated bands, leaving gaps where no electron states can exist."
+    },
+    {
+      "number": "00011",
+      "question": "Can you derive the Bloch theorem?",
+      "key": "Bloch’s theorem states that electron wavefunctions in a periodic potential can be written as \\(\\psi_{\\mathbf{k}}(\\mathbf{r}) = e^{i\\mathbf{k}\\cdot\\mathbf{r}} u_{\\mathbf{k}}(\\mathbf{r})\\), where \\(u_{\\mathbf{k}}(\\mathbf{r})\\) has the same periodicity as the lattice. The derivation uses the periodicity of the Hamiltonian."
+    },
+    {
+      "number": "00012",
+      "question": "Why does Fermi level pinning happen?",
+      "key": "Fermi level pinning occurs when interface states or defect states at a metal–semiconductor junction fix the Fermi level at a particular energy, preventing it from shifting freely with changes in doping. This is often due to a high density of midgap states."
+    },
+    {
+      "number": "00013",
+      "question": "What assumptions do you need to make to derive the Kronig-Penney model?",
+      "key": "The Kronig–Penney model assumes a 1D periodic potential composed of rectangular barriers/wells, neglects electron–electron interactions, and uses a single-electron approximation with piecewise constant potential. Periodicity and continuity of the wavefunction are imposed."
+    },
+    {
+      "number": "00014",
+      "question": "What happens to a p-n junction at 0K?",
+      "key": "At 0 K, a p–n junction has almost no free carriers because thermal energy is insufficient to excite electrons across the band gap. The depletion region is present, but conduction is minimal."
+    },
+    {
+      "number": "00015",
+      "question": "What's the resistivity of a doped semiconductor versus temperature?",
+      "key": "Doped semiconductor resistivity typically decreases with increasing temperature due to increased carrier excitation, until intrinsic carriers become significant. At very low temperatures, impurity freeze-out can increase resistivity."
+    },
+    {
+      "number": "00016",
+      "question": "What's the conductivity of a doped semiconductor versus applied voltage?",
+      "key": "The conductivity of a doped semiconductor generally follows Ohm’s law at low fields, increasing linearly with voltage. At higher fields, effects like velocity saturation or hot-carrier phenomena can lead to non-linear behavior."
+    },
+    {
+      "number": "00017",
+      "question": "How does DOS relate to mobility?",
+      "key": "The density of states (DOS) determines how many electron states are available at a given energy. While mobility is influenced by scattering, a higher DOS near the Fermi level can lead to more carriers and increased scattering, affecting mobility. However, the relation is complex and depends on the band structure and scattering mechanisms."
+    },
+    {
+      "number": "00018",
+      "question": "What does the Kronig-Penney model look like for a 1D polymer chain?",
+      "key": "For a 1D polymer chain, the Kronig–Penney model treats the periodic potential of the repeat units along the chain. Allowed energy bands form with band gaps determined by the strength and periodicity of the potential, analogous to the electronic bands in crystalline solids."
+    },
+    {
+      "number": "00019",
+      "question": "How would you use the Schrodinger equation to solve a particle in a box?",
+      "key": "Solve the time-independent Schrödinger equation with \\(V(x)=0\\) inside the box and \\(V(x)=\\infty\\) outside. Apply boundary conditions (\\(\\psi(0)=\\psi(L)=0\\)) to obtain sinusoidal solutions and quantized energy levels."
+    },
+    {
+      "number": "00020",
+      "question": "What does the Schrodinger equation look like for hydrogen?",
+      "key": "For hydrogen, the Schrödinger equation in spherical coordinates with Coulomb potential \\(V(r) = -\\frac{e^2}{4\\pi\\epsilon_0 r}\\) yields eigenfunctions (orbitals) characterized by quantum numbers \\(n, \\ell, m\\) and energies \\(E_n = -13.6\\,\\text{eV}/n^2\\)."
+    },
+    {
+      "number": "00021",
+      "question": "What are intrinsic and extrinsic semiconductors?",
+      "key": "Intrinsic semiconductors have carrier concentrations determined solely by the material's band gap and thermal excitation. Extrinsic semiconductors are doped with impurities (donors or acceptors) to increase electron or hole concentrations, shifting the Fermi level."
+    },
+    {
+      "number": "00022",
+      "question": "If you have an extrinsic semiconductor, what percentage of its charge carriers in its impurity level is ionized at room temperature?",
+      "key": "Typically, in a well-doped extrinsic semiconductor at room temperature, the majority of the impurity atoms (often >90%) are ionized, though the exact percentage depends on the dopant energy level and concentration."
+    },
+    {
+      "number": "00023",
+      "question": "How would extrinsic semiconductor conductivity change when heated?",
+      "key": "When heated, an extrinsic semiconductor sees increased carrier generation, so its conductivity usually increases as more carriers are thermally excited until intrinsic conduction dominates at higher temperatures."
+    },
+    {
+      "number": "00024",
+      "question": "For extrinsic semiconductor, with respect to thermal conductivity, would the phonon or electron contribution be greater?",
+      "key": "In most extrinsic semiconductors, phonons (lattice vibrations) dominate thermal conductivity because the carrier concentration is relatively low compared to metals, so the electron contribution is usually smaller."
+    },
+    {
+      "number": "00025",
+      "question": "Relate the particle in a box to the Kronig-Penney model to explain the origin of bandgaps.",
+      "key": "A particle in a box has quantized energy levels due to boundary conditions. In the Kronig–Penney model, a periodic array of potential barriers causes these discrete levels to broaden into bands, with forbidden gaps appearing where no solutions satisfy the periodic boundary conditions."
+    },
+    {
+      "number": "00026",
+      "question": "For a laser, the potential barrier level should be finite, so how can this property be identified?",
+      "key": "In a laser structure such as a quantum well, the finite barrier height is determined by the conduction and valence band offsets. This can be identified experimentally via optical absorption or by analyzing the energy levels from photoluminescence spectra."
+    },
+    {
+      "number": "00027",
+      "question": "Talk about the variation in energy between an infinite potential barrier and a finite potential barrier.",
+      "key": "An infinite potential barrier forces the wavefunction to zero at the boundaries, yielding strictly quantized, sine-wave solutions. A finite barrier allows for wavefunction penetration (evanescent tails) and tunneling, slightly shifting energy levels and allowing for nonzero probability outside the well."
+    },
+    {
+      "number": "00028",
+      "question": "What's a semiconductor? Could you tell me its basic characteristics? What about its electric properties?",
+      "key": "A semiconductor has a moderate band gap (typically ~1 eV), allowing controlled conduction via thermal excitation or doping. Its electrical properties include temperature-dependent conductivity, the formation of p–n junctions, and sensitivity to light, making it useful in diodes, transistors, and solar cells."
+    },
+    {
+      "number": "00029",
+      "question": "What are the optical properties of a semiconductor?",
+      "key": "Semiconductors typically exhibit strong absorption near the band edge, photoluminescence, and can be transparent or opaque depending on the wavelength. Direct-gap semiconductors show sharp optical transitions, while indirect-gap ones have weaker, phonon-assisted absorption."
+    },
+    {
+      "number": "00030",
+      "question": "What's the minority carrier lifetime of silicon?",
+      "key": "Minority carrier lifetime in silicon typically ranges from microseconds to milliseconds, depending on purity, doping, and defect levels."
+    },
+    {
+      "number": "00031",
+      "question": "What's the ideal diode equation?",
+      "key": "The ideal diode equation is \\(I = I_s\\left(e^{qV/(k_B T)} - 1\\right)\\), where \\(I_s\\) is the saturation current, \\(q\\) the electron charge, \\(V\\) the applied voltage, and \\(T\\) the temperature."
+    },
+    {
+      "number": "00032",
+      "question": "How can you calculate concentration from the Fermi-Dirac distribution?",
+      "key": "Carrier concentration is calculated by integrating the product of the density of states (DOS) and the Fermi–Dirac distribution over energy. For electrons: \\(n = \\int D_c(E) f(E)\\,dE\\), and similarly for holes."
+    },
+    {
+      "number": "00033",
+      "question": "How does the Fermi level change with temperature in an extrinsic semiconductor?",
+      "key": "In an extrinsic semiconductor, as temperature increases, the Fermi level can shift toward the intrinsic level due to increased intrinsic carrier generation, although at moderate temperatures it remains near the donor or acceptor level."
+    },
+    {
+      "number": "00034",
+      "question": "What are quasi-Fermi levels and where do they appear on the diagram?",
+      "key": "Quasi-Fermi levels represent the separate chemical potentials for electrons and holes under non-equilibrium conditions (e.g. under illumination or bias) and appear as split levels in the band diagram, deviating from the equilibrium Fermi level."
+    },
+    {
+      "number": "00035",
+      "question": "How does the Schottky effect relate to thermionic emission and field emission?",
+      "key": "The Schottky effect refers to the lowering of the effective barrier height at a metal surface due to an applied electric field, which enhances both thermionic and field emission by making it easier for electrons to escape the surface."
+    },
+    {
+      "number": "00036",
+      "question": "Derive density of states for 0D, 1D, 2D, and 3D.",
+      "key": "For 0D (quantum dot): DOS is a set of discrete delta functions. For 1D: \\(D(E) \\propto 1/\\sqrt{E}\\). For 2D: DOS is constant (per subband). For 3D: \\(D(E) \\propto \\sqrt{E}\\). The derivations follow from counting the number of states in k-space and converting to energy using the dispersion relation."
+    },
+    {
+      "number": "00037",
+      "question": "How would you define an electron's wave-particle aspects?",
+      "key": "Electrons exhibit wave-particle duality: they behave as particles with mass and charge (localizable) while also displaying wave-like properties such as interference and diffraction, as captured by the de Broglie relation \\(\\lambda = h/p\\)."
+    },
+    {
+      "number": "00038",
+      "question": "What's the Fermi-Dirac distribution?",
+      "key": "The Fermi–Dirac distribution is \\(f(E) = \\frac{1}{\\exp((E - E_F)/(k_B T)) + 1}\\), which gives the probability that an electron state at energy \\(E\\) is occupied at temperature \\(T\\)."
+    },
+    {
+      "number": "00039",
+      "question": "If you shine light on a p-n junction, what happens?",
+      "key": "Illumination of a p–n junction generates electron–hole pairs. The built-in electric field in the depletion region separates these carriers, leading to a photocurrent and photovoltage—this is the basis of photovoltaic and photodiode operation."
+    },
+    {
+      "number": "00040",
+      "question": "What's the plasmonic effect?",
+      "key": "The plasmonic effect occurs when conduction electrons in a metal collectively oscillate in resonance with incident electromagnetic radiation, leading to strong light absorption and local field enhancement, as seen in metal nanoparticles."
+    },
+    {
+      "number": "00041",
+      "question": "What are the different types of phonons that exist?",
+      "key": "Phonons can be classified as acoustic (atoms oscillate in phase, responsible for sound propagation) and optical (atoms in the basis oscillate out of phase, typically at higher frequencies)."
+    },
+    {
+      "number": "00042",
+      "question": "What is the Brillouin zone?",
+      "key": "The Brillouin zone is the Wigner–Seitz cell in reciprocal space of a crystal lattice. It is the fundamental region that contains all the unique k-vectors which define the electronic and vibrational states."
+    },
+    {
+      "number": "00043",
+      "question": "Why do we use reciprocal space instead of real space?",
+      "key": "Reciprocal space simplifies the analysis of periodic systems, allowing diffraction conditions and band structures to be described more naturally. It transforms the complex periodic potential in real space into a set of discrete points that facilitate analysis of wave interference and electron behavior."
+    },
+    {
+      "number": "00044",
+      "question": "What's the dispersion relation for phonons?",
+      "key": "The phonon dispersion relation describes the relationship between frequency \\(\\omega\\) and wavevector \\(k\\) for lattice vibrations. In a simple 1D chain, it is given by \\(\\omega(k)=2\\sqrt{\\kappa/M}|\\sin(ka/2)|\\), where \\(\\kappa\\) is the spring constant, \\(M\\) the atomic mass, and \\(a\\) the lattice constant."
+    },
+    {
+      "number": "00045",
+      "question": "What are optical and acoustic modes?",
+      "key": "Acoustic modes involve in-phase oscillations of atoms, resulting in sound propagation and zero frequency at \\(k=0\\). Optical modes involve out-of-phase oscillations between atoms in a basis, usually occurring at higher frequencies even at \\(k=0\\)."
+    },
+    {
+      "number": "00046",
+      "question": "What's the difference between the Schottky effect and a Schottky contact?",
+      "key": "The Schottky effect refers to the field-induced lowering of the barrier at a metal surface, enhancing electron emission. A Schottky contact is a metal–semiconductor junction that forms a rectifying barrier due to differences in work function and electron affinity."
+    },
+    {
+      "number": "00047",
+      "question": "Why does a bandgap exist in semiconductors while there is none in metals?",
+      "key": "In semiconductors, the periodic potential of the lattice causes the splitting of energy levels into distinct bands separated by forbidden gaps. Metals have partially filled bands or overlapping bands, so no gap exists at the Fermi level."
+    },
+    {
+      "number": "00048",
+      "question": "What's the diode equation for dark current?",
+      "key": "The diode dark-current equation is \\(I = I_0\\left(e^{qV/(k_B T)} - 1\\right)\\), where \\(I_0\\) is the saturation current in the absence of illumination."
+    },
+    {
+      "number": "00049",
+      "question": "Define effective mass.",
+      "key": "The effective mass of an electron in a solid is a parameter that quantifies how the electron responds to external forces, defined from the curvature of the energy band as \\(m^* = \\hbar^2/\\left(\\frac{\\partial^2E}{\\partial k^2}\\right)\\)."
+    },
+    {
+      "number": "00050",
+      "question": "Why is the Fermi level at 50% probability and not any other value?",
+      "key": "At absolute zero, all states below the Fermi level are occupied and those above are empty. At finite temperatures, the Fermi–Dirac distribution ensures that at \\(E = E_F\\) the occupation probability is 50%, serving as a natural reference point."
+    },
+    {
+      "number": "00051",
+      "question": "What model describes a semiconductor's band structure?",
+      "key": "The nearly-free electron model and the k·p perturbation theory are often used to describe semiconductor band structures. These models explain how a periodic potential leads to the formation of energy bands and band gaps."
+    },
+    {
+      "number": "00052",
+      "question": "What's a laser optical cavity?",
+      "key": "A laser optical cavity is a set of mirrors or resonators that provide feedback of light in the gain medium, allowing amplification by stimulated emission. It defines the laser modes and affects the output frequency and coherence."
+    },
+    {
+      "number": "00053",
+      "question": "What's the dispersion relation for a monatomic system?",
+      "key": "For a 1D monatomic chain with nearest-neighbor interactions, the phonon dispersion relation is given by \\(\\omega(k)=2\\sqrt{\\frac{\\kappa}{M}}\\left|\\sin\\left(\\frac{ka}{2}\\right)\\right|\\), where \\(\\kappa\\) is the spring constant, \\(M\\) the atomic mass, and \\(a\\) the lattice constant."
+    },
+    {
+      "number": "00054",
+      "question": "Can an amorphous material have phonons?",
+      "key": "Amorphous materials do not have long-range periodicity, so phonons are not well-defined as in crystals. However, they still exhibit vibrational modes that can be described by a vibrational density of states, albeit with broadened features."
+    },
+    {
+      "number": "00055",
+      "question": "What is the physical meaning of the time-independent Schrodinger equation?",
+      "key": "The time-independent Schrödinger equation, \\(\\hat{H}\\psi = E\\psi\\), describes the stationary states of a quantum system with definite energy. It is used to calculate the allowed energy levels and corresponding wavefunctions of particles in a potential."
+    },
+    {
+      "number": "00056",
+      "question": "How do the conductivities of a metal and semiconductor change with temperature?",
+      "key": "In metals, conductivity typically decreases with increasing temperature due to enhanced phonon scattering. In semiconductors, conductivity usually increases with temperature as more carriers are thermally excited across the band gap."
+    },
+    {
+      "number": "00057",
+      "question": "What's the difference in conductivities between a metal and a semiconductor?",
+      "key": "Metals have high conductivity due to a high density of free electrons with minimal scattering at low temperatures. Semiconductors have lower conductivity at low temperatures because of a band gap, but conductivity increases with temperature as carriers are thermally excited."
+    },
+    {
+      "number": "00058",
+      "question": "How does the density of states change between the valence band and conduction band?",
+      "key": "In a semiconductor, the density of states (DOS) is zero within the band gap. In the valence and conduction bands, DOS increases with energy from the respective band edges, typically following a \\(\\sqrt{E}\\) dependence in 3D systems."
+    },
+    {
+      "number": "00059",
+      "question": "Describe absorption vs. wavelength for an indirect and direct bandgap semiconductor.",
+      "key": "A direct bandgap semiconductor exhibits a sharp absorption edge at the band gap energy due to direct electronic transitions. An indirect bandgap semiconductor has a more gradual absorption onset because phonon assistance is required for electron transitions between bands."
+    },
+    {
+      "number": "00060",
+      "question": "In practice, why is the Fermi level slightly above the intrinsic level?",
+      "key": "In real semiconductors, residual impurities and defects often result in slight doping, shifting the Fermi level toward the conduction band in n-type or toward the valence band in p-type materials, rather than being exactly mid-gap."
+    },
+    {
+      "number": "00061",
+      "question": "What's a metal-semiconductor contact?",
+      "key": "A metal–semiconductor contact is an interface between a metal and a semiconductor, which can form a Schottky (rectifying) junction or an ohmic contact, depending on the relative work functions and semiconductor doping levels."
+    },
+    {
+      "number": "00062",
+      "question": "Define optical absorption in a semiconductor.",
+      "key": "Optical absorption in a semiconductor refers to the process by which photons with energy equal to or greater than the band gap are absorbed to excite electrons from the valence band to the conduction band, generating electron–hole pairs."
+    },
+    {
+      "number": "00063",
+      "question": "P-n junctions can be used as variable capacitors. How does the capacitance change with applied voltage? What formula governs this?",
+      "key": "In a reverse-biased p–n junction, the depletion layer widens with increasing voltage, so the junction capacitance decreases. The relationship is often given by \\(C_j = \\frac{C_0}{(1 + V/V_0)^{1/2}}\\) for an abrupt junction."
+    },
+    {
+      "number": "00064",
+      "question": "What is the continuity equation for a p-n junction, and what is it used for?",
+      "key": "The continuity equation expresses the conservation of charge for carriers (electrons and holes) in a semiconductor. It accounts for generation, recombination, and drift/diffusion, and is used to analyze current flow and carrier distribution in p–n junctions."
+    },
+    {
+      "number": "00065",
+      "question": "What's a quantum dot?",
+      "key": "A quantum dot is a nanoscale semiconductor structure where electrons are confined in all three dimensions, leading to discrete energy levels similar to an atom. This quantum confinement results in size-dependent optical and electronic properties."
+    },
+    {
+      "number": "00066",
+      "question": "Can you create a device with only majority carriers?",
+      "key": "Yes. For example, a unipolar device such as a field-effect transistor (FET) uses only majority carriers in the channel region. In such devices, the conduction is dominated by either electrons (n-type) or holes (p-type)."
+    },
+    {
+      "number": "00067",
+      "question": "Can you make an insulator conductive by introducing donors or acceptors?",
+      "key": "Introducing sufficient donors or acceptors can transform a wide-bandgap insulator into a semiconductor, and at very high doping levels (degenerate doping), its conduction can resemble that of a metal."
+    },
+    {
+      "number": "00068",
+      "question": "Can you make a diamond conductive, which is traditionally an electrical insulator?",
+      "key": "Yes, diamond can be doped (typically with boron for p-type conduction) to become semiconducting and even exhibit metallic-like conduction at high dopant concentrations."
+    },
+    {
+      "number": "00069",
+      "question": "What is the typical electron concentration in a heavily doped semiconductor?",
+      "key": "Heavily doped (degenerate) semiconductors can have electron concentrations on the order of 10^19 to 10^20 cm⁻³, approaching metallic densities."
+    },
+    {
+      "number": "00070",
+      "question": "Describe the Fermi sphere and its relevance to thermal conductivity.",
+      "key": "The Fermi sphere is the region in k-space occupied by electrons up to the Fermi wavevector at absolute zero. Electrons near the Fermi surface contribute most to thermal conductivity in metals, as they can carry energy when perturbed by a temperature gradient."
+    },
+    {
+      "number": "00071",
+      "question": "What is the typical mobility in semiconductors?",
+      "key": "Carrier mobility in semiconductors typically ranges from a few hundred to a few thousand cm²/V·s, depending on the material (e.g. Si, GaAs) and doping level."
+    },
+    {
+      "number": "00072",
+      "question": "Can an insulator have the same mobility as a semiconductor?",
+      "key": "In insulators, the carrier concentration is extremely low, so even if the scattering mechanisms were similar, the effective conductivity remains very low. Mobility in insulators is not typically a useful parameter due to the large band gap."
+    },
+    {
+      "number": "00073",
+      "question": "What is Schottky contact?",
+      "key": "A Schottky contact is a metal–semiconductor junction that forms a rectifying barrier due to the difference in work function between the metal and the semiconductor, leading to a depletion region and diode-like behavior."
+    },
+    {
+      "number": "00074",
+      "question": "Describe the thermal conductivity of electrons in a metal.",
+      "key": "In metals, thermal conductivity of electrons is high because electrons are free to transport energy. According to the Wiedemann–Franz law, the ratio of thermal to electrical conductivity is proportional to temperature."
+    },
+    {
+      "number": "00075",
+      "question": "What is the dominant factor in the mathematical expression for thermal conductivity?",
+      "key": "The dominant factor in thermal conductivity is typically the carrier mean free path or scattering time. In metals, electron mean free path and specific heat near the Fermi surface largely determine thermal conductivity."
+    },
+    {
+      "number": "00076",
+      "question": "What's compensation in semiconductors?",
+      "key": "Compensation in semiconductors occurs when both donors and acceptors are present, partially neutralizing each other. The net carrier concentration is given by the difference between donor and acceptor densities."
+    },
+    {
+      "number": "00077",
+      "question": "How is compensation affected by deep trap states?",
+      "key": "Deep trap states can capture carriers, reducing the effective free carrier concentration. This increases compensation effects, as fewer carriers are available for conduction despite doping."
+    },
+    {
+      "number": "00078",
+      "question": "How does a semiconductor differ from a metal?",
+      "key": "Semiconductors have a finite band gap and their conductivity is strongly temperature-dependent, whereas metals have overlapping bands with high free electron concentration and relatively temperature-insensitive conductivity."
+    },
+    {
+      "number": "00079",
+      "question": "What's an exciton?",
+      "key": "An exciton is a bound state of an electron and a hole, attracted by Coulomb interaction in a semiconductor or insulator. It behaves like a neutral quasiparticle and plays a key role in optical absorption and emission."
+    },
+    {
+      "number": "00080",
+      "question": "If you have an extremely doped semiconductor such that the electron concentration is on par with that of metals, can you say it behaves like a metal?",
+      "key": "A heavily doped semiconductor (degenerate semiconductor) may exhibit metal-like conduction (high carrier density and low resistivity), but its band structure remains that of a semiconductor. It can show metallic behavior while still having a band gap."
+    }
+  ]
+}

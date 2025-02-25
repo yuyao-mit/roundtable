@@ -1,0 +1,505 @@
+{
+  "total": 100,
+  "data": [
+    {
+      "number": "00001",
+      "question": "What is elasticity? What is strain energy? How do we make use of high elastic modulus material?",
+      "key": "Elasticity is the ability of a material to deform under load and then return to its original shape when the load is removed. Strain energy is the energy stored in a material due to elastic deformation (area under the elastic portion of the stress–strain curve). A high elastic modulus (stiff material) is useful for minimizing deflection, for instance in load-bearing structures or precision instruments."
+    },
+    {
+      "number": "00002",
+      "question": "What is fatigue? Describe different types of fatigue and tell their mechanisms.",
+      "key": "Fatigue is the progressive, localized structural damage that occurs when a material is subjected to cyclic or fluctuating stresses below its ultimate tensile strength. Types include:\n- High-cycle fatigue (lower stress, many cycles), driven by crack initiation and slow propagation.\n- Low-cycle fatigue (higher stress or strain, fewer cycles), often involving plastic deformation each cycle.\n- Thermal/mechanical fatigue, where temperature changes cause fluctuating stresses.\nMechanisms involve microcrack initiation at stress concentrations, crack growth under repeated loading, and final fracture."
+    },
+    {
+      "number": "00003",
+      "question": "Difference between metal and composite materials for structural applications (one-story building, two-story building, skyscraper) and why you would choose them.",
+      "key": "Metals (like steel) offer good ductility, toughness, and established design methods, making them suitable for mid-rise to high-rise structures. Composites can have high strength-to-weight ratio and good corrosion resistance, potentially useful for lighter structures or special cases (e.g. advanced bridges, certain low-rise or specialized buildings). For a one- or two-story building, standard steel or concrete is common. For skyscrapers, high-strength steels or advanced composites may be chosen to reduce weight and handle large loads efficiently."
+    },
+    {
+      "number": "00004",
+      "question": "If a horizontal force hit the side of the building, what would be best to minimize damage?",
+      "key": "To minimize damage from lateral (horizontal) forces, structures typically use shear walls, bracing systems, or moment-resisting frames designed for lateral stability. Ductile materials (e.g. steel, reinforced concrete) and well-designed connections help absorb energy and prevent catastrophic failure."
+    },
+    {
+      "number": "00005",
+      "question": "What are the stresses materials experience in space? How do you design a satellite to prevent these stresses from damaging the components?",
+      "key": "In space, components can experience extreme temperature fluctuations, vacuum, radiation, and micro-meteoroid impacts. Satellites are designed with thermal control (insulation, reflective surfaces, radiators), radiation-hardened electronics, lightweight stiff materials (composites, aluminum alloys), and protective shielding. Stress is limited by using carefully designed structures and attachments that account for launch vibrations and space thermal cycling."
+    },
+    {
+      "number": "00006",
+      "question": "What types of glass/similar materials for: automobile windshields, household objects, windows?",
+      "key": "Automobile windshields typically use laminated safety glass (two layers of glass bonded with a plastic interlayer) for impact resistance. Household objects might use soda-lime glass, tempered glass, or borosilicate (Pyrex). Windows in buildings often use float glass, sometimes tempered or coated for insulation."
+    },
+    {
+      "number": "00007",
+      "question": "Talk about aluminum composites for an aircraft fuselage.",
+      "key": "Aluminum composites in aircraft fuselages combine aluminum’s low density and formability with reinforcing fibers or particles for higher strength and stiffness. They also improve fatigue resistance and corrosion behavior compared to standard aluminum alloys while keeping weight low."
+    },
+    {
+      "number": "00008",
+      "question": "Discuss corrosion resistance methods and their limits.",
+      "key": "Corrosion resistance can be achieved by coatings (paint, plating), cathodic protection (sacrificial anodes), alloying (stainless steels), or inhibitors. Each has limits (coatings can fail if scratched, cathodic protection must be maintained, stainless steels can still corrode under certain conditions). Proper design and periodic inspection are also crucial."
+    },
+    {
+      "number": "00009",
+      "question": "Talk about composites that go into oil pipelines.",
+      "key": "Oil pipelines may use fiber-reinforced polymers (e.g. glass or carbon fiber composites) for corrosion resistance, high pressure capability, and lighter weight than steel. They can reduce maintenance costs but have installation and cost considerations."
+    },
+    {
+      "number": "00010",
+      "question": "Given two cylinders of the same material and same length but with different thicknesses, which one has the higher yield strength? Which one would be easier to bend? Which one is easier to pull? If you took the thinner cylinder and made it into a composite, how would it compare to the original specimen?",
+      "key": "Same material and length but different thickness means:\n- Thicker cylinder generally resists higher loads before yielding due to its greater cross-sectional area; thus it can exhibit higher load capacity but the material’s yield strength is intrinsic.\n- The thinner one is easier to bend (less stiffness).\n- Both have the same ultimate tensile strength per unit area, but in pure tension (pull), cross-sectional area affects load capacity.\n- Turning the thinner cylinder into a composite can increase its stiffness and strength while keeping weight relatively low, likely surpassing the original in certain properties if designed properly."
+    },
+    {
+      "number": "00011",
+      "question": "If I had a rubber band and left it somewhere (maybe outside) for a long time, why is it brittle? How can you prevent this from happening?",
+      "key": "Over time, rubber can oxidize or undergo UV damage, losing elasticity and becoming brittle (chain scission, crosslink changes). Storing rubber away from oxygen, ozone, or sunlight (or using stabilizers/antioxidants) can prevent or slow this embrittlement."
+    },
+    {
+      "number": "00012",
+      "question": "If I had a metal paper clip, what material properties would I be interested in pertinent to its function? If I were to take that paper clip and put a polymer coating on it, how would it change?",
+      "key": "A paper clip needs good yield strength, ductility, and fatigue resistance so it can be bent repeatedly without breaking. Adding a polymer coating can provide corrosion protection, improved grip, or aesthetics. It might alter friction behavior but generally won’t dramatically change the base metal’s mechanical properties."
+    },
+    {
+      "number": "00013",
+      "question": "Explain cold working and its theoretical limit.",
+      "key": "Cold working is plastic deformation of a metal at a temperature below its recrystallization temperature. It increases dislocation density, raising strength and hardness but lowering ductility. Theoretical limits occur when the metal can no longer accommodate further dislocations or work hardening becomes so severe that it fractures or needs annealing."
+    },
+    {
+      "number": "00014",
+      "question": "How can you calculate the limit of cold working without running an experiment?",
+      "key": "You can estimate cold working limits by knowing the metal’s strain-hardening exponent and using stress–strain or flow curve equations. Integrating the strain-hardening relationship (like σ = Kε^n) can predict maximum uniform deformation before necking."
+    },
+    {
+      "number": "00015",
+      "question": "Show a plot of Young's modulus versus density for different materials.",
+      "key": "A chart of Young’s modulus vs. density often shows:\n- Metals (steel, aluminum) have moderate E with moderate density.\n- Ceramics (alumina, silicon carbide) have high E with moderate/high density.\n- Polymers have low E with low density.\n- Composites can have high E with lower density than metals depending on fiber content."
+    },
+    {
+      "number": "00016",
+      "question": "If we left a rubber headphone cable in air for 10 years, why does it become brittle?",
+      "key": "Rubber (elastomers) degrade by oxidation, UV exposure, and other environmental factors, leading to chain scission or excessive crosslinking. This embrittles the rubber over time, making it stiff or cracked."
+    },
+    {
+      "number": "00017",
+      "question": "What material would you use to make a car or to make a plane?",
+      "key": "Cars: steel or aluminum alloys for cost, strength, and formability. Planes: advanced aluminum-lithium alloys or composite materials for high strength-to-weight ratio and fatigue resistance, crucial to reduce mass and improve fuel efficiency."
+    },
+    {
+      "number": "00018",
+      "question": "If you have a circular frame, a square frame, and a triangular frame under compression and tension, how do they behave? If the square frame now has a circular frame inside it, how does its behavior change? How would it compare to a triangular frame?",
+      "key": "A circular frame under load distributes stress more uniformly. A square frame can have stress concentrations at corners. A triangular frame is typically rigid, but can concentrate forces at joints. If a square contains a circular frame inside, it can help redistribute loads, potentially improving stiffness. Triangles remain among the most stable shapes for bracing, though circular frames can handle uniform compression better."
+    },
+    {
+      "number": "00019",
+      "question": "Why does fatigue happen?",
+      "key": "Fatigue arises from cyclic stress that initiates and propagates microcracks over time. Even stresses below the material’s yield can cause cracks to grow by repeated loading/unloading, ultimately leading to fracture."
+    },
+    {
+      "number": "00020",
+      "question": "If I take a paper clip and bend it several times, what's happening?",
+      "key": "Repeated bending of a paper clip causes plastic deformation at the bend, accumulating damage (microcracks, dislocation structures). Eventually, cracks propagate, leading to brittle fracture after enough cycles—classic metal fatigue."
+    },
+    {
+      "number": "00021",
+      "question": "If we use plastic to make a paper clip, will it be stronger (resists both deformation and failure)? What about if composites were used?",
+      "key": "A plastic paper clip might not be stronger under repeated bending because many plastics have lower ductility or can fail after localized yielding. Composites can be designed for high strength or stiffness, but their bending behavior depends on fiber orientation. Some might outperform metal in certain fatigue regimes, but cost and manufacturing could be limiting."
+    },
+    {
+      "number": "00022",
+      "question": "If you had paper clips with round, rectangular, and square sections made of either composites or plastic, which would be the strongest?",
+      "key": "Round sections generally handle torsion and bending more uniformly. Rectangular or square cross-sections might have higher second moment of area in one orientation but can produce stress concentrations at edges. Composites tailored with fibers can exceed plastic or metal strength. The exact strongest shape depends on geometry, material anisotropy, and load conditions."
+    },
+    {
+      "number": "00023",
+      "question": "If we keep several papers together with paper clips for 10 years, what will happen?",
+      "key": "Over 10 years, metal paper clips under steady stress can suffer stress relaxation or corrosion (especially if in humid or corrosive environments). They might still function if the load is small, but risk of corrosion or slight deformation over time can happen."
+    },
+    {
+      "number": "00024",
+      "question": "If we keep several papers together with composite paper clips or plastic paper clips for 10 years, what will happen?",
+      "key": "Composite or plastic clips might experience creep or relaxation, especially if the load is constant. Over 10 years, they could deform or crack if exposed to UV or chemical attack. Durability depends on polymer type and environment."
+    },
+    {
+      "number": "00025",
+      "question": "Draw stress versus strain curves for a metal, plastic, and composite, and explain them.",
+      "key": "Metals typically show an elastic region, yield point, plastic flow, and strain hardening before fracture (large area under curve = toughness). Plastics often have a lower modulus, may yield/neck, possibly large elongation. Composites can have linear elastic behavior to a brittle/abrupt failure (depending on fiber/matrix), sometimes with higher modulus than metals but less plasticity."
+    },
+    {
+      "number": "00026",
+      "question": "How can you make a steel tougher and creep-resistant?",
+      "key": "Tougher and creep-resistant steels can be made by:\n- Alloying (adding elements like Cr, Mo, V, Nb for carbide formation).\n- Grain refinement (reduce grain size).\n- Precipitation hardening.\n- Heat treatments like quenching and tempering for tempered martensite microstructures with stable carbides."
+    },
+    {
+      "number": "00027",
+      "question": "How does grain size affect creep?",
+      "key": "In creep, larger grains reduce grain boundary area (slowing boundary sliding) so creep rate generally decreases with bigger grains. Very fine grains can accelerate grain boundary sliding, increasing creep at high temperatures."
+    },
+    {
+      "number": "00028",
+      "question": "Why do BCC materials exhibit DBTT?",
+      "key": "BCC metals exhibit a ductile-to-brittle transition temperature (DBTT) because at lower temperatures, the limited available slip systems or insufficient dislocation mobility cause a shift to brittle fracture. FCC metals generally remain ductile at lower temperatures."
+    },
+    {
+      "number": "00029",
+      "question": "How does grain size affect yield strength?",
+      "key": "Yield strength often increases as grain size decreases (Hall–Petch relation: σy ∝ 1/√d). Smaller grains mean more grain boundaries that impede dislocation movement, raising yield stress."
+    },
+    {
+      "number": "00030",
+      "question": "Draw the stress vs. strain curve of a metal and explain it.",
+      "key": "A typical metal stress–strain curve shows:\n- Linear elastic region up to yield.\n- Yield point/offset.\n- Plastic deformation with strain hardening.\n- Ultimate tensile strength peak.\n- Necking and fracture. The area under the curve represents toughness."
+    },
+    {
+      "number": "00031",
+      "question": "Why are the yield strengths of pure Al and Au low? Are there any other reasons besides their crystal structures?",
+      "key": "Pure Al and Au have relatively low yield strengths due to their close-packed structures and easy dislocation glide plus minimal alloying obstacles to dislocation motion. Additionally, high purity means fewer strengthening mechanisms (like precipitates or grain boundary strengthening)."
+    },
+    {
+      "number": "00032",
+      "question": "How can the yield strengths of pure Al and Au be increased?",
+      "key": "Adding solute elements (forming alloys), reducing grain size, precipitation hardening, or work hardening can significantly raise the yield strengths of Al and Au. For example, 2000 or 7000 series aluminum alloys, or Au-based alloys in electronics."
+    },
+    {
+      "number": "00033",
+      "question": "Between Al and Al2O3, which is harder?",
+      "key": "Al2O3 (alumina) is a ceramic with high hardness, higher than metallic aluminum. Ceramics generally rank higher on Mohs or Vickers hardness scales."
+    },
+    {
+      "number": "00034",
+      "question": "Why does creep happen at high temperatures?",
+      "key": "Creep becomes significant at high temperatures (T > ~0.4 Tm). Atomic diffusion and dislocation motion are greatly enhanced by thermal energy, causing time-dependent deformation under stress."
+    },
+    {
+      "number": "00035",
+      "question": "Draw a creep curve and explain the three regions.",
+      "key": "A standard creep curve has three stages:\n1) Primary (decreasing creep rate as material strain hardens).\n2) Secondary or steady-state (constant creep rate, balance of work hardening and recovery).\n3) Tertiary (accelerating creep, necking, and final failure)."
+    },
+    {
+      "number": "00036",
+      "question": "How can creep failure be prevented?",
+      "key": "Use higher melting-point materials, add solid solution or precipitation strengthening, use large grains to reduce grain boundary sliding, apply coatings or protective environments, and reduce operating stress or temperature to avoid excessive creep."
+    },
+    {
+      "number": "00037",
+      "question": "How can you make a strong and creep-resistant material with small grains? What's a real-life example of such a material?",
+      "key": "Small grains normally aid in high-strength applications by impeding dislocation motion, but for creep resistance at high temperatures, you often want stable grain structures with pinned boundaries (e.g. dispersion-strengthened alloys). Nickel-based superalloys for jet engines use fine grains plus precipitates to resist creep."
+    },
+    {
+      "number": "00038",
+      "question": "Why does precipitation strengthening work for that material?",
+      "key": "Precipitation strengthening works because coherent or semicoherent particles impede dislocation motion. Dislocations are forced to bypass or shear precipitates, raising the stress required for plastic flow."
+    },
+    {
+      "number": "00039",
+      "question": "What's grain boundary sliding?",
+      "key": "Grain boundary sliding is the relative movement of grains along their boundaries under stress, typically at high temperature, contributing to creep. Material accommodates strain via boundary shear instead of only intragranular dislocation slip."
+    },
+    {
+      "number": "00040",
+      "question": "What's hardness?",
+      "key": "Hardness measures a material’s resistance to localized plastic deformation (indentation or scratching). Common tests include Rockwell, Vickers, or Brinell hardness."
+    },
+    {
+      "number": "00041",
+      "question": "How can hardness be increased?",
+      "key": "Hardness can be increased by:\n- Work hardening (plastic deformation).\n- Alloying and precipitation (like in steels, Al alloys).\n- Quenching and tempering.\n- Surface treatments (carburizing, nitriding). These impede dislocation motion in the near-surface region."
+    },
+    {
+      "number": "00042",
+      "question": "Can you have a hard and tough material?",
+      "key": "Yes, though it’s challenging. A tough, hard material requires microstructures that resist crack initiation and growth (toughness) and resist indentation (hardness). Some advanced steels or ceramics with transformation toughening (like zirconia) have both high hardness and reasonable toughness."
+    },
+    {
+      "number": "00043",
+      "question": "What are GP zones?",
+      "key": "GP (Guinier–Preston) zones are tiny, coherent solute-rich clusters in age-hardenable alloys (like Al–Cu) that form at lower aging temperatures. They are precursors to larger precipitates."
+    },
+    {
+      "number": "00044",
+      "question": "How do these microstructures affect mechanical properties?",
+      "key": "Microstructures such as GP zones, coherent precipitates, or dispersoids strongly increase strength by hindering dislocation movement. Larger incoherent precipitates can also strengthen but to a lesser extent. The presence of these features can improve hardness, yield strength, and sometimes affect ductility."
+    },
+    {
+      "number": "00045",
+      "question": "What's toughness?",
+      "key": "Toughness is a material’s ability to absorb energy and plastically deform before fracturing (area under the stress–strain curve). It combines strength and ductility."
+    },
+    {
+      "number": "00046",
+      "question": "How can toughness be increased for materials?",
+      "key": "To increase toughness:\n- Refine grains (Hall–Petch improvement in both strength and ductility).\n- Reduce brittle phases or large inclusions.\n- Use proper heat treatments (tempering in steels) to achieve balanced strength and ductility.\n- Add toughening mechanisms (transformation toughening in some ceramics, fiber reinforcement in composites)."
+    },
+    {
+      "number": "00047",
+      "question": "What is ductile-to-brittle transition temperature (DBTT), and why is it important for structural materials?",
+      "key": "DBTT is the temperature below which a usually ductile metal (often BCC) becomes brittle. It’s vital for structural materials because sudden brittle failure can occur in cold environments if the operating temperature is below the DBTT."
+    },
+    {
+      "number": "00048",
+      "question": "Describe the mechanism of brittle fracture in ceramics. Why are ceramics typically brittle?",
+      "key": "Brittle fracture in ceramics occurs due to limited dislocation motion and the presence of microscopic flaws that act as stress concentrators. The strong ionic or covalent bonds and lack of ductile deformation mechanisms make ceramics more prone to sudden fracture."
+    },
+    {
+      "number": "00049",
+      "question": "Why do glasses crack easily upon impact?",
+      "key": "Glass has an amorphous structure with no slip systems for plastic deformation, so cracks initiated at flaws or surface defects propagate quickly under impact. This leads to brittle fracture with little energy absorption."
+    },
+    {
+      "number": "00050",
+      "question": "Explain the concept of residual stresses. How can they be introduced, and how do they affect mechanical performance?",
+      "key": "Residual stresses are internal stresses locked into a material, introduced by processes like welding, quenching, or uneven cooling. They can affect performance by either improving fatigue life (compressive near the surface) or promoting crack growth (tensile)."
+    },
+    {
+      "number": "00051",
+      "question": "What is shot peening, and how does it affect fatigue strength?",
+      "key": "Shot peening bombards the surface with small spherical media, creating compressive residual stresses that inhibit crack initiation and propagation, thus improving fatigue strength."
+    },
+    {
+      "number": "00052",
+      "question": "How does precipitation hardening differ from work hardening?",
+      "key": "Precipitation hardening forms small precipitates that hinder dislocation motion, while work hardening increases dislocation density through plastic deformation. Both raise strength but by different mechanisms."
+    },
+    {
+      "number": "00053",
+      "question": "What are TTT (Time-Temperature-Transformation) diagrams, and why are they important for steels?",
+      "key": "TTT diagrams (Time-Temperature-Transformation) show how phases in steel change over time at a given temperature. They guide heat treatments (e.g. to form martensite, bainite, or pearlite) for desired properties."
+    },
+    {
+      "number": "00054",
+      "question": "Explain the formation of martensite in steels and how it affects mechanical properties.",
+      "key": "Martensite forms when austenitized steel is rapidly cooled (quenched). The diffusionless transformation creates a hard, supersaturated phase with a distorted lattice, increasing strength but reducing ductility."
+    },
+    {
+      "number": "00055",
+      "question": "What is bainite, and how is it formed?",
+      "key": "Bainite is formed by isothermal transformation of austenite at temperatures below those for pearlite formation but above martensite start. It’s a mixture of ferrite and carbides, offering a balance of strength and toughness."
+    },
+    {
+      "number": "00056",
+      "question": "Explain the difference between eutectoid, eutectic, and peritectic reactions in phase diagrams.",
+      "key": "Eutectoid involves a single solid phase transforming into two solid phases (e.g. austenite to pearlite). Eutectic is one liquid transforming into two solids. Peritectic involves a reaction of a solid and liquid forming a different solid phase. Each represents distinct phase transformations in alloys."
+    },
+    {
+      "number": "00057",
+      "question": "What is the effect of carbon content on the hardness and ductility of steel?",
+      "key": "Higher carbon generally increases steel hardness and strength but reduces ductility. Carbon atoms hinder dislocation movement, raising yield and tensile strength at the expense of formability."
+    },
+    {
+      "number": "00058",
+      "question": "Why do stainless steels resist corrosion, and what are their limitations?",
+      "key": "Stainless steels resist corrosion due to their chromium content forming a passive Cr2O3 film on the surface. However, in chloride-rich or acidic environments, pitting or stress corrosion cracking can occur if the passive layer breaks down."
+    },
+    {
+      "number": "00059",
+      "question": "Explain the difference between 304 and 316 stainless steel and their typical applications.",
+      "key": "304 stainless is a common austenitic grade with good corrosion resistance and formability. 316 has added molybdenum for better pitting resistance in chloride environments (e.g. marine applications). Both maintain good ductility and weldability."
+    },
+    {
+      "number": "00060",
+      "question": "What is the significance of fractography in failure analysis?",
+      "key": "Fractography is the examination of fracture surfaces to determine the cause of failure. It reveals features like beach marks (fatigue), dimple rupture (ductile failure), or cleavage facets (brittle fracture)."
+    },
+    {
+      "number": "00061",
+      "question": "Explain the difference between cleavage fracture and ductile fracture.",
+      "key": "Cleavage fracture features flat, grain-faceted surfaces (brittle, low energy) while ductile fracture involves microvoid coalescence and a rougher surface (higher energy absorption before failure)."
+    },
+    {
+      "number": "00062",
+      "question": "Why do polymer chains align under tension, and how does this affect strength?",
+      "key": "Under tension, polymer chains can orient in the loading direction, increasing tensile strength and stiffness. This alignment reduces entanglement and allows for more efficient load transfer along chain backbones."
+    },
+    {
+      "number": "00063",
+      "question": "What is the difference between thermoplastics and thermosets in terms of mechanical properties?",
+      "key": "Thermoplastics soften when heated and can be remolded; they typically have less crosslinking, allowing reversible flow. Thermosets are heavily crosslinked, do not melt upon heating, and generally exhibit higher thermal stability but less ductility."
+    },
+    {
+      "number": "00064",
+      "question": "Explain the role of crosslinking in rubber elasticity.",
+      "key": "Crosslinking in rubbers creates covalent bonds between polymer chains, allowing elastic deformation but preventing permanent flow. This gives rubber high elasticity, as chains can uncoil and recoil without slipping past each other."
+    },
+    {
+      "number": "00065",
+      "question": "What is glass transition temperature (Tg), and why is it important for polymers?",
+      "key": "The glass transition temperature (Tg) is where an amorphous polymer transitions from a hard, glassy state to a more rubbery or viscous state. It’s crucial for understanding operational temperature ranges and mechanical performance."
+    },
+    {
+      "number": "00066",
+      "question": "Explain viscoelastic behavior in polymers.",
+      "key": "Viscoelastic behavior combines viscous flow and elastic deformation. Under load, polymers may show time-dependent strain (creep) or stress relaxation, reflecting their dual liquid-solid nature at certain temperatures."
+    },
+    {
+      "number": "00067",
+      "question": "What is stress relaxation, and in which materials does it typically occur?",
+      "key": "Stress relaxation occurs when a material under constant strain experiences a gradual decrease in stress over time. Common in polymers and some metals at high temperature, caused by rearrangements at the molecular or dislocation level."
+    },
+    {
+      "number": "00068",
+      "question": "How do you measure hardness in polymers compared to metals?",
+      "key": "Hardness in polymers is often measured using softer scales (e.g. Shore hardness) because they deform more easily than metals. Metals typically use Rockwell, Vickers, or Brinell, reflecting higher stiffness and resistance."
+    },
+    {
+      "number": "00069",
+      "question": "Explain the concept of superalloys and their typical applications.",
+      "key": "Superalloys are high-performance alloys designed for elevated-temperature service. They retain strength, creep resistance, and corrosion/oxidation resistance at temperatures close to their melting point, used in turbines, jet engines, etc."
+    },
+    {
+      "number": "00070",
+      "question": "Why are nickel-based superalloys used in jet engines?",
+      "key": "Nickel-based superalloys maintain their strength and corrosion resistance at high temperatures. Their stable microstructure under extreme heat makes them ideal for turbine blades and other jet engine components."
+    },
+    {
+      "number": "00071",
+      "question": "Explain hot working versus cold working. When would each be preferable?",
+      "key": "Hot working (above recrystallization temperature) allows large plastic deformations without strain hardening, improving workability and refining grain structures. Cold working (below recrystallization temperature) increases strength via work hardening but reduces ductility."
+    },
+    {
+      "number": "00072",
+      "question": "How do quenching and tempering affect the microstructure of steel?",
+      "key": "Quenching transforms austenite into martensite, increasing hardness and strength but making steel brittle. Tempering reheats the quenched steel to reduce internal stresses and adjust hardness-toughness balance via controlled carbide precipitation."
+    },
+    {
+      "number": "00073",
+      "question": "What is the difference between slow cooling and rapid cooling in metals, and how does it influence microstructure?",
+      "key": "Slow cooling generally promotes equilibrium phases (e.g., coarser pearlite or ferrite). Rapid cooling can form non-equilibrium phases (e.g., martensite), dramatically affecting hardness, strength, and ductility."
+    },
+    {
+      "number": "00074",
+      "question": "Explain solid-solution strengthening and its limitations.",
+      "key": "Solid-solution strengthening involves adding alloying elements that dissolve in the base metal, distorting the lattice and hindering dislocation motion. It’s limited by solubility and may not increase hardness as much as other methods like precipitation."
+    },
+    {
+      "number": "00075",
+      "question": "What are dual-phase steels, and why are they used in automotive applications?",
+      "key": "Dual-phase steels combine a soft ferrite matrix with hard martensitic islands, offering a good balance of strength and ductility. They’re commonly used in automotive components for weight reduction and crashworthiness."
+    },
+    {
+      "number": "00076",
+      "question": "Describe the process of sintering and its applications in powder metallurgy.",
+      "key": "Sintering fuses powder particles at temperatures below their melting point. It’s used in powder metallurgy to produce parts with controlled porosity or near-final shape, minimizing material waste."
+    },
+    {
+      "number": "00077",
+      "question": "How can powder metallurgy produce near-net-shape components?",
+      "key": "Powder metallurgy can produce near-net-shape components by carefully controlling powder size, composition, and compacting geometry. After sintering, minimal machining is required, reducing material loss and cost."
+    },
+    {
+      "number": "00078",
+      "question": "What are shape memory alloys, and how do they work?",
+      "key": "Shape memory alloys (e.g., NiTi) can be deformed at low temperatures and then return to their original shape when heated above a transformation temperature, thanks to a reversible martensitic phase change."
+    },
+    {
+      "number": "00079",
+      "question": "Explain how grain boundary engineering can enhance materials performance.",
+      "key": "Grain boundary engineering modifies boundary character (increasing special boundaries like twin boundaries) to improve resistance to cracking, corrosion, or creep, enhancing overall performance in metals."
+    },
+    {
+      "number": "00080",
+      "question": "Describe the concept of polymer composites with continuous versus discontinuous fibers.",
+      "key": "Polymer composites with continuous fibers (e.g., carbon, glass) have higher strength and stiffness along fiber directions. Discontinuous (short) fibers or particles provide more isotropic properties but typically lower overall strength."
+    },
+    {
+      "number": "00081",
+      "question": "What is the difference between laminate composites and sandwich composites?",
+      "key": "Laminate composites stack different orientations or materials in layers to tailor properties. Sandwich composites place a lightweight core between stiff facing skins, offering high bending stiffness at low weight."
+    },
+    {
+      "number": "00082",
+      "question": "Why is carbon fiber widely used in aerospace applications?",
+      "key": "Carbon fiber offers high strength-to-weight ratio, stiffness, and good fatigue performance. Its low density significantly reduces structural weight in aerospace, improving fuel efficiency and payload capacity."
+    },
+    {
+      "number": "00083",
+      "question": "Explain the difference between isotropic, anisotropic, and orthotropic material behavior in composites.",
+      "key": "Isotropic materials have uniform properties in all directions. Anisotropic materials have direction-dependent properties. Orthotropic is a special case of anisotropy with three mutually perpendicular planes of symmetry, common in fiber composites."
+    },
+    {
+      "number": "00084",
+      "question": "What is interface bonding in composites, and why is it critical?",
+      "key": "Interface bonding in composites ensures load transfer between fibers and matrix. Poor bonding can lead to fiber pull-out and lower overall strength. Surface treatments or coupling agents are often used to enhance adhesion."
+    },
+    {
+      "number": "00085",
+      "question": "How does graphene reinforcement affect polymer composite properties?",
+      "key": "Graphene reinforcement can significantly improve polymer stiffness, strength, and thermal/electrical conductivity. Its large surface area and strong covalent bonding with the polymer matrix yield notable property enhancements."
+    },
+    {
+      "number": "00086",
+      "question": "What are metal matrix composites (MMCs), and what advantages do they offer?",
+      "key": "Metal matrix composites (MMCs) reinforce a metal matrix (like aluminum) with ceramic fibers or particles. They offer higher strength, stiffness, and wear resistance than the base metal, useful in aerospace, automotive, and defense applications."
+    },
+    {
+      "number": "00087",
+      "question": "Explain the fiber pull-out mechanism in fiber-reinforced composites.",
+      "key": "Fiber pull-out occurs when the interface bond is weaker than the matrix or fiber, allowing fibers to slip out rather than break. This energy-absorbing mechanism improves toughness and prevents sudden failure in fiber composites."
+    },
+    {
+      "number": "00088",
+      "question": "What is crack bridging, and how does it contribute to the toughness of composites?",
+      "key": "Crack bridging happens when intact fibers or reinforcements span the crack, limiting crack opening and slowing propagation. This increases fracture toughness by requiring extra energy to pull or break fibers."
+    },
+    {
+      "number": "00089",
+      "question": "Why do ceramic matrix composites have better fracture toughness than monolithic ceramics?",
+      "key": "Ceramic matrix composites have reinforcements (fibers, whiskers) that hinder crack propagation and allow for some toughness. Monolithic ceramics lack these crack-arresting mechanisms and typically fail more abruptly."
+    },
+    {
+      "number": "00090",
+      "question": "Explain the concept of functionally graded materials (FGMs).",
+      "key": "Functionally graded materials vary composition or structure gradually over volume to optimize properties (e.g., wear resistance on the surface and toughness in the core), enhancing performance under complex conditions."
+    },
+    {
+      "number": "00091",
+      "question": "How does ballistic impact testing differ from standard tensile testing in composites?",
+      "key": "Ballistic impact tests measure a composite’s resistance to high-speed projectiles, focusing on energy absorption and delamination. Standard tensile tests measure strength/ductility under static or quasi-static loads and don’t capture high-rate impact effects."
+    },
+    {
+      "number": "00092",
+      "question": "What is the difference between single-crystal and polycrystalline materials in terms of mechanical behavior?",
+      "key": "Single-crystal materials can exhibit higher creep resistance and avoid grain boundary failures, but can be expensive to produce. Polycrystalline materials are generally easier to manufacture and often have isotropic or mixed behaviors, but grain boundaries can weaken them."
+    },
+    {
+      "number": "00093",
+      "question": "How does the presence of texture in rolled metals affect anisotropy in mechanical properties?",
+      "key": "Texture (preferred crystallographic orientation) from rolling can cause anisotropy in mechanical properties. For example, yield strength or formability may differ along rolling vs. transverse directions."
+    },
+    {
+      "number": "00094",
+      "question": "Explain the concept of fatigue life prediction using the S-N curve.",
+      "key": "An S–N curve (stress vs. number of cycles) plots fatigue strength over cyclic life. It helps predict the number of cycles a material can withstand at a given stress amplitude before failure."
+    },
+    {
+      "number": "00095",
+      "question": "Why do shot-peened surfaces sometimes exhibit compressive residual stresses that improve fatigue life?",
+      "key": "Shot-peened surfaces develop compressive residual stresses that counteract tensile loading near the surface. This delays crack initiation and slows propagation, extending fatigue life."
+    },
+    {
+      "number": "00096",
+      "question": "What is hydrogen embrittlement, and what methods can prevent it?",
+      "key": "Hydrogen embrittlement occurs when hydrogen atoms diffuse into metals and weaken atomic bonds, making them brittle. Prevention includes using low-hydrogen weld processes, baking to remove hydrogen, and proper material selection."
+    },
+    {
+      "number": "00097",
+      "question": "How does environment-assisted cracking differ from standard fatigue cracking?",
+      "key": "Environment-assisted cracking involves corrosive or reactive environments (e.g. stress corrosion cracking, hydrogen embrittlement) that accelerate crack growth under stress. Standard fatigue cracking doesn’t require a chemically reactive environment."
+    },
+    {
+      "number": "00098",
+      "question": "What are advanced high-strength steels (AHSS), and how are they produced?",
+      "key": "Advanced High-Strength Steels (AHSS) are produced using controlled rolling, specific alloying, and specialized heat treatments (like dual-phase, TRIP steels). They offer higher strength and formability for automotive weight reduction and safety."
+    },
+    {
+      "number": "00099",
+      "question": "Describe the uses and limitations of stainless steel in extreme environments.",
+      "key": "Stainless steels in extreme environments can face pitting, stress corrosion cracking, or high-temperature oxidation. They’re often chosen for corrosion resistance but might require special grades (e.g. duplex or super austenitic) under very harsh conditions."
+    },
+    {
+      "number": "00100",
+      "question": "How does controlling the cooling rate in metal casting affect grain size and mechanical properties?",
+      "key": "Faster cooling rates generally produce finer grains, increasing strength (Hall–Petch), but can lead to residual stresses or metastable phases. Slower cooling allows coarser grains, often reducing strength but improving ductility and reducing residual stresses."
+    }
+  ]
+}

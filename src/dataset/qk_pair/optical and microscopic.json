@@ -1,0 +1,455 @@
+{
+  "total": 90,
+  "data": [
+    {
+      "number": "00001",
+      "question": "Using characterization techniques, how would you distinguish between a mixture of 90% NaCl + 10% LiCl and a mixture of 90% NaCl + 5% LiCl + 5% KCl?",
+      "key": "Use XRD to identify the distinct diffraction peaks from LiCl and KCl (they have different lattice parameters), or chemical methods (EDS or ICP) to detect potassium. A mixture with KCl will show additional diffraction peaks (or a K signal in elemental analysis) absent in the 90% NaCl + 10% LiCl blend."
+    },
+    {
+      "number": "00002",
+      "question": "Derive Bragg's law.",
+      "key": "Bragg’s law is derived by considering the path difference between X-rays reflected from successive lattice planes. Constructive interference occurs when the path difference is an integer multiple of the wavelength, giving nλ = 2d sinθ."
+    },
+    {
+      "number": "00003",
+      "question": "What happens if you change the incidence angle? How does it affect peak broadening? Would Bragg's law still be satisfied?",
+      "key": "Changing the incidence angle primarily changes which planes satisfy the Bragg condition. Peak broadening is mainly influenced by factors like crystallite size, strain, and instrument resolution, not just the angle change. Bragg’s law still holds for each set of planes that diffract."
+    },
+    {
+      "number": "00004",
+      "question": "What is Scherrer's equation?",
+      "key": "Scherrer’s equation estimates crystallite size (L) from the broadening (β) of a diffraction peak: L = Kλ / (β cosθ), where K is a shape factor (~0.9–1)."
+    },
+    {
+      "number": "00005",
+      "question": "Why do you see broadening with crystallite size?",
+      "key": "Smaller crystallites reduce the coherent scattering domain, causing diffraction peaks to broaden due to the limited size over which lattice planes are uniformly aligned."
+    },
+    {
+      "number": "00006",
+      "question": "How could you use x-rays with a nanoscale material?",
+      "key": "X-rays can still probe nanoscale materials via XRD, revealing phase composition, average crystallite size (through peak broadening), and potentially strain (peak shifts). Techniques like SAXS may also be used for nanostructured systems."
+    },
+    {
+      "number": "00007",
+      "question": "What is the atomic scattering factor?",
+      "key": "The atomic scattering factor (f) is a measure of how strongly an individual atom scatters X-rays or electrons, depending on the electron distribution in the atom."
+    },
+    {
+      "number": "00008",
+      "question": "How does the atomic scattering factor change with 1/d?",
+      "key": "As the scattering angle increases (meaning 1/d grows), the atomic scattering factor generally decreases because higher-angle (shorter d-spacing) scattering probes finer details, and the effective scattering amplitude drops."
+    },
+    {
+      "number": "00009",
+      "question": "For cubic and tetragonal, what are the Bravais lattices?",
+      "key": "For the cubic system: simple cubic (SC), body-centered cubic (BCC), and face-centered cubic (FCC). For the tetragonal system: simple tetragonal and body-centered tetragonal."
+    },
+    {
+      "number": "00010",
+      "question": "What are all the crystal systems?",
+      "key": "The seven crystal systems are: triclinic, monoclinic, orthorhombic, tetragonal, trigonal (rhombohedral), hexagonal, and cubic."
+    },
+    {
+      "number": "00011",
+      "question": "Why do we not see base-centered or face-centered tetragonal lattices?",
+      "key": "Base-centered or face-centered tetragonal lattices can be reduced to simpler or body-centered tetragonal cells by a suitable choice of the unit cell. Hence, they’re not listed as separate Bravais lattices."
+    },
+    {
+      "number": "00012",
+      "question": "Does a continuous spectrum diffract?",
+      "key": "Yes, a continuous (white) spectrum can still satisfy Bragg conditions at different wavelengths. In practice, monochromatic X-rays are typically used to simplify diffraction analysis."
+    },
+    {
+      "number": "00013",
+      "question": "Draw an energy versus wavelength plot and explain all the peaks in the diagram.",
+      "key": "The plot shows continuous Bremsstrahlung (white radiation) decreasing with longer wavelength, plus sharp characteristic peaks (Kα, Kβ). The continuous part arises from electron deceleration; the discrete peaks arise from electronic transitions in the target material."
+    },
+    {
+      "number": "00014",
+      "question": "What are the Ewald and limiting spheres?",
+      "key": "The Ewald sphere is a construction in reciprocal space with radius 1/λ; reciprocal lattice points on its surface satisfy the diffraction condition. The limiting sphere indicates the boundary in reciprocal space for possible scattering vectors at a given wavelength."
+    },
+    {
+      "number": "00015",
+      "question": "How do you diffract peaks that aren't located on the Ewald sphere?",
+      "key": "You can rotate the crystal or change the incident wavelength to bring those reciprocal lattice points onto the Ewald sphere. Only points on the sphere surface meet the Bragg condition at a given orientation/wavelength."
+    },
+    {
+      "number": "00016",
+      "question": "What are k-beta peaks and how do you get them?",
+      "key": "Kβ peaks arise from electrons in higher shells (e.g. M shell) filling a K-shell vacancy. They have higher energy than Kα (which involves L shell to K shell transitions)."
+    },
+    {
+      "number": "00017",
+      "question": "Why are there only 2 k-alpha peaks?",
+      "key": "Kα lines result from transitions from the L2 and L3 sub-shells to the K shell (two closely spaced energies). L2 and L3 levels create the Kα1 and Kα2 lines."
+    },
+    {
+      "number": "00018",
+      "question": "Why does the m-shell only have 3 layers?",
+      "key": "The M-shell (n=3) can have s, p, and d orbitals (3s, 3p, 3d), giving three subshells."
+    },
+    {
+      "number": "00019",
+      "question": "Would neutron scattering work better with magnetic or nonmagnetic materials?",
+      "key": "Neutron scattering is especially powerful for studying magnetic materials because neutrons have a spin magnetic moment that interacts with magnetic structures."
+    },
+    {
+      "number": "00020",
+      "question": "What is a structure factor?",
+      "key": "The structure factor is the sum of the scattering contributions from all atoms in the unit cell, incorporating their relative positions and atomic form factors, which determines diffracted intensities."
+    },
+    {
+      "number": "00021",
+      "question": "What’s the difference between a TEM diffraction pattern and an XRD pattern? Why is there a difference? Is electron diffraction always better?",
+      "key": "A TEM diffraction pattern typically shows a 2D pattern of spots or rings from a small region (selected area electron diffraction). An XRD pattern is usually a 1D intensity vs. angle. Electron diffraction can offer local information but requires very thin samples. It’s not always better, just different."
+    },
+    {
+      "number": "00022",
+      "question": "What equation relates incident beam intensity and scattered beam intensity? In this equation, what is K and what are its units?",
+      "key": "A general scattering formula might be I ∝ K I₀ |F(G)|², where K is an instrumental/geometry constant. Its units can vary (often dimensionless or related to experimental geometry factors)."
+    },
+    {
+      "number": "00023",
+      "question": "Why do you get white radiation?",
+      "key": "White radiation (continuous X-ray spectrum) is generated by decelerating electrons in the target (Bremsstrahlung), producing a range of photon energies down to the short-wavelength limit."
+    },
+    {
+      "number": "00024",
+      "question": "What’s an x-ray?",
+      "key": "X-rays are electromagnetic radiation with wavelengths roughly 0.01–10 nm, between gamma rays and ultraviolet light in the electromagnetic spectrum."
+    },
+    {
+      "number": "00025",
+      "question": "What’s the electromagnetic spectrum?",
+      "key": "The electromagnetic spectrum ranges from gamma rays (short wavelength) through X-rays, UV, visible, IR, microwaves, to radio waves (long wavelength)."
+    },
+    {
+      "number": "00026",
+      "question": "Where would you find x-rays on the electromagnetic spectrum?",
+      "key": "X-rays lie between gamma rays and ultraviolet rays, with wavelengths shorter than UV and longer than gamma rays."
+    },
+    {
+      "number": "00027",
+      "question": "What’s an x-ray tube?",
+      "key": "An X-ray tube is a device with a cathode (heated filament) and a metal anode (target) under high voltage, where accelerated electrons strike the target to produce X-rays."
+    },
+    {
+      "number": "00028",
+      "question": "Describe how x-rays are generated and what kind of x-rays are yielded.",
+      "key": "High-energy electrons from a heated cathode are accelerated and collide with a metal target, generating both a continuous (Bremsstrahlung) spectrum and characteristic (K, L, M) X-rays from electron-shell transitions."
+    },
+    {
+      "number": "00029",
+      "question": "How does an x-ray interact with matter?",
+      "key": "X-rays can be absorbed by the photoelectric effect, scattered elastically (Rayleigh) or inelastically (Compton), or transmitted through matter depending on energy and material."
+    },
+    {
+      "number": "00030",
+      "question": "Draw and explain the Ewald sphere.",
+      "key": "The Ewald sphere is a sphere in reciprocal space of radius 1/λ. A reciprocal lattice point lying on this sphere satisfies Bragg’s law, leading to a diffraction spot."
+    },
+    {
+      "number": "00031",
+      "question": "Draw and explain the limiting sphere.",
+      "key": "The limiting sphere is essentially the boundary in reciprocal space up to which reflections can be observed for a given wavelength (same radius as the Ewald sphere). It marks the maximum G vector that can be accessed under the given geometry."
+    },
+    {
+      "number": "00032",
+      "question": "Explain K-alpha and K-beta lines.",
+      "key": "K-alpha lines come from L-to-K transitions, and K-beta from M-to-K transitions. K-alpha splits into K-alpha1 and K-alpha2 due to slight energy differences between L3 and L2 subshells."
+    },
+    {
+      "number": "00033",
+      "question": "What does it mean to 'knock out K electrons'?",
+      "key": "Knocking out K electrons means ionizing the atom’s innermost shell (K shell), leaving a vacancy that can be filled by electrons from higher shells, emitting characteristic X-rays."
+    },
+    {
+      "number": "00034",
+      "question": "Where should the absorption edge be in the spectrum for K-alpha 1 and K-alpha 2 lines?",
+      "key": "The absorption edge (K-edge) is at a higher energy than the Kα lines. For example, Cu K-edge (~8.98 keV) is above the Cu Kα (~8.04 keV)."
+    },
+    {
+      "number": "00035",
+      "question": "Why don’t we draw K-beta 1, K-beta 2, etc.?",
+      "key": "Kβ lines often have weaker intensity and more complex splitting. They’re generally combined into a single Kβ peak and are less used than the prominent Kα1, Kα2 doublet."
+    },
+    {
+      "number": "00036",
+      "question": "What is a reciprocal lattice, and why do we use it?",
+      "key": "A reciprocal lattice is the Fourier transform of the real lattice, making diffraction conditions simpler to visualize. We use it to determine when Bragg’s law is satisfied (Ewald sphere intersection)."
+    },
+    {
+      "number": "00037",
+      "question": "Draw BCC in real space and transfer it to reciprocal space.",
+      "key": "BCC in real space has atoms at (0,0,0) and (½,½,½). In reciprocal space, BCC transforms into an FCC pattern. (A sketch typically shows reciprocal lattice points at half-integer intervals forming an FCC arrangement.)"
+    },
+    {
+      "number": "00038",
+      "question": "Draw the reciprocal lattice for a 2D unit cell with a lattice parameter A.",
+      "key": "A 2D square lattice of parameter A in real space transforms to another 2D lattice in reciprocal space with spacing 2π/A in both directions. You’d draw a square grid in reciprocal space with that spacing."
+    },
+    {
+      "number": "00039",
+      "question": "Draw the reciprocal lattice for a square unit cell with a lattice parameter B (B<A).",
+      "key": "If the real lattice is rectangular (B < A), then in reciprocal space the spacing becomes 2π/A along one axis and 2π/B along the other. You get a rectangular array with different spacing."
+    },
+    {
+      "number": "00040",
+      "question": "Draw the reciprocal lattice for a tetragonal unit cell with lattice parameters A and B.",
+      "key": "A tetragonal unit cell with parameters (A, A, B) in real space transforms to a reciprocal lattice with spacing (2π/A, 2π/A, 2π/B). Sketching that shows a 3D grid elongated in one direction."
+    },
+    {
+      "number": "00041",
+      "question": "Draw the reciprocal lattice of an FCC unit cell.",
+      "key": "An FCC cell in real space (with atoms at the face centers) transforms into a BCC-type arrangement in reciprocal space, with reciprocal lattice points at half-integer coordinates when h+k+l is even."
+    },
+    {
+      "number": "00042",
+      "question": "What are the structure factors for simple cubic and BCC, and what are their formulae?",
+      "key": "For simple cubic: F = f (one atom at (0,0,0)). For BCC: F = f[1 + exp(iπ(h+k+l))]. If (h+k+l) is even, F=2f; if odd, F=0."
+    },
+    {
+      "number": "00043",
+      "question": "Apply the structure factor to determine which points don’t exist in the reciprocal lattice.",
+      "key": "Apply the structure factor rules. In BCC, reflections vanish if (h+k+l) is odd. In FCC, reflections vanish unless h, k, l are either all even or all odd, etc."
+    },
+    {
+      "number": "00044",
+      "question": "Calculate the structure factor of an FCC unit cell.",
+      "key": "For FCC with basis at (0,0,0), (½,½,0), (½,0,½), (0,½,½), the structure factor F sums those atomic contributions. Conditions lead to non-zero intensity only if h, k, l are all even or all odd."
+    },
+    {
+      "number": "00045",
+      "question": "Identify points that should not be in reciprocal space due to the structure factor. What kind of structure do the remaining points belong to?",
+      "key": "The forbidden reflections in FCC are those not satisfying h, k, l all odd or all even. The remaining points (that do diffract) correspond to a BCC arrangement in reciprocal space."
+    },
+    {
+      "number": "00046",
+      "question": "Why is a tungsten filament chosen for x-ray generation?",
+      "key": "Tungsten has a high melting point and good thermal electron emission properties, making it durable and efficient as a filament under high temperatures."
+    },
+    {
+      "number": "00047",
+      "question": "How can you realistically generate x-rays in a lab?",
+      "key": "In a lab, use a sealed X-ray tube or rotating anode: heat a tungsten filament, accelerate electrons onto a metal target (e.g. Cu). Bremsstrahlung plus characteristic X-rays are produced."
+    },
+    {
+      "number": "00048",
+      "question": "What’s the short-wavelength limit and how is it calculated?",
+      "key": "The short-wavelength limit (λmin) occurs when electron kinetic energy is fully converted to a photon. It’s given by hc/eU, where U is the tube voltage."
+    },
+    {
+      "number": "00049",
+      "question": "Draw an x-ray tube. Explain the components and their purpose.",
+      "key": "An X-ray tube has a cathode (filament) to emit electrons, an anode (target) where X-rays are generated, a cooling system, and a shielded housing with a window to let X-rays out."
+    },
+    {
+      "number": "00050",
+      "question": "Draw the diffraction patterns for simple cubic and BCC in reciprocal space along the [100] and [001] directions.",
+      "key": "In reciprocal space along [100] or [001], simple cubic shows reflections at every integer h,k,l. BCC reflections appear only at even h+k+l. Diagrams would show missing spots for BCC with odd sums."
+    },
+    {
+      "number": "00051",
+      "question": "If you have two BCC alloys, one ordered and one disordered, can you tell the difference using x-ray analysis?",
+      "key": "Yes. An ordered BCC alloy may show superlattice reflections (additional peaks) that vanish or diminish in the disordered alloy. XRD reveals these differences."
+    },
+    {
+      "number": "00052",
+      "question": "How can you calculate the speed of an electron?",
+      "key": "Electron speed from eU = ½mv², so v = √(2eU/m). It’s determined by the accelerating voltage in, for example, an SEM or X-ray tube."
+    },
+    {
+      "number": "00053",
+      "question": "Does the speed of an electron relate to its wavelength like a photon would?",
+      "key": "Electrons have rest mass, so their wavelength is given by the de Broglie relation λ = h/p, not the photon formula E = hc/λ. Their velocity–wavelength relation differs from that of photons."
+    },
+    {
+      "number": "00054",
+      "question": "How can you determine a sample’s crystal system without using a database?",
+      "key": "Measure multiple XRD peaks, solve for lattice parameters, check angles and systematic extinctions to identify the crystal system (e.g. cubic, tetragonal), without needing a database match."
+    },
+    {
+      "number": "00055",
+      "question": "How does EDS work?",
+      "key": "EDS measures characteristic X-rays emitted when a high-energy electron beam ionizes atoms. The X-ray energies identify the elements present, giving a compositional analysis."
+    },
+    {
+      "number": "00056",
+      "question": "What’s the difference between backscattered and secondary electrons?",
+      "key": "Backscattered electrons are high-energy electrons scattered roughly back by atomic nuclei, sensitive to atomic number. Secondary electrons are low-energy electrons ejected from the surface, sensitive to topography."
+    },
+    {
+      "number": "00057",
+      "question": "If you have an optical micrograph of a hair and an SEM micrograph of the same, why is there a bright line in the center of the optical image, whereas the bright lines are along the edges of the hair in the SEM image?",
+      "key": "In optical microscopy, the hair’s curved surface can focus or reflect light in the central region. In SEM, edges scatter or emit more secondary electrons, appearing brighter at the perimeter."
+    },
+    {
+      "number": "00058",
+      "question": "Draw a graph of intensity versus wavelength as an electron decelerates. Why do we see K-alpha and K-beta peaks?",
+      "key": "When electrons decelerate, they emit a continuous Bremsstrahlung spectrum. Superimposed on that are Kα and Kβ peaks from electron transitions filling vacancies in the target's inner shells."
+    },
+    {
+      "number": "00059",
+      "question": "How can x-rays be generated naturally?",
+      "key": "Naturally, X-rays are produced in cosmic/astronomical events, radioactive decay, or lightning. These processes involve high-energy electrons or nucleonic transitions."
+    },
+    {
+      "number": "00060",
+      "question": "How can x-rays be generated artificially?",
+      "key": "Artificially, X-rays are generated in X-ray tubes, synchrotrons, free-electron lasers, or any setup accelerating electrons into a suitable target."
+    },
+    {
+      "number": "00061",
+      "question": "How can you generate electrons in an x-ray tube or an SEM with an electron gun? What’s the mechanism behind it?",
+      "key": "Thermionic emission uses a heated filament (e.g. tungsten) to boil off electrons. Field emission uses high electric fields to pull electrons out. Both are used in X-ray tubes and SEMs."
+    },
+    {
+      "number": "00062",
+      "question": "How can you determine composition without using XRD?",
+      "key": "Techniques like EDS, WDS, XRF, or ICP can measure composition directly without relying on diffraction patterns (XRD)."
+    },
+    {
+      "number": "00063",
+      "question": "How can you tell the difference between an optical microscope image and an SEM image?",
+      "key": "An optical micrograph uses visible light and typically has lower magnification and color. An SEM image is black-and-white, higher resolution, and shows topography via electron signals."
+    },
+    {
+      "number": "00064",
+      "question": "How does an SEM give you morphological information?",
+      "key": "SEM morphology comes from secondary electron contrast. Elevated or angled features emit more secondary electrons, so differences in surface height appear brighter or darker."
+    },
+    {
+      "number": "00065",
+      "question": "What’s the difference between an alloy and a solid solution, and what would their first two XRD peaks look like?",
+      "key": "An alloy may be multi-phase, whereas a solid solution is a single-phase with solute atoms distributed in the solvent lattice. For a solid solution, you see a single set of peaks shifted by composition; for a multiphase alloy, multiple distinct peak sets may appear."
+    },
+    {
+      "number": "00066",
+      "question": "How does a TEM work?",
+      "key": "A TEM passes high-energy electrons through an ultrathin sample, forming images or diffraction patterns on the other side. Magnetic lenses focus the electrons for imaging or diffraction modes."
+    },
+    {
+      "number": "00067",
+      "question": "What diffraction patterns would you get from a single crystal, a polycrystal, and an amorphous material?",
+      "key": "A single crystal produces a sharp spot pattern; a polycrystal yields concentric rings; an amorphous material shows diffuse halos with no well-defined spots."
+    },
+    {
+      "number": "00068",
+      "question": "How would you characterize a material’s crystal structure?",
+      "key": "Use X-ray or electron diffraction (for lattice parameters, symmetry), possibly combined with indexing. Alternatively, high-resolution TEM imaging or neutron diffraction may also reveal the crystal structure."
+    },
+    {
+      "number": "00069",
+      "question": "Why can’t you use visible light for diffraction?",
+      "key": "Visible light (~400–700 nm) is too long in wavelength compared to atomic spacings (~Å). Diffraction from atomic planes requires X-rays, electrons, or neutrons with commensurate shorter wavelengths."
+    },
+    {
+      "number": "00070",
+      "question": "Can we get a diffraction pattern for graphene?",
+      "key": "Yes. Graphene is crystalline in 2D, so you can obtain diffraction patterns using TEM SAED or low-energy electron diffraction (LEED). XRD can also detect its characteristic peaks if suitably aligned."
+    },
+    {
+      "number": "00071",
+      "question": "Can we use single electrons for diffraction?",
+      "key": "Yes, single electrons can diffract (as shown by double-slit experiments). Practically, we use electron beams (lots of electrons) to get measurable diffraction patterns quickly."
+    },
+    {
+      "number": "00072",
+      "question": "How does WDS work?",
+      "key": "WDS uses a diffracting crystal to select X-ray wavelengths (via Bragg’s law) one by one. It provides higher spectral resolution than EDS, albeit slower."
+    },
+    {
+      "number": "00073",
+      "question": "What’s the relationship between energy and wavelength for electrons and x-rays?",
+      "key": "For X-rays, E = hc/λ. For electrons, λ = h/p and their kinetic energy is eU (or related). They obey different relations due to electrons having rest mass."
+    },
+    {
+      "number": "00074",
+      "question": "What are K-alpha and K-beta signals?",
+      "key": "K-alpha signals come from L-to-K transitions; K-beta from M-to-K transitions in atoms when inner-shell vacancies are filled. They have characteristic energies."
+    },
+    {
+      "number": "00075",
+      "question": "How are K-alpha 1 and K-alpha 2 signals filtered?",
+      "key": "A filter near the K-edge of the anode material can preferentially absorb Kβ (and partly Kα2) radiation, leaving mainly Kα1. Usually, a metal foil just below the anode’s Z is used."
+    },
+    {
+      "number": "00076",
+      "question": "What’s the rule of thumb when choosing a filter material?",
+      "key": "Choose a filter whose absorption edge is slightly below the Kα energy of the target (one or two atomic numbers lower). That optimally absorbs higher-energy Kβ."
+    },
+    {
+      "number": "00077",
+      "question": "How can you generate a wavelength between K-alpha and K-beta? Why isn’t this method normally used?",
+      "key": "You can select an intermediate wavelength from the continuous (Bremsstrahlung) spectrum via monochromators. It’s rarely used because characteristic lines are more intense and simpler to handle."
+    },
+    {
+      "number": "00078",
+      "question": "What are the lattice names of ordered Ni3Al and disordered Ni0.75Al0.25, and what are their atomic basis sets?",
+      "key": "Ordered Ni₃Al: L1₂ structure (FCC-based superlattice). Disordered Ni₀.₇₅Al₀.₂₅: still FCC but with random Ni/Al site occupancy. The atomic basis for L1₂ places Al at cube corners and Ni at face centers, etc."
+    },
+    {
+      "number": "00079",
+      "question": "What does the energy output spectrum of a synchrotron look like?",
+      "key": "A synchrotron emits high-brightness, broad-band radiation extending from infrared to hard X-rays. The intensity distribution vs. energy is continuous and can be tuned by beamline optics."
+    },
+    {
+      "number": "00080",
+      "question": "How can you determine a material using information not related to it, such as wavelength?",
+      "key": "Usually, just knowing the wavelength isn't enough to identify a material. You need the material’s diffraction data or other characteristic signals. Wavelength alone does not uniquely determine composition."
+    },
+    {
+      "number": "00081",
+      "question": "Why do people normally use metals as a target for x-rays?",
+      "key": "Metals are durable under electron bombardment, have high thermal conductivity to dissipate heat, and higher atomic number targets yield stronger characteristic X-ray intensities."
+    },
+    {
+      "number": "00082",
+      "question": "If someone gives you a material and says it’s pure diamond, how can you verify it?",
+      "key": "Verify by XRD or Raman spectroscopy (diamond shows a sharp peak at ~1332 cm⁻¹). Also check density, thermal conductivity, or other known diamond properties."
+    },
+    {
+      "number": "00083",
+      "question": "If nothing scratches it, how can you be absolutely sure it’s a diamond?",
+      "key": "Absolute confirmation requires structural identification: e.g. Raman, X-ray diffraction, or other spectroscopy. Hardness alone doesn’t rule out other superhard materials (like cBN)."
+    },
+    {
+      "number": "00084",
+      "question": "If you ordered glucose from Sigma-Aldrich and wanted to see if it's pure, how would you do it?",
+      "key": "Check purity with XRD (compare to known patterns), FTIR or NMR (identifying characteristic peaks), or chromatography (HPLC/GC) to see if other substances are present."
+    },
+    {
+      "number": "00085",
+      "question": "How do x-rays interact with a sample?",
+      "key": "X-rays can be absorbed (photoelectric), scattered (Compton, Rayleigh), or transmitted through a sample. The extent depends on the material’s density, thickness, and X-ray energy."
+    },
+    {
+      "number": "00086",
+      "question": "Why do x-rays penetrate a sample deeper than electrons do?",
+      "key": "Electrons interact strongly with matter (Coulomb forces with nuclei and electrons) and lose energy quickly, limiting penetration. X-rays, being electromagnetic waves, can pass deeper if not absorbed."
+    },
+    {
+      "number": "00087",
+      "question": "What are first and second-order diffraction?",
+      "key": "First-order diffraction is n=1 in Bragg’s law; second-order is n=2. They correspond to path differences of one wavelength vs. two wavelengths, etc."
+    },
+    {
+      "number": "00088",
+      "question": "FCC doesn’t have atoms on its (400) plane, so why does a (400) peak show in its diffraction pattern?",
+      "key": "The (400) label refers to the reciprocal-lattice vector indices, not just a literal plane of atoms. In FCC, the structure factor for (400) can be non-zero, yielding a diffraction peak even if no atoms lie strictly on 'the 400 plane' in real space."
+    },
+    {
+      "number": "00089",
+      "question": "What’s diffraction?",
+      "key": "Diffraction is the phenomenon where a wave bends and interferes when encountering periodic structures (like crystal planes) or obstacles, producing characteristic patterns."
+    },
+    {
+      "number": "00090",
+      "question": "What’s interference?",
+      "key": "Interference is the superposition of waves that can constructively or destructively combine. Diffraction is a specific manifestation of interference in a spatially extended structure."
+    }
+  ]
+}
