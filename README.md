@@ -99,8 +99,9 @@ Below are the general steps to get started with Roundtable Policy on your local 
      python data_singletask_gen.py --rounds 1000
      ```
 4. **Generate responses with different LLMs**     
-   - Execute:
+   - Before you run the test.py, please ensure that your OPENAI_API_KEY is properly exported.
      ```bash
+     export OPENAI_API_KEY="your_api_key_here"
      python test.py
      ```
 
