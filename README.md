@@ -91,25 +91,30 @@ Below are the general steps to get started with Roundtable Policy on your local 
    - However, we also provide an alternative to generate your own data.
    - For multitask `qk_pair`, you can follow the following, e.g. create 1000 rounds of `qk_pair`:
      ```bash
-     cd src/dataset/
+     cd src/
      python data_multitask_gen.py --rounds 1000
      ```
    - For single task, you can follow the following:
      ```bash
      python data_singletask_gen.py --rounds 1000
      ```
-
-4. **Update the confidence weight table**     
+4. **Generate responses with different LLMs**     
    - Execute:
      ```bash
-     python main.py --config config.yaml
+     python test.py
+     ```
+
+5. **Update the confidence weight table**     
+   - Execute:
+     ```bash
+     python update_confidence_weight_table.py --arbitrator "gpt-o1"
      ```
    - The demo will showcase how multiple LLM “experts” generate and compare their predictions, with the **Arbitrator** and **Confidence Weight Table** finalizing results.
 
 5. **Evaluate the performance among models**  
    - Use the evaluation script to compare single-model baselines vs. the Roundtable Policy pipeline:
      ```bash
-     python evaluate.py --config config.yaml
+     python evaluate.py
      ```
    - Results will be saved in `results/` by default, summarizing both predictive and generative benchmarks.
 

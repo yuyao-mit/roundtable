@@ -4,15 +4,15 @@ import os
 import argparse
 
 json_files = {
-    "macro mechanics": "./qk_pair/macro mechanics.json",
-    "micro mechanics": "./qk_pair/micro mechanics.json",
-    "electrical and electronic": "./qk_pair/electrical and electronic.json",
-    "optical and microscopic": "./qk_pair/optical and microscopic.json",
-    "thermodynamical": "./qk_pair/thermodynamical.json",
-    "semiconductor": "./qk_pair/semiconductor.json",
-    "math": "./qk_pair/math.json",
-    "geoscience": "./qk_pair/geoscience.json",
-    "biology": "./qk_pair/biology.json"
+    "macro mechanics": "./dataset/qk_pair/macro mechanics.json",
+    "micro mechanics": "./dataset/qk_pair/micro mechanics.json",
+    "electrical and electronic": "./dataset/qk_pair/electrical and electronic.json",
+    "optical and microscopic": "./dataset/qk_pair/optical and microscopic.json",
+    "thermodynamical": "./dataset/qk_pair/thermodynamical.json",
+    "semiconductor": "./dataset/qk_pair/semiconductor.json",
+    "math": "./dataset/qk_pair/math.json",
+    "geoscience": "./dataset/qk_pair/geoscience.json",
+    "biology": "./dataset/qk_pair/biology.json"
 }
 
 
