@@ -4,7 +4,7 @@
 ### [![][project-icon]][project-page] | [![][arxiv-icon]][arxiv-paper]
 
 [project-icon]: https://img.shields.io/badge/🌍-Project%20Page-green  
-[arxiv-icon]: https://img.shields.io/badge/arXiv-2502.xxxxx-b31b1b
+[arxiv-icon]: https://img.shields.io/badge/arXiv-TBD-b31b1b
 
 [project-page]: https://yuyao-mit.github.io/roundtable/project_page/
 [arxiv-paper]: https://arxiv.org/abs/2311.10889  
