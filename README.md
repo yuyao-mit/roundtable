@@ -92,7 +92,7 @@ Below are the general steps to get started with Roundtable Policy on your local 
    - For multitask `qk_pair`, you can follow the following, e.g. create 1000 rounds of `qk_pair`:
      ```bash
      cd src/
-     python data_multitask_gen.py --rounds 1000
+     python data_multitask_gen.py --rounds 100
      ```
    - For single task, you can follow the following:
      ```bash
@@ -102,7 +102,7 @@ Below are the general steps to get started with Roundtable Policy on your local 
    - Before you run the test.py, please ensure that your `OPENAI_API_KEY` is properly exported.
      ```bash
      export OPENAI_API_KEY="your_api_key_here"
-     python test.py
+     python openai_multitask.py --model "gpt-4o" --player "player_00001" --retries 3 --delay 2
      ```
 
 5. **Update the confidence weight table**     
