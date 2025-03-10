@@ -1,3 +1,9 @@
+<style>
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+</style>
+
 # Research Proposal on Tandem Solar Cells
 
 ## 1. Objectives and Overview
