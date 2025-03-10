@@ -32,6 +32,8 @@ Besides the direct conductivity measurement from the I-V curves of the rear cell
 
 ### 2.2. Approach to ensure sufficient photo-generated holes in the rear sub cell.
 ![photo_generated_holes_sub_cell](./figures/photo_generated_holes_sub_cell.png "Figure 1. Device structure of tandem-junction OPVs and proposed exciton generation/dissociation and charge transportation mechanisms in the rear sub cells. ")
+
+
 **Figure 1.** Device structure of tandem-junction OPVs and proposed exciton generation/dissociation and charge transportation mechanisms in the rear sub cells.
 
 #### 2.2.1. Introduction of a third component of an infrared-absorbing polymer donor into the rear cells.
