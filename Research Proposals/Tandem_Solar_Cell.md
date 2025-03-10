@@ -60,22 +60,40 @@ The experimental metrics of this proposal will be the characterization of the dy
 
 ## References
 
-(1)	Cheng, P.; Li, G.; Zhan, X.; Yang, Y. Next-generation organic photovoltaics based on non-fullerene acceptors. Nat. Photon. 2018, 12, 131-142.
-(2)	Lu, L.; Zheng, T.; Wu, Q.; Schneider, A. M.; Zhao, D.; Yu, L. Recent advances in bulk heterojunction polymer solar cells. Chem. Rev. 2015, 115, 12666-731.
-(3)	Brabec, C. J.; Heeney, M.; McCulloch, I.; Nelson, J. Influence of blend microstructure on bulk heterojunction organic photovoltaic performance. Chem. Soc. Rev. 2011, 40, 1185-1199.
-(4)	National Renewable Energy Laboratory. (2020). Best research cell efficiencies chart. https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.20200218.pdf.
-(5)	Li, G.; Chang, W.-H.; Yang, Y. Low-bandgap conjugated polymers enabling solution-processable tandem solar cells. Nat. Rev. Mater. 2017, 2, 17043.
-(6)	Timmreck, R.; Meyer, T.; Gilot, J.; Seifert, H.; Mueller, T.; Furlan, A.; Wienk, M. M.; Wynands, D.; Hohl-Ebinger, J.; Warta, W.; Janssen, R. A. J.; Riede, M.; Leo, K. Characterization of tandem organic solar cells. Nat. Photon. 2015, 9, 478-479.
-(7)	Ameri, T.; Dennler, G.; Lungenschmied, C.; Brabec, C. J. Organic tandem solar cells: A review. Energy Environ. Sci. 2009, 2, 347-363.
-(8)	Meng, L.; Zhang, Y.; Wan, X.; Li, C.; Zhang, X.; Wang, Y.; Ke, X.; Xiao, Z.; Ding, L.; Xia, R.; Yip, H.-L.; Cao, Y.; Chen, Y. Organic and solution-processed tandem solar cells with 17.3% efficiency. Science 2018, 361, 1094-1098.
-(9)	Qian, D.; Ye, L.; Zhang, M.; Liang, Y.; Li, L.; Huang, Y.; Guo, X.; Zhang, S.; Tan, Z. a.; Hou, J. Design, application, and morphology study of a new photovoltaic polymer with strong aggregation in solution state. Macromolecules 2012, 45, 9611-9617.
-(10)	Yuan, J.; Huang, T.; Cheng, P.; Zou, Y.; Zhang, H.; Yang, J. L.; Chang, S.-Y.; Zhang, Z.; Huang, W.; Wang, R.; Meng, D.; Gao, F.; Yang, Y. Enabling low voltage losses and high photocurrent in fullerene-free organic photovoltaics. Nat. Commun. 2019, 10, 570.
-(11)	Li, Z.; Dai, S.; Xin, J.; Zhang, L.; Wu, Y.; Rech, J.; Zhao, F.; Li, T.; Liu, K.; Liu, Q.; Ma, W.; You, W.; Wang, C.; Zhan, X. Enhancing the performance of the electron acceptor ITIC-Th via tailoring its end groups. Mater. Chem. Front. 2018, 2, 537-543.
-(12)	Zhang, Y.; Wu, G.; Liu, F.; Ding, C.; Zou, Z.; Shen, Q. Photoexcited carrier dynamics in colloidal quantum dot solar cells: insights into individual quantum dots, quantum dot solid films and devices. Chem. Soc. Rev. 2020, 49, 49-84.
-(13)	Zhao, K.; Pan, Z.; Mora-Seró, I.; Cánovas, E.; Wang, H.; Song, Y.; Gong, X.; Wang, J.; Bonn, M.; Bisquert, J.; Zhong, X. Boosting power conversion efficiencies of quantum-dot-sensitized solar cells beyond 8% by recombination control. J. Am. Chem. Soc. 2015, 137, 5602-5609.
-(14)	Ponseca, C. S.; Chábera, P.; Uhlig, J.; Persson, P.; Sundström, V. Ultrafast electron dynamics in solar energy conversion. Chem. Rev. 2017, 117, 10940-11024.
-(15)	Weinelt, M. Time-resolved two-photon photoemission from metal surfaces. J. Phys.: Condens. Matter 2002, 14, R1099-R1141.
-(16)	Kafle, T. R.; Kattel, B.; Wanigasekara, S.; Wang, T.; Chan, W.-L. Spontaneous exciton dissociation at organic semiconductor interfaces facilitated by the orientation of the delocalized electron–hole wavefunction. Adv. Energy Mater. 2020, 10, 1904013.
-(17)	Wang, T.; Kafle, T. R.; Kattel, B.; Chan, W.-L. A multidimensional view of charge transfer excitons at organic donor–acceptor interfaces. J. Am. Chem. Soc. 2017, 139, 4098-4106.
-(18)	Zhu, X. Y. Electronic structure and electron dynamics at molecule–metal interfaces: implications for molecule-based electronics. Surf. Sci. Rep. 2004, 56, 1-83.
-(19)	Li, W.; Hendriks, K. H.; Roelofs, W. S. C.; Kim, Y.; Wienk, M. M.; Janssen, R. A. J. Efficient small bandgap polymer solar cells with high fill factors for 300 nm thick films. Adv. Mater. 2013, 25, 3182-3186.
+[1]	Cheng, P.; Li, G.; Zhan, X.; Yang, Y. Next-generation organic photovoltaics based on non-fullerene acceptors. Nat. Photon. 2018, 12, 131-142.
+
+[2]	Lu, L.; Zheng, T.; Wu, Q.; Schneider, A. M.; Zhao, D.; Yu, L. Recent advances in bulk heterojunction polymer solar cells. Chem. Rev. 2015, 115, 12666-731.
+
+[3]	Brabec, C. J.; Heeney, M.; McCulloch, I.; Nelson, J. Influence of blend microstructure on bulk heterojunction organic photovoltaic performance. Chem. Soc. Rev. 2011, 40, 1185-1199.
+
+[4]	National Renewable Energy Laboratory. (2020). Best research cell efficiencies chart. https://www.nrel.gov/pv/assets/pdfs/best-research-cell-efficiencies.20200218.pdf.
+
+[5]	Li, G.; Chang, W.-H.; Yang, Y. Low-bandgap conjugated polymers enabling solution-processable tandem solar cells. Nat. Rev. Mater. 2017, 2, 17043.
+
+[6]	Timmreck, R.; Meyer, T.; Gilot, J.; Seifert, H.; Mueller, T.; Furlan, A.; Wienk, M. M.; Wynands, D.; Hohl-Ebinger, J.; Warta, W.; Janssen, R. A. J.; Riede, M.; Leo, K. Characterization of tandem organic solar cells. Nat. Photon. 2015, 9, 478-479.
+
+[7]	Ameri, T.; Dennler, G.; Lungenschmied, C.; Brabec, C. J. Organic tandem solar cells: A review. Energy Environ. Sci. 2009, 2, 347-363.
+
+[8]	Meng, L.; Zhang, Y.; Wan, X.; Li, C.; Zhang, X.; Wang, Y.; Ke, X.; Xiao, Z.; Ding, L.; Xia, R.; Yip, H.-L.; Cao, Y.; Chen, Y. Organic and solution-processed tandem solar cells with 17.3% efficiency. Science 2018, 361, 1094-1098.
+
+[9]	Qian, D.; Ye, L.; Zhang, M.; Liang, Y.; Li, L.; Huang, Y.; Guo, X.; Zhang, S.; Tan, Z. a.; Hou, J. Design, application, and morphology study of a new photovoltaic polymer with strong aggregation in solution state. Macromolecules 2012, 45, 9611-9617.
+
+[10]	Yuan, J.; Huang, T.; Cheng, P.; Zou, Y.; Zhang, H.; Yang, J. L.; Chang, S.-Y.; Zhang, Z.; Huang, W.; Wang, R.; Meng, D.; Gao, F.; Yang, Y. Enabling low voltage losses and high photocurrent in fullerene-free organic photovoltaics. Nat. Commun. 2019, 10, 570.
+
+[11]	Li, Z.; Dai, S.; Xin, J.; Zhang, L.; Wu, Y.; Rech, J.; Zhao, F.; Li, T.; Liu, K.; Liu, Q.; Ma, W.; You, W.; Wang, C.; Zhan, X. Enhancing the performance of the electron acceptor ITIC-Th via tailoring its end groups. Mater. Chem. Front. 2018, 2, 537-543.
+
+[12]	Zhang, Y.; Wu, G.; Liu, F.; Ding, C.; Zou, Z.; Shen, Q. Photoexcited carrier dynamics in colloidal quantum dot solar cells: insights into individual quantum dots, quantum dot solid films and devices. Chem. Soc. Rev. 2020, 49, 49-84.
+
+[13]	Zhao, K.; Pan, Z.; Mora-Seró, I.; Cánovas, E.; Wang, H.; Song, Y.; Gong, X.; Wang, J.; Bonn, M.; Bisquert, J.; Zhong, X. Boosting power conversion efficiencies of quantum-dot-sensitized solar cells beyond 8% by recombination control. J. Am. Chem. Soc. 2015, 137, 5602-5609.
+
+[14]	Ponseca, C. S.; Chábera, P.; Uhlig, J.; Persson, P.; Sundström, V. Ultrafast electron dynamics in solar energy conversion. Chem. Rev. 2017, 117, 10940-11024.
+
+[15]	Weinelt, M. Time-resolved two-photon photoemission from metal surfaces. J. Phys.: Condens. Matter 2002, 14, R1099-R1141.
+
+[16]	Kafle, T. R.; Kattel, B.; Wanigasekara, S.; Wang, T.; Chan, W.-L. Spontaneous exciton dissociation at organic semiconductor interfaces facilitated by the orientation of the delocalized electron–hole wavefunction. Adv. Energy Mater. 2020, 10, 1904013.
+
+[17]	Wang, T.; Kafle, T. R.; Kattel, B.; Chan, W.-L. A multidimensional view of charge transfer excitons at organic donor–acceptor interfaces. J. Am. Chem. Soc. 2017, 139, 4098-4106.
+
+[18]	Zhu, X. Y. Electronic structure and electron dynamics at molecule–metal interfaces: implications for molecule-based electronics. Surf. Sci. Rep. 2004, 56, 1-83.
+
+[19]	Li, W.; Hendriks, K. H.; Roelofs, W. S. C.; Kim, Y.; Wienk, M. M.; Janssen, R. A. J. Efficient small bandgap polymer solar cells with high fill factors for 300 nm thick films. Adv. Mater. 2013, 25, 3182-3186.
