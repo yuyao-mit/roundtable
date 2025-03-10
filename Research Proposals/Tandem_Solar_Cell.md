@@ -31,7 +31,7 @@ For the active layers of the rear sub-cells, we plan to apply an ultra high-vacu
 Besides the direct conductivity measurement from the I-V curves of the rear cells mentioned before, we can connect the rear sub-cells to an external circuit to measure its conductivity while it is under the illumination with and without front cell filters. Moreover, we can also apply Hall measurements on the rear cells and figure out how the front sub-cells can influence the charge carrier density and the mobility of the rear cells.
 
 ### 2.2. Approach to ensure sufficient photo-generated holes in the rear sub cell.
-![photo_generated_holes_sub_cell](./proposal_figures/photo_generated_holes_sub_cell.png "Figure 1. Device structure of tandem-junction OPVs and proposed exciton generation/dissociation and charge transportation mechanisms in the rear sub cells. ")
+![photo_generated_holes_sub_cell](./figures/photo_generated_holes_sub_cell.png "Figure 1. Device structure of tandem-junction OPVs and proposed exciton generation/dissociation and charge transportation mechanisms in the rear sub cells. ")
 **Figure 1.** Device structure of tandem-junction OPVs and proposed exciton generation/dissociation and charge transportation mechanisms in the rear sub cells.
 
 #### 2.2.1. Introduction of a third component of an infrared-absorbing polymer donor into the rear cells.
