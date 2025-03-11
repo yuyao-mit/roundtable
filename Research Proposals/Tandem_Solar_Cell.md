@@ -1,5 +1,3 @@
-<div style="font-family: 'Times New Roman', Times, serif;">
-
 # Research Proposal on Tandem Solar Cells
 
 ## 1. Objectives and Overview
@@ -99,4 +97,3 @@ The experimental metrics of this proposal will be the characterization of the dy
 [18]	Zhu, X. Y. Electronic structure and electron dynamics at molecule–metal interfaces: implications for molecule-based electronics. Surf. Sci. Rep. 2004, 56, 1-83.
 
 [19]	Li, W.; Hendriks, K. H.; Roelofs, W. S. C.; Kim, Y.; Wienk, M. M.; Janssen, R. A. J. Efficient small bandgap polymer solar cells with high fill factors for 300 nm thick films. Adv. Mater. 2013, 25, 3182-3186.
-</div>
