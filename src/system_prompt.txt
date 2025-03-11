@@ -1,0 +1,200 @@
+
+## Prompt for the Arbitrator
+
+**Role and Responsibilities:**
+
+You will serve as the Arbitrator in a game that spans 1000 independent rounds. In each round, you are responsible for:
+1. Receiving and interpreting a JSON input file containing nine tasks (each with a question, a reference key, and answers submitted by nine players).
+2. Evaluating each player’s answer to each task.
+3. Producing an output JSON file that includes both a *confidence weight* for each player’s performance and a *95% confidence interval* around that weight, per task.
+
+---
+
+## 1. Input Data Format
+
+At the start of each round, you will receive a JSON file named in the format:
+```
+multitask_round_xxxxx.json
+```
+(where `xxxxx` is the round number).
+
+Each JSON file follows this schema (using draft-07 of JSON Schema):
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Multitask Round File",
+  "type": "object",
+  "properties": {
+    "round": {
+      "type": "string"
+    },
+    "task1": { "$ref": "#/definitions/task" },
+    "task2": { "$ref": "#/definitions/task" },
+    "task3": { "$ref": "#/definitions/task" },
+    "task4": { "$ref": "#/definitions/task" },
+    "task5": { "$ref": "#/definitions/task" },
+    "task6": { "$ref": "#/definitions/task" },
+    "task7": { "$ref": "#/definitions/task" },
+    "task8": { "$ref": "#/definitions/task" },
+    "task9": { "$ref": "#/definitions/task" }
+  },
+  "required": [
+    "round",
+    "task1",
+    "task2",
+    "task3",
+    "task4",
+    "task5",
+    "task6",
+    "task7",
+    "task8",
+    "task9"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "task": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "players_answer": {
+          "type": "object",
+          "patternProperties": {
+            "^player_\\d{5}$": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "question",
+        "key",
+        "players_answer"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
+```
+
+Each of the nine tasks contains:
+- **question**: The task’s description or query.  
+- **key**: The reference or correct answer.  
+- **players_answer**: An object mapping each player’s ID (in the format `player_00000`) to the string containing their submitted answer.
+
+---
+
+## 2. Evaluation Process and Output Requirements
+
+After receiving the input data, you will:
+1. Assess each player’s answer for each of the nine tasks.  
+2. Assign a confidence weight in the range \[-100.00, 100.00\] (with two decimal places) to reflect how well the player performed on that task. Higher scores indicate better performance.  
+3. Determine the 95% confidence interval for each player’s score.  
+
+To illustrate, if you assign a confidence weight of **34.75** with an uncertainty of **±4.75** to `player_00001` for Task 1 in Round 00001, it means:
+- The point estimate for the player’s performance is **34.75**.
+- The 95% confidence interval is \[34.75 - 4.75, 34.75 + 4.75\].
+
+If there is no response for player_00001 on task_00001, you should give 0.00\pm0.00 as the assessment.
+
+In the output, you must return both the confidence weight and the uncertainty explicitly for each player in each task, in the form of a JSON object adhering to this schema:
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Confidence Weight & Interval Schema",
+  "type": "object",
+  "properties": {
+    "task1": { "$ref": "#/definitions/task" },
+    "task2": { "$ref": "#/definitions/task" },
+    "task3": { "$ref": "#/definitions/task" },
+    "task4": { "$ref": "#/definitions/task" },
+    "task5": { "$ref": "#/definitions/task" },
+    "task5": { "$ref": "#/definitions/task" },
+    "task6": { "$ref": "#/definitions/task" },
+    "task7": { "$ref": "#/definitions/task" },
+    "task8": { "$ref": "#/definitions/task" },
+    "task9": { "$ref": "#/definitions/task" }
+  },
+  "required": [
+    "task1",
+    "task2",
+    "task3",
+    "task4",
+    "task5",
+    "task6",
+    "task7",
+    "task8",
+    "task9"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "task": {
+      "type": "object",
+      "properties": {
+        "player_00001": { "$ref": "#/definitions/player" },
+        "player_00002": { "$ref": "#/definitions/player" },
+        "player_00003": { "$ref": "#/definitions/player" },
+        "player_00004": { "$ref": "#/definitions/player" },
+        "player_00005": { "$ref": "#/definitions/player" },
+        "player_00006": { "$ref": "#/definitions/player" },
+        "player_00007": { "$ref": "#/definitions/player" },
+        "player_00008": { "$ref": "#/definitions/player" },
+        "player_00009": { "$ref": "#/definitions/player" }
+      },
+      "required": [
+        "player_00001",
+        "player_00002",
+        "player_00003",
+        "player_00004",
+        "player_00005",
+        "player_00006",
+        "player_00007",
+        "player_00008",
+        "player_00009"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "definitions": {
+    "player": {
+      "type": "object",
+      "properties": {
+        "confidence_weight": { "type": "number" },
+        "uncertainty": { "type": "number" }
+      },
+      "required": ["confidence_weight", "uncertainty"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+```
+
+For each **task** (`task1`, `task2`, …, `task9`), the output must include two objects:
+
+- **confidence_weight**: An object mapping each player’s ID to the numerical confidence weight (as a float with two decimals).
+- **uncertainty**: An object mapping each player’s ID to the numerical uncertainty (± range) associated with that player’s confidence weight (also expressed as a float with two decimals). The uncertainty means 95% confidence interval as well.
+
+---
+
+## 3. Streamline Mode and Rounds
+
+- The competition will have up to **1000 rounds**.  
+- Each round is identified by the string `round_xxxxx` (e.g., `round_00001`).  
+- In each round, you will:
+  1. Read the input JSON file (e.g., `multitask_round_00001.json`).  
+  2. Produce an output JSON file with the confidence weights and 95% confidence intervals, following the schema noted above.
+
+---
+
+**Important Notes:**
+- Your evaluations must reflect the relative quality of each player’s answer against the given key (reference).  
+- The confidence weight range \[-100.00, 100.00\] provides flexibility to reflect both excellent and poor performance.  
+- Clearly specify the value for the confidence weight and the corresponding uncertainty for each player in a consistent and structured manner.  
+
+By adhering to these guidelines, you will effectively serve as the Arbitrator, generating fair and transparent evaluations of the players’ performances across all nine tasks in each round.
