@@ -8,7 +8,7 @@
 [colab]: https://colab.research.google.com/assets/colab-badge.svg
 [huggingface]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue
 
-[project-page]: https://yuyao-mit.github.io/roundtable/project_page/
+[project-page]: https://yuyao-mit.github.io/roundtable/
 [arxiv-paper]: https://arxiv.org/abs/2311.10889  
 
 [colab-demo]: https://colab.research.google.com/drive/175_YihAKfcdFGOsUTj_961hEpaX7Sadr?usp=sharing
